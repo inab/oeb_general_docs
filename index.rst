@@ -17,13 +17,42 @@ OpenEBench, the ELIXIR platform for benchmarking, aims to address the main chall
 Find more about the platform here!
 
 .. toctree::
-   :caption: INTRODUCTION
+   :caption: Introduction
    :maxdepth: 4
    
-   introduction/why_benchmarking
-   introduction/perspectives
-   introduction/about_oeb
+   introduction/1_why_benchmarking
+   introduction/2_perspectives
+   introduction/3_about_oeb
 
+.. toctree::
+   :caption: OpenEBench General Concepts
+   :maxdepth: 4
+   
+    concepts/1_general_view
+    concepts/2_platform
+    concepts/3_scientific_benchmarking_data
+    concepts/4_software_quality_metrics
+    
+.. toctree::
+   :caption: Technical References
+   :maxdepth: 4
+   
+    technical_references/1_participe_events
+    technical_references/2_scientific_datasets
+    technical_references/3_software_metrics
+    technical_references/4_benchmarking_workflows
+    technical_references/5_web_components
+    technical_references/6_rest_api
+    technical_references/7_authentication_and_authorization
+
+.. toctree::
+   :caption: How to
+   :maxdepth: 4
+   
+    how_to/1_explore_results
+    how_to/2_participe_events
+    how_to/3_manage_benchmarking_events
+    
 .. toctree::
    :caption: INTRODUCTION
    :maxdepth: 4
