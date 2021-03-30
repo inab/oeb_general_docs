@@ -12,16 +12,23 @@ OpenEBench, the ELIXIR platform for benchmarking, aims to address the main chall
 * Technical monitoring related to software quality.
 * Performance benchmarking regarding the usability and efficiency of the technical deployment of bioinformatics tools, servers and/or workflows.
 
+*TODO* : Graphical and simple explanation of the three sections (SCI/ASS/OBS) [wait for web homepage]
+
 Find more about the platform here!
 
+.. toctree::
+   :caption: INTRODUCTION
+   :maxdepth: 4
+   introduction/why_benchmarking
+   introduction/perspectives
+   introduction/about_oeb
 
 .. toctree::
    :caption: INTRODUCTION
    :maxdepth: 4
 
    intro/introduction
-
-
+   
 .. toctree::
    :caption: SCIENTIFIC BENCHMARKING   
    :maxdepth: 4
