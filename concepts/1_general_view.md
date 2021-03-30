@@ -1,6 +1,4 @@
-General View
-------------
+# General View
 
 ## Scientific architecture levels
 ## Glossary
-
