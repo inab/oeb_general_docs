@@ -1,4 +1,4 @@
-# Explore Benchmarking Results 
+# Explore benchmarking results 
 
 Website
 -------
