@@ -51,26 +51,4 @@ Find more about the platform here!
    
     how_to/1_explore_results
     how_to/2_participe_events
-    how_to/3_manage_benchmarking_events
-    
-.. toctree::
-   :caption: INTRODUCTION
-   :maxdepth: 4
-
-   intro/introduction
-   
-.. toctree::
-   :caption: SCIENTIFIC BENCHMARKING   
-   :maxdepth: 4
-
-   scientific/scientific
-   scientific/level_1
-   scientific/level_2
-
-
-.. toctree::
-   :caption: TEHCNICAL MONITORING
-   :maxdepth: 4
-
-   technical/technical
-   technical/fair
+    how_to/3_manage_events
