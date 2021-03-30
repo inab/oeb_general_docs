@@ -1,4 +1,4 @@
-# Participe in Benchmarking Events
+# Participe in benchmarking events
 
 Request a role upgrade
 ----------------------
@@ -6,8 +6,8 @@ Request a role upgrade
 Evaluate your tool
 ------------------
 
-Publish your Data to OpenEBench
+Publish your data to OpenEBench
 -------------------------------
 
-Publish your Data to EUDAT
+Publish your data to EUDAT
 --------------------------
