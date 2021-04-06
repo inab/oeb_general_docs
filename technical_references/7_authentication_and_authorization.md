@@ -21,12 +21,10 @@ OpenEBench defines several roles that tightly connected with OpenEBench data mod
 
 OpenEBench Authentication/Authorization is based on the OpenID Connect 1.0 protocol. The roles are included in tokens as "oeb:roles" claim.
 
-.. image:: /img/oeb-roles.png
-  :width: 700
+![1](../media/oeb-roles.png)
 
 ## Keycloak Roles
 
 In the Keycloak Server OpenEBench roles are modelled as user attributes:
 
-.. image:: /img/oeb-attributes.png
-  :width: 700
+![1](../media/oeb-attributes.png)
