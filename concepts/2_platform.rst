@@ -12,7 +12,7 @@ OpenEBench offers several web-based platforms for interacting with technical and
     
 
 .. list-table:: Title
-   :widths: 25 25 50
+   :widths: 50 25 25
    :header-rows: 1
 
    * - Heading row 1, column 1
@@ -27,19 +27,20 @@ OpenEBench offers several web-based platforms for interacting with technical and
      
 .. list-table:: Web-based platforms
    :header-rows: 1
+   :width: 100
 
    * - Main Web Portal
-     - Web components
-     - Virtual Reseach Environment
-   * - Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components
+     - Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components
+     - [https://openebench.bsc.es ](https://openebench.bsc.es) :ref:`More Info<Main Web Portal>`
+   * - Web components
      - Widgets and plugins for displaying benchmarking data
-     - Laboratory for participing to scientific benchmarking events and managing them
-   * - [https://openebench.bsc.es ](https://openebench.bsc.es) :ref:`More Info<Main Web Portal>`
      - :ref:`More Info<Web Components>`
+   * - Virtual Reseach Environment
+     - Laboratory for participing to scientific benchmarking events and managing them
      - [https://openebench.bsc.es/vre/ ](https://openebench.bsc.es/vre/)  :ref:`More Info<Research Environment>`
      
 .. note::
-   Software Observatory is another platform?
+   Should we add hare "Software Observatory"? is another platform?
    
 ## Main Web Portal
 
