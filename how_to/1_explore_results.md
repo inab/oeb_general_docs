@@ -31,7 +31,7 @@ This chart allows to visualize results from challenges that use two performance 
 
 An interesting feature of this plot is the interactivity, the elements of chart's legend and table are clickable so that the end-user can hide the participants he is not interested in and/or lay far from the area of interest; and the classification is dynamically recomputed.
 
-For more information, visit its official Git Repository - [https://github.com/inab/OpenEBench_scientific_visualizer](https://github.com/inab/OpenEBench_scientific_visualizer)
+For more information, visit its [official Git Repository](https://github.com/inab/OpenEBench_scientific_visualizer)
 
 ### BarPlot results visualization
 
@@ -39,10 +39,12 @@ This chart allows to visualize results from challenges that use one single perfo
 
 In this chart each of the bars corresponds to a participant in the challenge, while the Y-axis corresponds to the evaluation metric. The transformation to table is achieved by sorting the participant by the value of the metric in descending order, and then applying lineal quartiles classification to the metrics dataset, obtaining three scores that group the participants in four classes - each of the groups is expected to have roughly the same number of participants. These groups were then rated according to the performance of the participants within them: the groups showing the highest (or lowest, depending on the metric) values were considered as the first quartile (best performance).
 
-For more information, visit its official Git Repository - [https://github.com/inab/Scientific_Barplot](https://github.com/inab/Scientific_Barplot)
+![1](../media/image25.png)
+
+For more information, visit its [official Git Repository](https://github.com/inab/Scientific_Barplot)
 
 ### Benchmarking Event Summary Table
 
 The summary table condenses the results of a whole benchmarking event in a single table. Each of the columns corresponds to the quartiles/clusters of applying one of the classification methods described in the 2D ScatterPlot section, highlighted in green the top-performing tools. This view offers the possibility to see, at a glance, the overall results of a tool's performance across all the benchmarking challenges in a particular event.
 
-For more information, visit its official Git Repository - [https://github.com/inab/bench_event_table](https://github.com/inab/bench_event_table)
+For more information, visit its [official Git Repository](https://github.com/inab/bench_event_table)
