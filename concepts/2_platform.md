@@ -8,6 +8,23 @@ OpenEBench offers several web-based platforms for interacting with technical and
 | Web components  |  Widgets and plugins for displaying benchmarking data | :ref:`+Info <Web Components>` |
 | Virtual Reseach Environment  	|  Laboratory for participing to scientific benchmarking events and managing them	| https://openebench.bsc.es/vre <br/> :ref:`+Info <Research Environment>` 	|
 
+| Data Retrieval APIs           |                     URL                        | Source code | 
+|-------------------------------|-----------------------------------------------------|-------------|
+| OpenEBench Tools Monitoring   | [endpoint](https://openebench.bsc.es/monitor/)                  | [https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas](https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas)        |
+| OpenEBench Scientific Upload  | [endpoint](https://openebench.bsc.es/api/scientific/submission/)| [https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api)        |        
+| OpenEBench Scientific REST API | [endpoint](https://openebench.bsc.es/api/scientific/) | [https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api)        |        
+| OpenEBench Scientific Retrieve|  [endpoint](https://openebench.bsc.es/sciapi/ )                  | Inab repo        | 
+
+
+
+|  Platforms                  |                    Description                      |  Reference | 
+|-----------------------------|-----------------------------------------------------|-------------|
+| Main Web Portal             | Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components  | https://openebench.bsc.es :ref:`More Info <Main Web Portal>` |
+| Web components              | Widgets and plugins for displaying benchmarking data                                            | :ref:`More Info <Web Components>`        |        
+| Virtual Reseach Environment |Laboratory for participing to scientific benchmarking events and managing them                   | [VRE](https://openebench.bsc.es/vre)  :ref:`More Info <Research Environment>`    |        
+
+
+
 .. note::
    Software Observatory is another platform?
 
