@@ -34,8 +34,7 @@ release = '2020'
 extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
-    'sphinx.ext.autosectionlabel',
-    'm2r2'
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
