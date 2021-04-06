@@ -1,6 +1,6 @@
 # Platforms
 
-OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
+OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
 
 | Platforms 	|  Description 	|  Reference 	|
 | ---	         | ---		         | ---	         |
@@ -66,6 +66,6 @@ workflow at OpenEBench VRE, where a scalable and virtualized environment
 is settled for the workflow run, internally orchestrated by, at the
 moment, the Nextflow workflow manager. Also, the community responsibles
 can provide customized visualization methods to browse participant
-results, individual metrics and/or assessment.
+results, individual metrics and/or assessment. _`esto_es_una_prueba`
 
 ## User roles
