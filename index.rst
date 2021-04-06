@@ -36,4 +36,5 @@ Find more about the platform here!
    :maxdepth: 4
 
    technical/technical
+   technical/security
    technical/fair
