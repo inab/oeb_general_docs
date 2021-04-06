@@ -3,14 +3,6 @@
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
 
 
-| Data Retrieval APIs           |                     URL                        | Source code | 
-|-------------------------------|-----------------------------------------------------|-------------|
-| OpenEBench Tools Monitoring   | [endpoint](https://openebench.bsc.es/monitor/)                  | [https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas](https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas)        |
-| OpenEBench Scientific Upload  | [endpoint](https://openebench.bsc.es/api/scientific/submission/)| [https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api)        |        
-| OpenEBench Scientific REST API | [endpoint](https://openebench.bsc.es/api/scientific/) | [https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api)        |        
-| OpenEBench Scientific Retrieve|  [endpoint](https://openebench.bsc.es/sciapi/ )                  | Inab repo        | 
-    
-
 .. list-table:: Title
    :widths: 50 25 25
    :header-rows: 1
@@ -27,8 +19,11 @@ OpenEBench offers several web-based platforms for interacting with technical and
      
 .. list-table:: Web-based platforms
    :header-rows: 1
-   :width: 100
-
+   :width: 50
+   
+   * - Platform
+     - Description
+     - Reference
    * - Main Web Portal
      - Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components
      - [https://openebench.bsc.es ](https://openebench.bsc.es) :ref:`More Info<Main Web Portal>`
