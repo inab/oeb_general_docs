@@ -2,11 +2,6 @@
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
 
-| Platforms 	|  Description 	|  Reference 	|
-| ---	         | ---		         | ---	         |
-| Main Web Portal |  Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components	| https://openebench.bsc.es <br/> :ref:`+Info <Main Web Portal>` |
-| Web components  |  Widgets and plugins for displaying benchmarking data | :ref:`+Info <Web Components>` |
-| Virtual Reseach Environment  	|  Laboratory for participing to scientific benchmarking events and managing them	| https://openebench.bsc.es/vre <br/> :ref:`+Info <Research Environment>` 	|
 
 | Data Retrieval APIs           |                     URL                        | Source code | 
 |-------------------------------|-----------------------------------------------------|-------------|
@@ -14,23 +9,37 @@ OpenEBench offers several web-based platforms for interacting with technical and
 | OpenEBench Scientific Upload  | [endpoint](https://openebench.bsc.es/api/scientific/submission/)| [https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-submission-api)        |        
 | OpenEBench Scientific REST API | [endpoint](https://openebench.bsc.es/api/scientific/) | [https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api)        |        
 | OpenEBench Scientific Retrieve|  [endpoint](https://openebench.bsc.es/sciapi/ )                  | Inab repo        | 
+    
 
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
 
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     
+.. list-table:: Web-based platforms
+   :header-rows: 1
 
-|  Platforms                  |                    Description                      |  Reference | 
-|-----------------------------|-----------------------------------------------------|-------------|
-| Main Web Portal             | Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components  | https://openebench.bsc.es :ref:`More Info<Main Web Portal>` |
-| Web components              | Widgets and plugins for displaying benchmarking data                                            | :ref:`More Info<Web Components>`        |        
-| Virtual Reseach Environment |Laboratory for participing to scientific benchmarking events and managing them                   | [https://openebench.bsc.es/vre/](https://openebench.bsc.es/vre/)  :ref:`More Info<Research Environment>`    |        
-
-
-
+   * - Main Web Portal
+     - Web components
+     - Virtual Reseach Environment
+   * - Main landing page. Centralizes all benchmarking data and interelated all OpenEBench components
+     - Widgets and plugins for displaying benchmarking data
+     - Laboratory for participing to scientific benchmarking events and managing them
+   * - [https://openebench.bsc.es ](https://openebench.bsc.es) :ref:`More Info<Main Web Portal>`
+     - :ref:`More Info<Web Components>`
+     - [https://openebench.bsc.es/vre/ ](https://openebench.bsc.es/vre/)  :ref:`More Info<Research Environment>`
+     
 .. note::
    Software Observatory is another platform?
-
-.. note::
-   This is note text. Use a note for information you want the user to
-   pay particular attention to.
    
 ## Main Web Portal
 
