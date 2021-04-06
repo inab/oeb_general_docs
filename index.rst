@@ -44,6 +44,7 @@ Find more about the platform here!
    technical_references/5_web_components
    technical_references/6_rest_api
    technical_references/7_authentication_and_authorization
+   technical_references/8_authentication_and_authorization
 
 .. toctree::
    :caption: How to
