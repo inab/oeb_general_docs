@@ -37,7 +37,7 @@ Find more about the platform here!
    :caption: Technical References
    :maxdepth: 4
    
-   technical_references/1_participe_events
+   technical_references/1_scientific_data_model
    technical_references/2_scientific_datasets
    technical_references/3_software_metrics
    technical_references/4_benchmarking_workflows
