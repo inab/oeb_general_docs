@@ -1,4 +1,4 @@
-About OpenEBench. The Open ELIXIR Benchmarking platform
+OpenEBench in ELIXIR
 ------------------------------------------------
 
 All these efforts conform to a highly diverse scenario that helps all
