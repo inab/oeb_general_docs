@@ -1,5 +1,4 @@
-Platform
---------
+# Platforms
 
 ## Website & web components
 ## Research Environment
