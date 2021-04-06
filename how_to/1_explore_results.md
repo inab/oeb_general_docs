@@ -11,7 +11,7 @@ Visualization and interpretation
 
 To compare the peformance of the evaluated resource, it is important to visualize the participants resuls in an appropiate context.  OEB offers a gallery of visualization methods that should be picked by the community according to the nature of their data and prospective users. Those visualization methods allow us to interpret and classify the benchmarking results so that they are easily understandable by all kinds of users. Currently, there are three available visualization modes in the platform:
 
--   **2D ScatterPlot**: chart that allows to visualize results from challenges that use two performance metrics (e.g precision vs recall) [See source code here (https://github.com/inab/OpenEBench_scientific_visualizer)
+-   **2D ScatterPlot**: chart that allows to visualize results from challenges that use two performance metrics (e.g precision vs recall) [See source code here](https://github.com/inab/OpenEBench_scientific_visualizer)
 
 -   **BarPlot**: chart that allows to visualize results from challenges that use one performance metric (e.g F-Measure) [See source code here](https://github.com/inab/Scientific_Barplot)
 
