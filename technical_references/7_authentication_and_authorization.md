@@ -5,8 +5,7 @@
 OpenEBench authentication and authorization are based on the OpenID Connect 1.0 protocol. The project uses "openebench" realm configuration 
 of the INB [Keycloak](keycloak.org) server.  
 Each OpenEBench client must be configured according supposed OpenID flows.   
-OpenID clients may differ in their configuration, but provided by keycloak configuration endpoint should be enough:  
-https://inb.bsc.es/auth/realms/openebench/.well-known/openid-configuration
+OpenID clients may differ in their configuration, but provided by keycloak configuration endpoint should be enough: [.well-known/openid-configuration](https://inb.bsc.es/auth/realms/openebench/.well-known/openid-configuration)
 
 ## Roles
 
