@@ -1,24 +1,24 @@
+*********************************
 Platforms
-===========
-
-.. sidebar:: Contents
-
-     .. toctree::
-          :maxdepth: 4
-       
-          2_platform
+*********************************
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
      
-Main Web Portal  --  https://openebench.bsc.es
+Main Web Portal
+   https://openebench.bsc.es
+   
    Landing page centralizing all benchmarking data and interrelated all OpenEBench components
    
 Web components
     Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
         
-Virtual Reseach Environment -- https://openebench.bsc.es/vre/
-   Online working space for organizing and participating to scientific benchmarking events
+Virtual Reseach Environment
+   https://openebench.bsc.es/vre
    
+   Online working space for organizing and participating to scientific benchmarking events
+ 
+.. todo::
+    Should we add here software observatory?
  
 .. seealso::
     .. toctree::
@@ -27,21 +27,36 @@ Virtual Reseach Environment -- https://openebench.bsc.es/vre/
        2_platform 
 
 
+===============
 Main Web Portal
---------------
+===============
 
-.. topic:: Topic Title
 
-   Subsequent indented lines comprise he body of the topic, and are interpreted as body elements.
-   :ref:`More Info<Research Environment>`
-   
-   :ref:`More Info<Research Environment>`
-
+===============
 Web Components
---------------
+===============
 
+Technical monitoring widgets
+----------------------------
+
+OpenEBench captures and presents large amounts of data. Representation of such data as part of other infrastructures requires a condensed version that can be easily placed in their web layouts and provide a quick overview of the information available, albeit interested users can still link to the main OpenEBench site. 
+
+As in the scientific benchmarking component, a number of HTML widgets have been designed and implemented for that purpose. The current widget gallery contains five widgets. These widgets are distributed as simple HTML snippets along with a Javascript file (that bundles opensource 3rd  party libraries) which can easily be integrated on any web application.
+
+Examples of the widgets, as well as instructions on how to implement them, can be found here:
+- [Uptime chart](https://github.com/inab/uptime-chart-OEB/blob/master/README.md)
+- [Citations chart](https://github.com/inab/citations-widget-OEB/blob/master/README.md)
+
+.. todo::
+    Broken links above
+
+Others?
+-------
+
+====================
 Research Environment
---------------------
+====================
+
 The OpenEBench Virtual Research Environment (VRE) (https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and **execution of benchmarking workflows** (see ) for computing assessment metrics on participant's datasets.
 
 The platform serve different purposes to different users:
@@ -72,20 +87,18 @@ can provide customized visualization methods to browse participant
 results, individual metrics and/or assessment.
 
 Community Manager Flow
-^^^^^^^^^^^^^^^^^^^^^
+----------------------
+
+Datasets
+^^^^^^^
 
 Software Developer Flow
-^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 What’s behind Virtual Research Environment?
+--------------------------------------------
 
+====================
 User roles
----------
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   index
-   
+====================
    
