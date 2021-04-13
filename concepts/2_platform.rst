@@ -15,9 +15,9 @@ Web components
 Virtual Reseach Environment
    https://openebench.bsc.es/vre
    
-   Online working space for organizing and participating to scientific benchmarking events
+   Online working space for participating to scientific benchmarking events and organizing new challenges
  
-.. todo::
+.. Attention::
     Should we add here software observatory?
  
 .. seealso::
@@ -44,10 +44,10 @@ OpenEBench captures and presents large amounts of data. Representation of such d
 As in the scientific benchmarking component, a number of HTML widgets have been designed and implemented for that purpose. The current widget gallery contains five widgets. These widgets are distributed as simple HTML snippets along with a Javascript file (that bundles opensource 3rd  party libraries) which can easily be integrated on any web application.
 
 Examples of the widgets, as well as instructions on how to implement them, can be found here:
-- [Uptime chart](https://github.com/inab/uptime-chart-OEB/blob/master/README.md)
-- [Citations chart](https://github.com/inab/citations-widget-OEB/blob/master/README.md)
+- :ref:`Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`
+- :ref:`Citations chart<https://github.com/inab/citations-widget-OEB/blob/master/README.md>`
 
-.. todo::
+.. Attention::
     Broken links above
 
 Others?
