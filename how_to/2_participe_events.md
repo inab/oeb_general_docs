@@ -41,7 +41,7 @@ As metion before, OpenEBench is the benchmarking and technical monitoring platfo
 - Data will be stored on the internal OpenEBecnh datastore (not persistent)
 
 ### Who is allowed to do?
-
+Any user with a minimum role contributor can request to publish their files in OpenEBench. 
 
 ### How do I publish data to OpenEBench?
 Log into the [Virtual Research Environment (VRE)](https://openebench.bsc.es/vre) and go to **Publish/OEB/New Request** tab:
@@ -77,6 +77,8 @@ Once approved, the data will be publicly available in the [OpenEBench](https://o
 
 Publish your data to EUDAT
 --------------------------
+
+
 
 Your data has been successfully published to EUDAT.
 ![image](https://user-images.githubusercontent.com/63742994/114579564-44dbcd00-9c7e-11eb-8057-c47b63d247b7.png)
