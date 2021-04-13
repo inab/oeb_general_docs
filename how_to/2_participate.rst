@@ -1,10 +1,10 @@
 Participe in benchmarking events
 ----------------------
 
-These guides will help go through the different aspects rellevant when benchmarking the results of your pipeline or tool at the OpenEBench platform.
+These guides will help you go through the different aspects rellevant when benchmarking the results of your pipeline or tool at the OpenEBench platform.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    participate/role_upgrade
    participate/evaluate_tool
