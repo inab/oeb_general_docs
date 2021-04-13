@@ -6,8 +6,8 @@ These guides will help go through the different aspects rellevant when benchmark
 .. toctree::
    :maxdepth: 1
    
-   how_to/participate/role_upgrade
-   how_to/participate/evaluate_tool
-   how_to/participate/register_tool
-   how_to/participate/publish_oeb
-   how_to/participate/publish_eudat
+   participate/role_upgrade
+   participate/evaluate_tool
+   participate/register_tool
+   participate/publish_oeb
+   participate/publish_eudat
