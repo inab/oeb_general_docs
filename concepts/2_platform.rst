@@ -78,7 +78,6 @@ OpenEBench VRE offers a complete web interface that brings together public and/o
 
 .. tip:: **What's a Benchmarking Workflow?**
      A pipeline that computes community-agreed performance metrics for a given participant's data -- *i.e.* dataset produced for the bioinformatics method or pipeline being evaluated. Benchmarking workflows consist of three steps:
-     
      -   Format validation of participants' result.
      -   Computation of the performance metrics over such results.
      -   Metrics' consolidation by comparing them against other participants' metrics.
