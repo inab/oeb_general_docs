@@ -44,9 +44,9 @@ OpenEBench captures and presents large amounts of data. Representation of such d
 As in the scientific benchmarking component, a number of HTML widgets have been designed and implemented for that purpose. The current widget gallery contains five widgets. These widgets are distributed as simple HTML snippets along with a Javascript file (that bundles opensource 3rd  party libraries) which can easily be integrated on any web application.
 
 Examples of the widgets, as well as instructions on how to implement them, can be found here:
-* `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
-* `Python web site <http://www.python.org>`__
-* `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
+
+     - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
+     - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
 .. Attention::
     Broken links above
@@ -75,9 +75,11 @@ OpenEBench VRE offers a complete web interface that brings together public and/o
 
 .. tip:: **What's a Benchmarking Workflow?**
      A pipeline that computes community-agreed performance metrics for a given participant's data -- *i.e.* dataset produced for the bioinformatics method or pipeline being evaluated. Benchmarking workflows consist of three steps:
+     
      -   Format validation of participants' result.
      -   Computation of the performance metrics over such results.
      -   Metrics' consolidation by comparing them against other participants' metrics.
+     
      See more at section :ref:`Benchmarking Workflows`.
 
 Community Manager Flow
