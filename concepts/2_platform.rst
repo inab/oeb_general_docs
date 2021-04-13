@@ -65,7 +65,6 @@ The OpenEBench Virtual Research Environment (VRE) is the computational e-infrast
 OpenEBench VRE offers a complete web interface that brings together public and/or consolidated benchmarking datasets, private participants' data, and the necessary mechanisms to import and execute benchmarking workflows on an reproducible and authomatic manner.
 
 .. topic:: Purpose
-
      OpenEBench VRE accomplishes different purposes to different users:
      
      -   To **scientific community managers**, the platform supports the composition, publication, management and monitoring of the community's benchmarking workflows and challenges.
