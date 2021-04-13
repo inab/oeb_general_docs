@@ -29,8 +29,8 @@ Find more about the platform here!
    :maxdepth: 4
    
    concepts/1_general_view
-   concepts/2_platform
    concepts/3_scientific_benchmarking_data
+   concepts/2_platform
    concepts/4_software_quality_metrics
     
 .. toctree::
