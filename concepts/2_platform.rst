@@ -30,7 +30,7 @@ Virtual Reseach Environment -- https://openebench.bsc.es/vre/
 
 
 Main Web Portal
-===============
+--------------
 
 .. topic:: Topic Title
 
@@ -40,10 +40,10 @@ Main Web Portal
    :ref:`More Info<Research Environment>`
 
 Web Components
-==============
+--------------
 
 Research Environment
-====================
+--------------------
 The OpenEBench Virtual Research Environment (VRE) (https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and **execution of benchmarking workflows** for computing assessment metrics on participant's datasets.
 
 The platform serve different purposes to different users:
@@ -77,4 +77,4 @@ can provide customized visualization methods to browse participant
 results, individual metrics and/or assessment. _`esto_es_una_prueba`
 
 User roles
-==========
+---------
