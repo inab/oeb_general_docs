@@ -37,7 +37,14 @@ OpenEBench offers several web-based platforms for interacting with technical and
      
 .. note::
    Should we add hare "Software Observatory"? is another platform?
-   
+
+Main Web Portal
+   Definition paragraph 1.
+
+   Definition paragraph 2.
+Term
+    Definition
+    
 ## Main Web Portal
 
 ## Web Components
