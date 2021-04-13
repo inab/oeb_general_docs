@@ -24,14 +24,14 @@ These datasets must belong to an active benchmaking event. (+ info - "evaluate y
 As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
 (+ info - "Register your tool to OpenEBench")
 
-### Why
+### Why should I publish data to OpenEBench?
 - data will become publicly available on the OpenEBench data portal (graphics)
 - data will receive a unique OpenEBench identifier (not persistent)
 - data will be stored on the internal OpenEBecnh datastore
 
-### Who
+### Who is allowed to do?
 
-### How
+### How do I publish data to OpenEBench?
 
 Publish your data to EUDAT
 --------------------------
