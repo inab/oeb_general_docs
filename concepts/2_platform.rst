@@ -1,38 +1,30 @@
 Platforms
 ===========
 
-OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
-     
-Main Web Portal  --  https://openebench.bsc.es
-   Landing page centralizing all benchmarking data and interrelated all OpenEBench components
-   
-   :ref:`+ Info<Main Web Portal>`
-   
-Web components
-    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
-    
-    :ref:`+ Info <Web Components>`
-    
-Virtual Reseach Environment -- https://openebench.bsc.es/vre/
-   Online working space for organizing and participating to scientific benchmarking events
-   
-   :ref:`+ Info <Research Environment>`
- 
-.. seealso::
-    .. toctree::
-       :maxdepth: 4
-       
-       2_platform
- 
- 
-.. sidebar:: Index
-     :subtitle: Optional Sidebar Subtitle
+.. sidebar:: Contents
 
      .. toctree::
           :maxdepth: 4
        
           2_platform
-    
+
+OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
+     
+Main Web Portal  --  https://openebench.bsc.es
+   Landing page centralizing all benchmarking data and interrelated all OpenEBench components
+   
+Web components
+    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
+        
+Virtual Reseach Environment -- https://openebench.bsc.es/vre/
+   Online working space for organizing and participating to scientific benchmarking events
+   
+ 
+.. seealso::
+    .. toctree::
+       :maxdepth: 4
+       
+       2_platform 
 
 
 Main Web Portal
