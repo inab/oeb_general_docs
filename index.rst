@@ -52,4 +52,5 @@ Find more about the platform here!
    
    how_to/1_explore_results
    how_to/2_participe_events
+   how_to/2_participate_events_B
    how_to/3_manage_events
