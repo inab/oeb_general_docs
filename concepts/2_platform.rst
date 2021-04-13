@@ -44,7 +44,9 @@ OpenEBench captures and presents large amounts of data. Representation of such d
 As in the scientific benchmarking component, a number of HTML widgets have been designed and implemented for that purpose. The current widget gallery contains five widgets. These widgets are distributed as simple HTML snippets along with a Javascript file (that bundles opensource 3rd  party libraries) which can easily be integrated on any web application.
 
 Examples of the widgets, as well as instructions on how to implement them, can be found here:
-
+     - Chart
+     - fff
+Ok
      - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
      - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
@@ -65,8 +67,9 @@ The OpenEBench Virtual Research Environment (VRE) is the computational e-infrast
 OpenEBench VRE offers a complete web interface that brings together public and/or consolidated benchmarking datasets, private participants' data, and the necessary mechanisms to import and execute benchmarking workflows on an reproducible and authomatic manner.
 
 .. topic:: Purpose
-     OpenEBench VRE accomplishes different purposes to different users:
 
+     OpenEBench VRE accomplishes different purposes to different users:
+     
      -   To **scientific community managers**, the platform supports the composition, publication, management and monitoring of the community's benchmarking workflows and challenges.
 
      -   To **software developers**, the platform allows to evaluate their bioinformatics methods or pipelines against community-defined datasets and metrics by executing any of the published benchmarking workflows and challenges.
