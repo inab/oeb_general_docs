@@ -35,6 +35,7 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables',
     'sphinx.ext.autosectionlabel'
+    'sphinx.ext.todo'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -70,3 +71,6 @@ html_static_path = ['_static']
 html_style = 'css/opeb_documentation.css'
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+#TODO extension
+todo_include_todos=True
