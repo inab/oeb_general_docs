@@ -1,4 +1,5 @@
-# Platforms
+Platforms
+===========
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
 
