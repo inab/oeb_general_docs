@@ -68,3 +68,5 @@ html_theme_options = {
 html_static_path = ['_static']
 
 html_style = 'css/opeb_documentation.css'
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
