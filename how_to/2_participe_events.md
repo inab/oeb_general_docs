@@ -26,8 +26,7 @@ For more details, see the [Scientific Datasets](https://openebench.readthedocs.i
 
 :ref: `technical_references/2_scientific_datasets.`
 
-Note
-
+.. note::
 :ref: `technical_references/2_scientific_datasets.`
 
 
@@ -36,10 +35,10 @@ As the process to publish includes to associate the data to a registered OpenEBe
 (+ info - "Register your tool to OpenEBench")
 
 ### Why should I publish data to OpenEBench?
-
-- data will become publicly available on the OpenEBench data portal (graphics)
-- data will receive a unique OpenEBench identifier (not persistent)
-- data will be stored on the internal OpenEBecnh datastore
+As metion before, OpenEBench is the benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. Publishing data from the  benchmarking workflows implies:
+- Data will become publicly available on the OpenEBench data portal.
+- Data will receive a unique OpenEBench identifier: This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE.(+ info - "Publish your data to EUDAT")
+- Data will be stored on the internal OpenEBecnh datastore (not persistent)
 
 ### Who is allowed to do?
 
