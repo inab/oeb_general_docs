@@ -19,7 +19,7 @@ Publish your data to OpenEBench
 
 ### What benchmkarking data can be published?
 To publish data to OpenEBench portal, two types of datasets are allowed:
-- **Participant dataset**: Produced by participants with their tool given a specific input data.
+- **Participant dataset**: Produced by participants with their tool from a specific input data.
 - **Consolidated dataset**: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
 
 For more details, see the [Scientific Datasets](https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references) reference.
@@ -30,7 +30,7 @@ For more details, see the [Scientific Datasets](https://openebench.readthedocs.i
 :ref: `technical_references/2_scientific_datasets.`
 
 
-These datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. (+ info - "evaluate your tool", how to know that).
+In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. (+ info - "evaluate your tool", how to know that).
 As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
 (+ info - "Register your tool to OpenEBench")
 
@@ -42,6 +42,8 @@ As metion before, OpenEBench is the benchmarking and technical monitoring platfo
 
 ### Who is allowed to do?
 Any user with a minimum role contributor can request to publish their files in OpenEBench. 
+
+To request an upgrade role, please see the section: :ref:`request to upgrade your role`
 
 ### How do I publish data to OpenEBench?
 Log into the [Virtual Research Environment (VRE)](https://openebench.bsc.es/vre) and go to **Publish/OEB/New Request** tab:
