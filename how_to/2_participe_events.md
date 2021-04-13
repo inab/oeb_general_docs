@@ -1,4 +1,4 @@
-# Participe in benchmarking events
+# Participate in benchmarking events
 
 Request a role upgrade
 ----------------------
@@ -15,10 +15,14 @@ Publish your data to OpenEBench
 [ VRE --> Peticio --> Approve --> OEB DB + OEB datastore ]
 
 ### What benchmkarking data can be published?
-- Participant dataset or consolidated dataset (ref dataset types).
-- Requirements :
-  -  data should belong to an active benchmaking event (+ info - "evaluate your tool")
-  -  data should be associated to a registered OEB tool (+ info - "Register your tool to OpenEBench")
+To publish data to OpenEBench portal, two types of datasets are allowed:
+- Participant dataset: Produced by participants with their tool given a specific input data.
+- Consolidated dataset: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
+:ref: `technical_references/2_scientific_datasets.`
+
+These datasets must belong to an active benchmaking event. (+ info - "evaluate your tool", how to know that).
+As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
+(+ info - "Register your tool to OpenEBench")
 
 ### Why
 - data will become publicly available on the OpenEBench data portal (graphics)
