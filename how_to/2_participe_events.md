@@ -43,17 +43,36 @@ As metion before, OpenEBench is the benchmarking and technical monitoring platfo
 ### Who is allowed to do?
 
 ### How do I publish data to OpenEBench?
-Log into the Virtual Research Environment (VRE) (https://openebench.bsc.es/vre). Go to **Publish/OEB/New Request** tab:
+Log into the [Virtual Research Environment (VRE)](https://openebench.bsc.es/vre) and go to **Publish/OEB/New Request** tab:
 
 :ref:`More Info<Research Environment>`
 
 [image_VRE]
 
-It appears the list of datasets (participant and consolidated) from user workspace. Select which file/s to publish.
+It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
 
 [image_VRE]
 
 
+Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
+
+:ref:`More Info<What benchmkarking data can be published>`
+
+
+[image_VRE]
+
+A summary of the form is showed. Click submit to request to publish these data. 
+
+[image_VRE]
+
+Once the request is sent, you can follow and manage it in **Publish/OEB/Manage Request**. In actions column, you can cancel it.
+The request can be cancelled only when it is in pending approval status. 
+
+[image_VRE]
+
+Once approved, the data will be publicly available in the [OpenEBench](https://openebench.bsc.es).
+
+![1](../media/image22.png)
 
 Publish your data to EUDAT
 --------------------------
