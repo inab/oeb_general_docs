@@ -1,4 +1,3 @@
-Software quality metrics
-------------------------
+# Software quality metrics
 
 ## FAIR for software
