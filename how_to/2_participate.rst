@@ -3,6 +3,9 @@ Participe in benchmarking events
 
 These guides will help you go through the different aspects rellevant when benchmarking the results of your pipeline or tool at the OpenEBench platform.
 
+.. note::
+   alternative -- different MD for each section
+
 .. toctree::
    :maxdepth: 2
    
