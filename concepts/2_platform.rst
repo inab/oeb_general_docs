@@ -3,26 +3,27 @@ Platforms
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
      
-Main Web Portal &nbsp;&nbsp;&nbsp; -- &nbsp;&nbsp;&nbsp; https://openebench.bsc.es
+Main Web Portal  --  https://openebench.bsc.es
    Landing page centralizing all benchmarking data and interrelated all OpenEBench components
    
-   :ref:`More Info<Main Web Portal>`
+   :ref:`+ Info<Main Web Portal>`
    
 Web components
     Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
     
-    :ref:`More Info<Web Components>`
+    :ref:`+ Info <Web Components>`
     
 Virtual Reseach Environment -- https://openebench.bsc.es/vre/
    Online working space for organizing and participating to scientific benchmarking events
    
-   :ref:`More Info<Research Environment>`
-
+   :ref:`+ Info <Research Environment>`
 
 .. note::
-   Should we add hare "Software Observatory"? is another platform?
-
-
+    .. toctree::
+       :maxdepth: 4
+       
+       2_platform
+   
 .. toctree::
    :maxdepth: 4
 
@@ -44,7 +45,7 @@ Web Components
 
 Research Environment
 --------------------
-The OpenEBench Virtual Research Environment (VRE) (https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and **execution of benchmarking workflows** for computing assessment metrics on participant's datasets.
+The OpenEBench Virtual Research Environment (VRE) (https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and **execution of benchmarking workflows** (see ) for computing assessment metrics on participant's datasets.
 
 The platform serve different purposes to different users:
 
@@ -52,11 +53,8 @@ The platform serve different purposes to different users:
 
 -   **Software developers** evaluate their tools against community defined datasets and scientific challenge events, and compare their performance against other methods in the same field.
 
--   **Researchers** can objectively compare bioinformatic methods through the community defined metrics, in order to choose the most effective software for his research purposes.
-
 OpenEBench VRE offers a complete web interface which brings together public and/or consolidated benchmarking datasets, private participants data, and the necessary mechanisms to import and execute benchmarking workflows on top of a cloud computing infrastructure, for instance, the ones at the [Barcelona Super-computing Center (BSC)](https://www.bsc.es/)
 facilities.
-
 
 
 Benchmarking workflows consist of three steps (visit ['workflows
@@ -74,7 +72,23 @@ workflow at OpenEBench VRE, where a scalable and virtualized environment
 is settled for the workflow run, internally orchestrated by, at the
 moment, the Nextflow workflow manager. Also, the community responsible
 can provide customized visualization methods to browse participant
-results, individual metrics and/or assessment. _`esto_es_una_prueba`
+results, individual metrics and/or assessment.
+
+Community Manager Flow
+^^^^^^^^^^^^^^^^^^^^^
+
+Software Developer Flow
+^^^^^^^^^^^^^^^^^^^^^
+
+What’s behind Virtual Research Environment?
 
 User roles
 ---------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   index
+   
+   
