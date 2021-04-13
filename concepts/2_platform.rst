@@ -44,9 +44,7 @@ OpenEBench captures and presents large amounts of data. Representation of such d
 As in the scientific benchmarking component, a number of HTML widgets have been designed and implemented for that purpose. The current widget gallery contains five widgets. These widgets are distributed as simple HTML snippets along with a Javascript file (that bundles opensource 3rd  party libraries) which can easily be integrated on any web application.
 
 Examples of the widgets, as well as instructions on how to implement them, can be found here:
-     - Chart
-     - fff
-Ok
+
      - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
      - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
