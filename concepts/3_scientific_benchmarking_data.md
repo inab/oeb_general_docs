@@ -1,5 +1,4 @@
-Scientific Benchmarking Data
-----------------------------
+# Scientific Benchmarking Data
 
 ## Basic concepts
 ## Datasets (summary)
