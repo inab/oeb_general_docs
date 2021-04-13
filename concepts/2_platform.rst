@@ -26,23 +26,19 @@ OpenEBench offers several web-based platforms for interacting with technical and
 Main Web Portal
    Landing page centralizing all benchmarking data and interrelated all OpenEBench components
    https://openebench.bsc.es
-   `Python web site <http://www.python.org>`__
+   
    :ref:`More Info<Main Web Portal>`
-   Portal_
-   :ref:`Portal`
    
-Term
-    Definition
-
-.. sidebar:: Optional Sidebar Title
-   :subtitle: Optional Sidebar Subtitle
+Web components
+    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
+    
+    :ref:`More Info<Web Components>`
+    
+Virtual Reseach Environment -- https://openebench.bsc.es/vre/
+   Online working space for organizing and participating to scientific benchmarking events
    
-   Subsequent indented lines comprise the body of the sidebar, and are interpreted as body elements.
+   :ref:`More Info<Research Environment>`
 
-:ref:`toVRE<Research Environment>`
-:ref:`to VRE <Research Environment>`
-
-.. _portal:
 
 Main Web Portal
 ===============
@@ -50,6 +46,9 @@ Main Web Portal
 .. topic:: Topic Title
 
    Subsequent indented lines comprise he body of the topic, and are interpreted as body elements.
+   :ref:`More Info<Research Environment>`
+   
+   :ref:`More Info<Research Environment>`
 
 Web Components
 ==============
