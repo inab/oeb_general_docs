@@ -25,4 +25,4 @@ These guides will help you go through the different aspects rellevant when bench
       RST is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. |RST| is designed for extensibility for specific application domains. The RST parser is a component of Docutils.
 
 
-For example, to link the term :term:`Sphinx` to its definition
+For example, to link the term :term:`GitHub` to its definition
