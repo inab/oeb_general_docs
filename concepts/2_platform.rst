@@ -2,30 +2,9 @@ Platforms
 ===========
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data. `esto_es_una_prueba`_
-
-.. list-table:: Web-based platforms
-   :header-rows: 1
-   
-   * - Platform
-     - Description
-     - Reference
-   * - Main Web Portal
-     - Main landing page. Centralizes all benchmarking data and interrelated all OpenEBench components
-     - [https://openebench.bsc.es ](https://openebench.bsc.es) :ref:`More Info<Main Web Portal>`
-   * - Web components
-     - Widgets and plugins for displaying benchmarking data
-     - :ref:`More Info<Web Components>`
-   * - Virtual Reseach Environment
-     - Laboratory for participating to scientific benchmarking events and managing them
-     - [https://openebench.bsc.es/vre/ ](https://openebench.bsc.es/vre/)  :ref:`More Info<Research Environment>`
      
-.. note::
-   Should we add hare "Software Observatory"? is another platform?
-
-
-Main Web Portal
+Main Web Portal &nbsp;&nbsp;&nbsp; -- &nbsp;&nbsp;&nbsp; https://openebench.bsc.es
    Landing page centralizing all benchmarking data and interrelated all OpenEBench components
-   https://openebench.bsc.es
    
    :ref:`More Info<Main Web Portal>`
    
@@ -38,6 +17,16 @@ Virtual Reseach Environment -- https://openebench.bsc.es/vre/
    Online working space for organizing and participating to scientific benchmarking events
    
    :ref:`More Info<Research Environment>`
+
+
+.. note::
+   Should we add hare "Software Observatory"? is another platform?
+
+
+.. toctree::
+   :maxdepth: 4
+
+   2_platform
 
 
 Main Web Portal
@@ -55,7 +44,7 @@ Web Components
 
 Research Environment
 ====================
-The [OpenEBench Virtual Research Environment (VRE)](https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and execution of benchmarking workflows for computing assessment metrics on participant's data.
+The OpenEBench Virtual Research Environment (VRE) (https://openebench.bsc.es/vre) is the computational e-infrastructure supporting the development and **execution of benchmarking workflows** for computing assessment metrics on participant's datasets.
 
 The platform serve different purposes to different users:
 
