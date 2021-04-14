@@ -26,7 +26,7 @@ For more details, see the [Scientific Datasets](https://openebench.readthedocs.i
 
 :ref: `technical_references/2_scientific_datasets.`
 
-.. note::
+.. Note::
 :ref: `technical_references/2_scientific_datasets.`
 
 
