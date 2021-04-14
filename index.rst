@@ -6,19 +6,26 @@
 Welcome to OpenEBench's documentation!
 ======================================
 
-OpenEBench, the ELIXIR platform for benchmarking, aims to address the main challenges in the most important levels of benchmarking: 
+OpenEBench, the ELIXIR platform for benchmarking, aims to address the main benchmarking challenges for life-sciences tools and workflows. It is based in three pillars: 
 
-* Scientific benchmarking related to the scientific quality of bioinformatics tools and workflows.
-* Technical monitoring related to software quality.
+* Promotion of community-agreed **scientific benchmarking** protocols for assessing the scientific performance of bioinformatics methods in a qualitative and reproducible manner.
+* Systematic **technical monitoring** of bioinformatics tools for assessing software quality metrics in an aggregated and comprehensive manner, as well as at individual tool-level.
 * Performance benchmarking regarding the usability and efficiency of the technical deployment of bioinformatics tools, servers and/or workflows.
 
-*TODO* : Graphical and simple explanation of the three sections (SCI/ASS/OBS) [wait for web homepage]
+.. hlist::
+   :columns: 3
+   * Support of community-agreed **scientific benchmarking** protocols for assessing the scientific performance of bioinformatics methods in a qualitative and reproducible manner.
+   * Systematic **technical monitoring** of bioinformatics tools for assessing software quality metrics in an aggregated and comprehensive manner, as well as at individual tool-level.
+   * Support of **technical benchmarking** for assessing the technical efficiency of deployed bioinformatics tools, servers and/or workflows.
+
+.. Attention::
+   **TODO** Graphical and simple explanation of the three sections (SCI/ASS/OBS) [wait for web homepage]
 
 Find more about the platform here!
 
 .. toctree::
    :caption: Introduction
-   :maxdepth: 4
+   :maxdepth: 3
    
    introduction/1_why_benchmarking
    introduction/2_perspectives
@@ -26,7 +33,7 @@ Find more about the platform here!
 
 .. toctree::
    :caption: OpenEBench General Concepts
-   :maxdepth: 4
+   :maxdepth: 3
    
    concepts/1_general_view
    concepts/3_scientific_benchmarking_data
@@ -35,7 +42,7 @@ Find more about the platform here!
     
 .. toctree::
    :caption: Technical References
-   :maxdepth: 4
+   :maxdepth: 3
    
    technical_references/1_scientific_data_model
    technical_references/2_scientific_datasets
@@ -48,7 +55,7 @@ Find more about the platform here!
 
 .. toctree::
    :caption: How to
-   :maxdepth: 4
+   :maxdepth: 3
    
    how_to/1_explore_results
    how_to/2_participe_events
