@@ -6,15 +6,13 @@ OpenEBench offers several web-based platforms for interacting with technical and
      
 OpenEBench Web Portal
    Main landing page centralizing all OpenEBench services and displaying online technical and scientific benchmarking data.
-.. centered:: https://openebench.bsc.es/vre
-   
-Web components
-    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
-        
+.. centered:: https://openebench.bsc.es/vre   
 Virtual Reseach Environment
    Online working space for participating to scientific benchmarking events and organizing new challenges
 .. centered:: https://openebench.bsc.es/vre
- 
+Web components
+    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
+        
 .. Attention::
     Should we add here 'software Observatory'?
 
@@ -22,7 +20,7 @@ Virtual Reseach Environment
 | OpenEBench Web Portal       |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | Main landing page centralizing all OpenEBench services and displaying online technical and scientific                        |
-| benchmarking data.                                                                                                           |
+|  benchmarking data.                                                                                                          |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | Virutal Resarch Environment |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
