@@ -4,27 +4,35 @@ Platforms
 
 OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
      
-Main Web Portal
-   https://openebench.bsc.es
-   
-   Landing page centralizing all benchmarking data and interrelated all OpenEBench components
+OpenEBench Web Portal
+   Main landing page centralizing all OpenEBench services and displaying online technical and scientific benchmarking data.
+.. centered:: https://openebench.bsc.es/vre
    
 Web components
     Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
         
 Virtual Reseach Environment
-   https://openebench.bsc.es/vre
-   
    Online working space for participating to scientific benchmarking events and organizing new challenges
+.. centered:: https://openebench.bsc.es/vre
  
 .. Attention::
-    Should we add here software observatory?
- 
-.. seealso::
-    .. toctree::
-       :maxdepth: 4
+    Should we add here 'software Observatory'?
+
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+| OpenEBench Web Portal       |            | https://openebench.bsc.es                                                         |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+|Main landing page centralizing all OpenEBench services and displaying online technical and scientific benchmarking data.      |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+| Virutal Resarch Environment |            | https://openebench.bsc.es                                                         |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+|Online working space for participating to scientific benchmarking events and organizing new challenges                        |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+
+
+.. toctree::
+     :maxdepth: 4
        
-       2_platform 
+     2_platform 
 
 
 ===============
