@@ -27,7 +27,7 @@ The tools monitoring section allows to perform an interactive search, querying t
 The selection of a given tool gives access to the specific card (Figure below) where general information of the tools, their possible implementations and links to the sources of information are available.
 
 .. image:: ../../media/image17.png
-    :align: center
+    :align: left
 
 In addition to the general metrics indicated in the [Metrics table](#metrics), OpenEBench Tool Card includes life information about the availability of the tool, as obtained from monitoring the relevant URLs. This check is done in a daily basis and includes, up/down state, time of response, and for encrypted (https) links the validity of the encryption setup. This image shows an example of such information:
 
