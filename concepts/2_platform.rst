@@ -20,7 +20,11 @@ Web components
 | OpenEBench Web Portal       |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | Main landing page centralizing all OpenEBench services and displaying online technical and scientific                        |
-|  benchmarking data.                                                                                                          |
+| benchmarking data.                                                                                                           |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+| Web components              |                                                                                                |
++-----------------------------+------------+-----------------------------------------------------------------------------------+
+|Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                       |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | Virutal Resarch Environment |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
