@@ -29,13 +29,6 @@ For more details, see the [Scientific Datasets](https://openebench.readthedocs.i
 .. Note::
 :ref: `technical_references/2_scientific_datasets.`
 
-.. Attention::
-    Should we add here 'software Observatory'?
-
-.. toctree::
-     :maxdepth: 4
-       
-     2_platform 
 
 
 
