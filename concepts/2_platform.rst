@@ -21,7 +21,8 @@ Virtual Reseach Environment
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | OpenEBench Web Portal       |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
-|Main landing page centralizing all OpenEBench services and displaying online technical and scientific benchmarking data.      |
+| Main landing page centralizing all OpenEBench services and displaying online technical and scientific                        |
+| benchmarking data.                                                                                                           |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
 | Virutal Resarch Environment |            | https://openebench.bsc.es                                                         |
 +-----------------------------+------------+-----------------------------------------------------------------------------------+
