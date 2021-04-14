@@ -58,6 +58,7 @@ Find more about the platform here!
    :maxdepth: 3
    
    how_to/1_explore_results
+   how_to/explore_monitoring_data
    how_to/2_participe_events
    how_to/2_participate
    how_to/3_manage_events
