@@ -8,9 +8,9 @@ Welcome to OpenEBench's documentation!
 
 OpenEBench, the ELIXIR platform for benchmarking, aims to address the main benchmarking challenges for life-sciences tools and workflows. It is based in three pillars: 
 
-* Promotion of community-agreed **scientific benchmarking** protocols for assessing the scientific performance of bioinformatics methods in a qualitative and reproducible manner.
-* Systematic **technical monitoring** of bioinformatics tools for assessing software quality metrics in an aggregated and comprehensive manner, as well as at individual tool-level.
-* Performance benchmarking regarding the usability and efficiency of the technical deployment of bioinformatics tools, servers and/or workflows.
+* Support of community-agreed **SCIENTIFIC BENCHMARKING** protocols for assessing the scientific performance of bioinformatics methods in a qualitative and reproducible manner.
+* Systematic **TECHNICAL MONITORING** ics tools for assessing software quality metrics in an aggregated and comprehensive manner, as well as at individual tool-level.
+* Support of **TECHNICAL BENCHMARKING** for assessing the technical efficiency of deployed bioinformatics tools, servers and/or workflows.
 
 .. hlist::
    :columns: 3
@@ -20,6 +20,48 @@ OpenEBench, the ELIXIR platform for benchmarking, aims to address the main bench
 
 .. Attention::
    **TODO** Graphical and simple explanation of the three sections (SCI/ASS/OBS) [wait for web homepage]
+
+.. hlist::
+   :columns: 3
+   * list of
+   * short items
+   * that should be
+   * displayed
+   * horizontally
+
+| Support of 
+| **SCIENTIFIC BENCHMARKING** protocols
+| 
+| for assessing the scientific
+| performance of bioinformatics methods
+| in a qualitative and reproducible manner.
+
+| Systematic
+| **TECHNICAL MONITORING** of bioinformatics tools
+| 
+| for assessing software quality metrics in
+| - an aggregated and comprehensive manner
+| - at individual tool-level.
+
+| Support of 
+| **TECHNICAL BENCHMARKING**
+|
+| for assessing the technical efficiency of deployed
+| bioinformatics tools, servers and/or workflows.
+
+
+
+
++-------------------------------------------------+---------------------------------------------------+------------------------------------------------------+
+| | Support of                                    | | Systematic                                      | | Support of                                         |
+| | **SCIENTIFIC BENCHMARKING** protocols         | | **TECHNICAL MONITORING** of bioinformatics tools| | **TECHNICAL BENCHMARKING**                         |
+| |                                               | |                                                 | |                                                    |
+| | for assessing the scientific                  | | for assessing software quality metrics          | | for assessing the technical efficiency of deployed |
+| | performance of bioinformatics methods         | | - in an aggregated and comprehensive manner     | | bioinformatics tools, servers and/or workflows.    |
+| | in a qualitative and reproducible manner.     | | - at individual tool-level.                     | |                                                    |
++-------------------------------------------------+---------------------------------------------------+------------------------------------------------------+
+
+
 
 Find more about the platform here!
 
