@@ -14,8 +14,7 @@ Publish your data to OpenEBench
 
 [ VRE --> Peticio --> Approve --> OEB DB + OEB datastore ]
 
-![image](https://user-images.githubusercontent.com/63742994/114532967-adf71c80-9c4d-11eb-8edd-53139035b105.png)
-
+file:///home/bscuser/Descargas/OpenEBench EOSC-Synergy DEMO.jpg
 
 ### What benchmkarking data can be published?
 To publish data to OpenEBench portal, two types of datasets are allowed:
