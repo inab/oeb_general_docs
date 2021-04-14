@@ -14,7 +14,13 @@ Publish your data to OpenEBench
 
 [ VRE --> Peticio --> Approve --> OEB DB + OEB datastore ]
 
-file:///home/bscuser/Descargas/OpenEBench EOSC-Synergy DEMO.jpg
+As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
+Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
+
+![image](https://user-images.githubusercontent.com/63742994/114692939-650c9a00-9d19-11eb-99be-f89379708322.png)
+
+
+
 
 ### What benchmkarking data can be published?
 To publish data to OpenEBench portal, two types of datasets are allowed:
