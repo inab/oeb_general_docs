@@ -59,6 +59,6 @@ Although OpenEBench website gives access to all information stored in the data w
 
 Information from these APIs is obtained in JSON format (see partial example on figure  below). 
 
-![6](../media/image21.png)
+![6](../../media/image21.png)
 
 It is relevant to note that information can be obtained for specific versions or specific deployments of the tool. This opens the possibility of performing historical analysis comparing the performance and/or availability of different resources versions. More information on  the API is available at https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas.
