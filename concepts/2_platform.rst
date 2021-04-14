@@ -2,26 +2,6 @@
 Platforms
 *********************************
 
-OpenEBench offers several web-based platforms for interacting with technical and assessment benchmarking data.
-     
-OpenEBench Web Portal
-   Main landing page centralizing all OpenEBench services and displaying online technical and scientific benchmarking data.
-.. centered:: https://openebench.bsc.es/vre   
-Virtual Reseach Environment
-   Online working space for participating to scientific benchmarking events and organizing new challenges
-.. centered:: https://openebench.bsc.es/vre
-Web components
-    Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
-        
-
-.. toctree::
-     :maxdepth: 4
-       
-     2_platform 
-    
-*********************************
-Platforms
-*********************************
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 | **OpenEBench Web Portal**       |            | https://openebench.bsc.es                                                         |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
@@ -30,11 +10,13 @@ Platforms
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 | **Web components**              |                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
-|Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                           |
+| | Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                        |
+| |                                                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 | **Virutal Resarch Environment** |            | https://openebench.bsc.es                                                         |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
-|Online working space for participating to scientific benchmarking events and organizing new challenges                            |
+| | Online working space for participating to scientific benchmarking events and organizing new challenges                         |
+| |                                                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 
 
