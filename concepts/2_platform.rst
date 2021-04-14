@@ -20,6 +20,8 @@ Platforms
 | |                                                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 
+.. Attention::
+    Should we add here 'software Observatory'?
 
 .. toctree::
      :maxdepth: 4
@@ -28,11 +30,10 @@ Platforms
 
 
 ===============
-Main Web Portal
+OpenEBench Web Portal
 ===============
 
-.. Attention::
-    Should we add here 'software Observatory'?
+
 
 ===============
 Web Components
@@ -51,7 +52,7 @@ Examples of the widgets, as well as instructions on how to implement them, can b
      - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
 
-Others?
+Others components ????
 -------
 
 ====================
@@ -65,6 +66,7 @@ The OpenEBench Virtual Research Environment (VRE) is the computational e-infrast
 OpenEBench VRE offers a complete web interface that brings together public and/or consolidated benchmarking datasets, private participants' data, and the necessary mechanisms to import and execute benchmarking workflows on an reproducible and authomatic manner.
 
 **Purpose**
+
 OpenEBench VRE accomplishes different purposes to different users:
 
      -   To **scientific community managers**, the platform supports the composition, publication, management and monitoring of the community's benchmarking workflows and challenges.
@@ -72,14 +74,10 @@ OpenEBench VRE accomplishes different purposes to different users:
 
 The final outcome is a set of performance metrics quantitatively and objectively evaluating the given participant's dataset.
 
-.. tip:: **What are benchmarking Workflows?**
-     | Are docker-based pipelines that compute community-agreed performance metrics for a given participant's data -- *i.e.* the output produced by the bioinformatics method or pipeline being evaluated.
-     | Benchmarking workflows consist of three steps:
-     | -   Format validation of participants' result.
-     | -   Computation of the performance metrics over such results.
-     | -   Metrics' consolidation by comparing them against other participants' metrics.
-     |
-     | See more at section :ref:`Benchmarking Workflows`.
+.. tip:: 
+     **What are benchmarking Workflows?**
+     Are docker-based pipelines that compute community-agreed performance metrics for a given participant's data -- *i.e.* the output produced by the bioinformatics method or pipeline being evaluated.
+     See more at section :ref:`Benchmarking Workflows`.
 
 Community Manager Flow
 ----------------------
