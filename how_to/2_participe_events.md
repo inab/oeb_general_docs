@@ -29,6 +29,15 @@ For more details, see the [Scientific Datasets](https://openebench.readthedocs.i
 .. Note::
 :ref: `technical_references/2_scientific_datasets.`
 
+.. Attention::
+    Should we add here 'software Observatory'?
+
+.. toctree::
+     :maxdepth: 4
+       
+     2_platform 
+
+
 
 In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. (+ info - "evaluate your tool", how to know that).
 As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
