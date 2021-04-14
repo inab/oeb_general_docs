@@ -13,23 +13,29 @@ Virtual Reseach Environment
 Web components
     Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites
         
-.. Attention::
-    Should we add here 'software Observatory'?
 
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-| OpenEBench Web Portal       |            | https://openebench.bsc.es                                                         |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-| Main landing page centralizing all OpenEBench services and displaying online technical and scientific                        |
-| benchmarking data.                                                                                                           |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-| Web components              |                                                                                                |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-|Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                       |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-| Virutal Resarch Environment |            | https://openebench.bsc.es                                                         |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
-|Online working space for participating to scientific benchmarking events and organizing new challenges                        |
-+-----------------------------+------------+-----------------------------------------------------------------------------------+
+.. toctree::
+     :maxdepth: 4
+       
+     2_platform 
+    
+*********************************
+Platforms
+*********************************
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| **OpenEBench Web Portal**       |            | https://openebench.bsc.es                                                         |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| | Main landing page centralizing all OpenEBench services and displaying online technical and scientific                          |
+| | benchmarking data.                                                                                                             |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| **Web components**              |                                                                                                |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+|Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                           |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| **Virutal Resarch Environment** |            | https://openebench.bsc.es                                                         |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+|Online working space for participating to scientific benchmarking events and organizing new challenges                            |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
 
 
 .. toctree::
@@ -42,6 +48,8 @@ Web components
 Main Web Portal
 ===============
 
+.. Attention::
+    Should we add here 'software Observatory'?
 
 ===============
 Web Components
