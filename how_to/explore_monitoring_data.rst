@@ -13,25 +13,25 @@ A set of quality software metrics are systematically gathered for an extensive c
        
 
 
-Online Catalogue of Tools' Monitoring Data
-==========================================
+Browsing online
+==============
 
 The 'Tools Monitoring' section is accessible at the homepage of the OpenEBench Web Portal (https://openebench.bsc.es).
 
 The tools monitoring section allows to perform an interactive search, querying the collection of tool by titles, descriptions, type or other relevant annotations like EDAM’s operation and topic terms.  See figure below:
 
-.. image:: ../../media/image16.png
+.. image:: ../media/image16.png
     :align: center
     
 
 The selection of a given tool gives access to the specific card (Figure below) where general information of the tools, their possible implementations and links to the sources of information are available.
 
-.. image:: ../../media/image17.png
+.. image:: ../media/image17.png
     :align: left
 
 In addition to the general metrics indicated in the [Metrics table](#metrics), OpenEBench Tool Card includes life information about the availability of the tool, as obtained from monitoring the relevant URLs. This check is done in a daily basis and includes, up/down state, time of response, and for encrypted (https) links the validity of the encryption setup. This image shows an example of such information:
 
-.. image:: ../../media/image18.png
+.. image:: ../media/image18.png
     :align: center
 
 Finally, an updated record of the citations received by the publications associated to the tool is provided in the tool entry. The procedure to obtain the list of citations is the next:
@@ -43,16 +43,16 @@ Finally, an updated record of the citations received by the publications associa
 
 The image below shows an example of the resulting plot.
 
-.. image:: ../../media/image19.png
+.. image:: ../media/image19.png
     :align: center
     
 Additionally, a complete set of statistics about the contents of the data warehouse are available through the statistics tabs:
 
-.. image:: ../../media/image20.png
+.. image:: ../media/image20.png
     :align: center
 
-RESTful API for Tools' Monitoring Data
-======================================
+RESTful API
+===========
 
 Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. 
 
@@ -62,7 +62,7 @@ Although OpenEBench website gives access to all information stored in the data w
 
 Data from this API is obtained in JSON format (see partial example on figure below):
 
-.. image:: ../../media/image21.png
+.. image:: ../media/image21.png
     :align: center
 
 It is relevant to note that information can be obtained for specific versions or specific deployments of the tool. This opens the possibility of performing historical analysis comparing the performance and/or availability of different resources versions. 
