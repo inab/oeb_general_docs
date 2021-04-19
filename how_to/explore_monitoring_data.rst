@@ -6,7 +6,7 @@ Explore tools monitoring data
 A set of quality software metrics are systematically gathered for an extensive collection of bioinformatics tools and workflows. Here, we describe how to browse it either at the OpenEBench Web Portal, or using a REST interface.
 
 .. Note::
-  See section :ref:`Technical Benchmarking Data` to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
+  See section `Technical Benchmarking Data`__ to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
   
 .. toctree::
      :maxdepth: 4
