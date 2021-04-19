@@ -94,4 +94,4 @@ OpenEBench Community Managers can upload the results from their full benchmarkin
 
 Please note that steps 6 and 7 are now performed by the OpenEBench team.
 
-![3](../media/image8.png)
+![3](../../media/image8.png)
