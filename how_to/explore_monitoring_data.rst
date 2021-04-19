@@ -6,11 +6,19 @@ Explore tools monitoring data
 A set of quality software metrics are systematically gathered for an extensive collection of bioinformatics tools and workflows. Here, we describe how to browse it either at the OpenEBench Web Portal, or using a REST interface.
 
 .. Note::
-  See section :ref:`Software quality metrics`__ to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
+  See section :ref:`Software quality metrics` to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
+
+
+Examples of the widgets, as well as instructions on how to implement them, can be found here:
+
+     - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
+     - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
+
 
 
 .. toctree::
      :maxdepth: 4
+     
      explore_monitoring_data
 
 
