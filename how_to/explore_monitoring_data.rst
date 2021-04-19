@@ -32,7 +32,7 @@ The selection of a given tool gives access to the specific card (Figure below) w
     :align: left
     :class: with-shadow
 
-In addition to the general metrics indicated in the [Metrics table](#metrics), OpenEBench Tool Card includes life information about the availability of the tool, as obtained from monitoring the relevant URLs. This check is done in a daily basis and includes, up/down state, time of response, and for encrypted (https) links the validity of the encryption setup. This image shows an example of such information:
+In addition to the general metrics indicated in the :ref:`Software quality metrics`, OpenEBench Tool Card includes life information about the availability of the tool, as obtained from monitoring the relevant URLs. This check is done in a daily basis and includes, up/down state, time of response, and for encrypted (https) links the validity of the encryption setup. This image shows an example of such information:
 
 .. image:: ../media/image18.png
     :align: center
@@ -61,7 +61,7 @@ RESTful API
 Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. 
 
 +-----------------------------+-------------------------------------+-----------------------------------------------------------------------------------------------------------+
-| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and usage <https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest>`__|
+| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and Usage <https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest>`__|
 +-----------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 
