@@ -1,2 +1,2 @@
-Register your tool to OpenEBench
+Register your tool or workflow
 -------------------------------
