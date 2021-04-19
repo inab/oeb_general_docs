@@ -16,7 +16,7 @@ A set of quality software metrics are systematically gathered for an extensive c
 
 
 Browsing online
-==============
+===============
 
 The 'Tools Monitoring' section is accessible at the homepage of the OpenEBench Web Portal (https://openebench.bsc.es).
 
@@ -36,9 +36,6 @@ In addition to the general metrics indicated in the [Metrics table](#metrics), O
 
 .. image:: ../media/image18.png
     :align: center
-
-- `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
-- `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
 
 Finally, an updated record of the citations received by the publications associated to the tool is provided in the tool entry. The procedure to obtain the list of citations is the next:
@@ -63,9 +60,9 @@ RESTful API
 
 Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. 
 
-+-----------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------+
-| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and usage <https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest`__|
-+-----------------------------+-------------------------------------+----------------------------------------------------------------------------------------------------------+
++-----------------------------+-------------------------------------+-----------------------------------------------------------------------------------------------------------+
+| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and usage <https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest>`__|
++-----------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 
 Data from this API is obtained in JSON format (see partial example on figure below):
