@@ -37,8 +37,8 @@ Find more about the platform here!
    
    concepts/1_general_view
    concepts/3_scientific_benchmarking_data
-   concepts/2_platform
    concepts/4_software_quality_metrics
+   concepts/2_platform
     
 .. toctree::
    :caption: Technical References
@@ -59,6 +59,5 @@ Find more about the platform here!
    
    how_to/1_explore_results
    how_to/explore_monitoring_data
-   how_to/2_participe_events
    how_to/2_participate
    how_to/3_manage_events
