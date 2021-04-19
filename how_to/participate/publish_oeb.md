@@ -1,7 +1,8 @@
-Publish your data to OpenEBench
--------------------------------
+# Publish your data to OpenEBench
 
-## Via the OEB Research Environment
+OpenEBench community managers and participants can upload the results of their benchmarking events to find them publicly available at the OpenEBench portal. The publication process is available online through the Virtual Research Environment, upon the organizator's event approval. Community managers can also push the data in a programmatic way using the corresponding REST API. Find more details below.
+
+## Using the Research Environment
 
 [ VRE --> Peticio --> Manager Approves --> Data pushed to data.OEB  and published ]
 
@@ -71,7 +72,7 @@ Once approved, the data will be publicly available in the [OpenEBench](https://o
 
 ![1](../../media/image22.png)
 
-## Via the REST API
+## Using the REST API
 
 OpenEBench Community Managers can upload the results from their full benchmarking event to the platform by using one of the scientific APIs 
 (https://openebench.bsc.es/api/scientific/submission/) . In order to do that they have to:
