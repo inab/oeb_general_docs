@@ -6,11 +6,12 @@ Explore tools monitoring data
 A set of quality software metrics are systematically gathered for an extensive collection of bioinformatics tools and workflows. Here, we describe how to browse it either at the OpenEBench Web Portal, or using a REST interface.
 
 .. Note::
-  See section `Technical Benchmarking Data`__ to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
-  
+  See section :ref:`Software quality metrics`__ to learn more on what benchmarking metrics are available, how are they collected or computed, or what are the reference tool's registries.
+
+
 .. toctree::
      :maxdepth: 4
-       
+     explore_monitoring_data
 
 
 Browsing online
@@ -37,7 +38,7 @@ In addition to the general metrics indicated in the [Metrics table](#metrics), O
 Finally, an updated record of the citations received by the publications associated to the tool is provided in the tool entry. The procedure to obtain the list of citations is the next:
 
 1. Fetch from OpenEBench the list of tools with bibliographic references (i.e. PubMed Ids, DOIs and/or PMC ids).
-2. For each one of these bibliographic references, query several bibliographic sources for records about them. We are currently using `Europe PMC<https://europepmc.org>`_, `NCBI PubMed<https://www.ncbi.nlm.nih.gov/pubmed/>`_, and `WikiData<https://www.wikidata.org/wiki/Wikidata:Main_Page>`_, through their programmatic APIs, as bibliographic and citation providers. For each source, a correspondence from each bibliographic identifier and its internal id is obtained.
+2. For each one of these bibliographic references, query several bibliographic sources for records about them. We are currently using `Europe PMC<https://europepmc.org>`__, `NCBI PubMed<https://www.ncbi.nlm.nih.gov/pubmed/>`__, and `WikiData<https://www.wikidata.org/wiki/Wikidata:Main_Page>`__, through their programmatic APIs, as bibliographic and citation providers. For each source, a correspondence from each bibliographic identifier and its internal id is obtained.
 3. For those matched identifiers, additional details are recovered, like their title, augmented and curated set of bibliographic identifiers, year of publication and the list of authors. Also, with the unique internal ID, the list of internal identifiers of manuscript references and each known citation is obtained. Then, the details of each identifier in the reference and citation lists are fetched, in order to classify them by year.
 4. After this, there is a consolidation phase for each tool’s bibliographic reference, where the gathered citations from all the sources are integrated, so only the unique citations are used for the statistics. The public, bibliographic identifiers of each citation are used for that.
 
@@ -56,9 +57,10 @@ RESTful API
 
 Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. 
 
-+-----------------------------+-------------------------------------+-----------------------------------------------------------------------------------+
-| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | :ref:`Source Code<https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas>`  |
-+-----------------------------+-------------------------------------+-----------------------------------------------------------------------------------+
++-----------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------+
+| OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and usage<https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest`__|
++-----------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------+
+
 
 Data from this API is obtained in JSON format (see partial example on figure below):
 
