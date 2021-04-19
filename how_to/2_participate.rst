@@ -8,7 +8,7 @@ These guides will help you go through the different aspects rellevant when bench
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 4
    
    participate/role_upgrade
    participate/evaluate_tool
