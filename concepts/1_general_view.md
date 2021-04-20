@@ -42,12 +42,7 @@ perspectives; the technical, the scientific and the functional ones:
      aiming to support users and/or developers; whether the software is
      open source and licenses are properly indicated.
 
-```{image} ../media/image9.png
-:alt: 1
-:align: center
-:width: 50%
-```
+<img src="../media/image9.png" alt="venn" align="center" width="25%">
 
-<img src="../media/image9.png" alt="tomaya" align="center" width="25%">
 
 ## Glossary
