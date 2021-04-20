@@ -8,7 +8,7 @@ Documentation Hub
 OpenEBench-related code repositories are mainly stored at `GitHub <https://github.com/>`__, under different organizations and groups,
 but always inter-linked and accessible though the documentation hub:
 
-.. centered:: https://openebench.bsc.es/docs/oeb
+.. centered:: https://openebench.bsc.es/docs/
 
 Add a new repository to the Hub
 ===============================
