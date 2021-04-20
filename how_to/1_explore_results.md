@@ -11,8 +11,6 @@ Visualization and interpretation
 
 To compare the peformance of the evaluated resource, it is important to visualize the participants resuls in an appropiate context.  OEB offers a gallery of visualization methods that should be picked by the community according to the nature of their data and prospective users. Those visualization methods allow us to interpret and classify the benchmarking results so that they are easily understandable by all kinds of users. Currently, there are three available visualization modes in the platform, thant are descrived bellow.
 
-All the visualization modes were designed as 'portable widgets'; that is, they can be used within the OpenEBench infrastructure, or easily plugged in another website that consumes data from OpenEBench APIs. Usually, it is just needed [npm](https://www.npmjs.com/) to install all the library' dependencies and [Webpack](https://webpack.js.org/) to compile the code, which results in a 'build.js' file that can be reused in any web server.
-
 ### 2D ScatterPlot results visualization
 
 This chart allows to visualize results from challenges that use two performance metrics (e.g precision vs recall), and apply several classification methods that transform them to tabular format, with a green color scale which makes it easier to find out which are the top-performing tools. These classification algorithms look for the optimization of the challenge metrics in order to group the tools according to their proximity to the 'ideal performance'.
