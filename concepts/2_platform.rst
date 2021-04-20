@@ -94,9 +94,13 @@ Scientific communities Flow
 OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform.
 Community managers  willing to organize a benchmarking event for their scientific community use the Virtual Research Environment to **publish the benchmarking workflow** associated to the benchmarking event being organized. Ultimatelly, users willing to participate to the event, will find the benchmarking workflow available at the Research Environemnt, and will run it for the participant dataset under evaluation.
 
-```{image} ../media/image1.png
-:align: center
-```
+{image} ../media/image1.png
+    :align: center
+
+.. image:: ../media/image1.png
+   :align: center
+    
+
 
 Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
 
