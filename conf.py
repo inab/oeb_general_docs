@@ -34,7 +34,8 @@ release = '2020'
 extensions = [
     'myst_parser',
     'sphinx_markdown_tables',
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'sphinxcontrib.mermaid',
 ]
 
 source_suffix = {
@@ -54,6 +55,8 @@ myst_enable_extensions = [
 #    "smartquotes",
 #    "substitution"
 ]
+
+mermaid_output_format = 'raw'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
