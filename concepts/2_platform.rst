@@ -79,36 +79,43 @@ The final outcome is a set of performance metrics quantitatively and objectively
      Are docker-based pipelines that compute community-agreed performance metrics for a given participant's data -- *i.e.* the output produced by the bioinformatics method or pipeline being evaluated.
      See more at section :ref:`Benchmarking Workflows`.
 
-Community Manager Flow
-----------------------
+Scientific communities Flow
+---------------------------
 
-Community managers willing to organize a benchmarking event for their scientific community publish the corresponding benchmarking workflow at the Virtual Research Environment. The process involves the definition of reference datasets and assessment metrics.
+OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform. Community managers  willing to organize a benchmarking event for their scientific community use the Virtual Research Environment to publish the benchmarking workflow associated to the benchmarking event being organized. Ultimatelly, users willing to participate to the event, will find the benchmarking workflow available at the Research Environemnt, and will run it for the participant dataset under evaluation.
 
-Once the metrics and reference datasets are defined, the workflow steps
-need to be set, preferably using Docker containers and a workflow
-manager such as Nextflow (visit ['workflows
-structure' section](#workflows-structure) for more information on this).
+.. image:: ../media/image1.png
 
-If OpenEBench guidelines and good practices are followed, the workflow
-should be ready to be integrated at the platform in the frame of a
-certain benchmarking event for that community. In order to do that, the
-following steps need to be performed:
+Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in several HOW TO user guides under the :ref:`Manage benchmarking events` section:
 
-1.  Workflow should be publically available in a Git repository, a URL and specific commit hash need to be provided.
-
-2.  Docker images have to be built in the VRE backend, which can be done by either providing OpenEBench team the required Dockerfiles, or uploading them as public containers to [Docker Hub](https://hub.docker.com/).
-
-3.  Create a new entry in VRE Tools database, specifying the workflow, reference data, inputs & output parameters to be used, and their associated VRE metadata.
-
-4.  Make that entry available in the VRE interface as a new benchmarking workflow, so that software developers can test their methods at the workspace.
-
-Also, it is highly recommended to fill in the [VRE Help](https://openebench.bsc.es/vre/help/tools.php) section of the Tool/Workflow to inform users about how to test their methods (e.g. formats, parameters...).
-
-![2](../media/image1.png)
+1. For organizing a benchmarking event at the OpenEBecnh platform a first requirement is to be granted 'coo' part of one OEB scientific community and become . Be part of one  :ref:`Become a new OEB community`. Alternativelly, become part of other  `enrolled communitites <https://openebench.bsc.es/scientific>`__ and upgrade your your to . 
+2. e the at :ref:`Build metrics and workflows`.
 
 
-Software Developer Flow
------------------------
+Software Developers Flow
+------------------------
+
+Software developers are the end users of Level 2 benchmarking workflows.
+They upload to the platform the results of the method interested in
+evaluating (i.e. list of candidate genes, predicted 3D structures,
+modeled phylogenetic tree).
+
+By selecting the relevant benchmarking workflow, the metrics qualifying
+the given data are computed. A graphic visualization (see 'visualization
+and interpretation of results' section) is offered to comparatively
+analyse the obtained metrics with other participating method metrics.
+
+If results are satisfactory, the developer can proceed to request for
+their publication - following community directives -, making them
+available at Level 1 in the long-term for all OpenEBench users. If not,
+they can also rerun the workflow with new data, and compare the results
+against themselves until they are satisfied with their performance.
+
+Please, refer to VRE *'Help'* section to read the instructions on how to
+[Upload Data](https://openebench.bsc.es/vre/help/upload.php) or [Launch a Workflow](https://openebench.bsc.es/vre/help/launch.php).
+
+.. image:: ../media/image12.png
+
 
 What’s behind Virtual Research Environment?
 --------------------------------------------
