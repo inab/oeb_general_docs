@@ -51,9 +51,16 @@ Examples of the widgets, as well as instructions on how to implement them, can b
      - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
      - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
+Plots visualization
+-------------------
 
-Others components ????
-----------------------
+There are currently three available visualization modes in the platform:
+
+2D ScatterPlot: chart that allows to visualize results from challenges that use two performance metrics (e.g precision vs recall) [See source code here](https://github.com/inab/OpenEBench_scientific_visualizer)
+
+BarPlot: chart that allows to visualize results from challenges that use one performance metric (e.g F-Measure) [See source code here](https://github.com/inab/Scientific_Barplot)
+
+Benchmarking Event Summary Table: table that summarizes the results of a multi-challenge benchmarking experiment. [See source code here](https://github.com/inab/bench_event_table)
 
 ====================
 Research Environment
