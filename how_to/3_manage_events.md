@@ -1,4 +1,4 @@
-# Manage benchmarking events
+# Organize benchmarking events
 
 Become a new OEB community 
 --------------------------
