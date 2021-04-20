@@ -32,9 +32,27 @@ release = '2020'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
+    'myst_parser',
     'sphinx_markdown_tables',
     'sphinx.ext.autosectionlabel'
+]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+#    "amsmath",
+#    "colon_fence",
+#    "deflist",
+#    "dollarmath",
+#    "html_admonition",
+    "html_image",
+#    "linkify",
+#    "replacements",
+#    "smartquotes",
+#    "substitution"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
