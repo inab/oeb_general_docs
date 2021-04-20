@@ -56,11 +56,11 @@ Visualization plots
 
 There are currently three available visualization modes in the platform:
 
-2D ScatterPlot: chart that allows to visualize results from challenges that use two performance metrics (e.g precision vs recall) `See source code here <https://github.com/inab/OpenEBench_scientific_visualizer>`
+- 2D ScatterPlot: chart that allows to visualize results from challenges that use two performance metrics (e.g precision vs recall). See source code here: https://github.com/inab/OpenEBench_scientific_visualizer
 
-BarPlot: chart that allows to visualize results from challenges that use one performance metric (e.g F-Measure) `See source code here <https://github.com/inab/Scientific_Barplot>`
+- BarPlot: chart that allows to visualize results from challenges that use one performance metric (e.g F-Measure). See source code here: https://github.com/inab/Scientific_Barplot
 
-Benchmarking Event Summary Table: table that summarizes the results of a multi-challenge benchmarking experiment. `See source code here <https://github.com/inab/bench_event_table>`
+- Benchmarking Event Summary Table: table that summarizes the results of a multi-challenge benchmarking experiment. See source code here: https://github.com/inab/bench_event_table
 
 ====================
 Research Environment
