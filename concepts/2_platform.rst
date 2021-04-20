@@ -11,12 +11,14 @@ Platforms
 | **Web components**              |                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 | | Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                        |
-| |                                                                                                                                |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
-| **Virutal Resarch Environment** |            | https://openebench.bsc.es                                                         |
+| **Virtual Resarch Environment** |            | https://openebench.bsc.es                                                         |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 | | Online working space for participating to scientific benchmarking events and organizing new challenges                         |
-| |                                                                                                                                |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| **Tools Observatory**           |            | https://?????????????????                                                         |
++---------------------------------+------------+-----------------------------------------------------------------------------------+
+| | Here goes a one-line description                                                                                               |
 +---------------------------------+------------+-----------------------------------------------------------------------------------+
 
 .. Attention::
@@ -89,48 +91,44 @@ The final outcome is a set of performance metrics quantitatively and objectively
 Scientific communities Flow
 ---------------------------
 
-OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform. Community managers  willing to organize a benchmarking event for their scientific community use the Virtual Research Environment to publish the benchmarking workflow associated to the benchmarking event being organized. Ultimatelly, users willing to participate to the event, will find the benchmarking workflow available at the Research Environemnt, and will run it for the participant dataset under evaluation.
+OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform.
+Community managers  willing to organize a benchmarking event for their scientific community use the Virtual Research Environment to **publish the benchmarking workflow** associated to the benchmarking event being organized. Ultimatelly, users willing to participate to the event, will find the benchmarking workflow available at the Research Environemnt, and will run it for the participant dataset under evaluation.
 
 .. image:: ../media/image1.png
 
-Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in several HOW TO user guides under the :ref:`Manage benchmarking events` section:
+Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
 
-1. For organizing a benchmarking event at the OpenEBecnh platform a first requirement is to be granted 'coo' part of one OEB scientific community and become . Be part of one  :ref:`Become a new OEB community`. Alternativelly, become part of other  `enrolled communitites <https://openebench.bsc.es/scientific>`__ and upgrade your your to . 
-2. e the at :ref:`Build metrics and workflows`.
+** :ref:`Organize benchmarking events` : basic steps**
+
+1. Be granted a *community manager* role for an OEB scientific community. So, either ask for the appropiate user role for one of the `enrolled communitites <https://openebench.bsc.es/scientific>`__ or lean how to  :ref:`Become a new OEB community`. 
+2. Lean how to :ref:`Build metrics and workflows` for your particular scientific community. Follow this guide to implement the *assessment metrics* and define the required *benchmarking datasets*.
+3. Register the *benchmarking workflow* created on the previous step at the Virtual Research Environment. See more are :ref:`Register challenges and events`.
 
 
 Software Developers Flow
 ------------------------
 
-Software developers are the end users of Level 2 benchmarking workflows.
-They upload to the platform the results of the method interested in
-evaluating (i.e. list of candidate genes, predicted 3D structures,
-modeled phylogenetic tree).
+Software developers are the end users of the Virtual Research Enviroment. At this platform, the results of the bioinformatic methods are feed into the benchmarking workflows in order to **evalute the developer's method** according to the community-agreed assessment metrics.
 
-By selecting the relevant benchmarking workflow, the metrics qualifying
-the given data are computed. A graphic visualization (see 'visualization
-and interpretation of results' section) is offered to comparatively
-analyse the obtained metrics with other participating method metrics.
+The usual flow of a software developer, is explained in detail at :ref:`Participe to Benchmarking Events`:
 
-If results are satisfactory, the developer can proceed to request for
-their publication - following community directives -, making them
-available at Level 1 in the long-term for all OpenEBench users. If not,
-they can also rerun the workflow with new data, and compare the results
-against themselves until they are satisfied with their performance.
-
-Please, refer to VRE *'Help'* section to read the instructions on how to
-[Upload Data](https://openebench.bsc.es/vre/help/upload.php) or [Launch a Workflow](https://openebench.bsc.es/vre/help/launch.php).
+1. Upload to the platform the results of the method interested in evaluating (i.e. list of candidate genes, predicted 3D structures, modeled phylogenetic tree).
+2. Select the relevant benchmarking event and "run it". Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
+3. Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
+4. If results are satisfactory, the benchmarking results can be publicated at the OEB portal or where the community stated. If not, they can also rerun the workflow with new data, and compare the results against themselves until they are satisfied with their performance.
 
 .. image:: ../media/image12.png
 
 
-What’s behind Virtual Research Environment?
---------------------------------------------
+The computational infrastructure
+--------------------------------
 
-Implemented as three conceptual steps using software containers, the community manager is able to import and compose the full benchmarking
-workflow at OpenEBench VRE, where a scalable and virtualized environment is settled for the workflow run, internally orchestrated by, at the moment, the Nextflow workflow manager. Also, the community responsible can provide customized visualization methods to browse participant results, individual metrics and/or assessment.
+=================
+Tools Observatory
+=================
 
-====================
-User roles
-====================
+.. Note::
+    TODO
+
+
    
