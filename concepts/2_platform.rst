@@ -51,7 +51,7 @@ Examples of the widgets, as well as instructions on how to implement them, can b
      - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
      - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
 
-Plots visualization
+Visualization plots
 -------------------
 
 There are currently three available visualization modes in the platform:
