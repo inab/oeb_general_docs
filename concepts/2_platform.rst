@@ -100,7 +100,7 @@ Community managers  willing to organize a benchmarking event for their scientifi
 
 Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
 
-**:ref:`Organize benchmarking events` : basic steps**
+**>>** :ref:`Organize benchmarking events`
 
 1. Be granted a *community manager* role for an OEB scientific community. So, either ask for the appropiate user role for one of the `enrolled communitites <https://openebench.bsc.es/scientific>`__ or lean how to  :ref:`Become a new OEB community`. 
 2. Lean how to :ref:`Build metrics and workflows` for your particular scientific community. Follow this guide to implement the *assessment metrics* and define the required *benchmarking datasets*.
@@ -112,7 +112,7 @@ Software Developers Flow
 
 Software developers are the end users of the Virtual Research Enviroment. At this platform, the results of the bioinformatic methods are feed into the benchmarking workflows in order to **evalute the developer's method** according to the community-agreed assessment metrics. The usual flow of a software developer, is explained in detail at:
 
-**:ref:`Participe to Benchmarking Events` : basic steps**
+**>>** :ref:`Participe to Benchmarking Events`
 
 1. Upload to the platform the results of the method interested in evaluating (i.e. list of candidate genes, predicted 3D structures, modeled phylogenetic tree).
 2. Select the relevant benchmarking event and "run it". Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
