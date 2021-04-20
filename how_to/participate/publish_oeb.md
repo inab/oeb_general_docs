@@ -87,12 +87,10 @@ OpenEBench Community Managers can upload the results from their full benchmarkin
 
 5.  Upload the array of JSON objects to the temporary database (using the assigned username and password) with the following command : `curl -v -X POST -u <user>:<passwd> -H "Content-Type: application/json" https://dev-openebench.bsc.es/api/scientific/submission/?community_id=OEBC002 -d @your_file_name.json`
 
-6.  2nd validation of data in temporary database against Benchmarking Data Model.
+6.  Send an email to openebench-suppost@bsc.es containing the name of the JSON objects uploaded to the temporary database.
 
-7.  Use the [migration tool](https://gitlab.bsc.es/inb/elixir/openebench/openebench-distiller-tool) for moving the data to production OEB Mongo DB.
+7.  Wait until the OpenEBench team moves the data to production OpenEBench Mongo DB.
 
 8.  Data is ready to be visualized in [OpenEBench](https://dev-openebench.bsc.es/)!!
-
-Please note that steps 6 and 7 are now performed by the OpenEBench team.
 
 ![3](../../media/image8.png)
