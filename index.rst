@@ -39,6 +39,7 @@ Find more about the platform here!
    concepts/3_scientific_benchmarking_data
    concepts/4_software_quality_metrics
    concepts/2_platform
+   concepts/5_user_roles
     
 .. toctree::
    :caption: Technical References
