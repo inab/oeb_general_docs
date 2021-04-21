@@ -1,32 +1,17 @@
-*********************************
+*********
 Platforms
-*********************************
+*********
 
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| **OpenEBench Web Portal**       |            | https://openebench.bsc.es                                                         |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| | Main landing page centralizing all OpenEBench services and displaying online technical and scientific                          |
-| | benchmarking data.                                                                                                             |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| **Web components**              |                                                                                                |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| | Widgets and plugins for embedding OpenEBench benchmarking data at third party web sites                                        |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| **Virtual Resarch Environment** |            | https://openebench.bsc.es                                                         |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| | Online working space for participating to scientific benchmarking events and organizing new challenges                         |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| **Tools Observatory**           |            | https://?????????????????                                                         |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
-| | Here goes a one-line description                                                                                               |
-+---------------------------------+------------+-----------------------------------------------------------------------------------+
+- **OpenEBench Web Portal**, https://openebench.bsc.es, is the main landing page centralizing all OpenEBench services and displaying online technical and scientific
+- **Virtual Resarch Environment**, https://openebench.bsc.es/vre, is an online working space for participating to scientific benchmarking events and organizing new challenges.
+- **Tools Observatory**, https://observatory.openebench.bsc.es, is another web portal that focuses on useful statistics of bioinformatics tools.
 
 .. Attention::
-    Should we add here 'software Observatory'?
+    Should we add here 'Software Observatory'?
 
 .. toctree::
      :maxdepth: 4
-       
+
      2_platform 
 
 
@@ -37,9 +22,9 @@ OpenEBench Web Portal
 .. Note::
     TODO
 
-===============
+==============
 Web Components
-===============
+==============
 
 Technical monitoring widgets
 ----------------------------
@@ -64,9 +49,9 @@ There are currently three available visualization modes in the platform:
 
 - Benchmarking Event Summary Table: table that summarizes the results of a multi-challenge benchmarking experiment. See source code here: https://github.com/inab/bench_event_table
 
-====================
-Research Environment
-====================
+============================
+Virtual Research Environment
+============================
 
 The OpenEBench Virtual Research Environment (VRE) is the computational e-infrastructure supporting the development and execution of benchmarking workflows generating community-agreed assessment metrics for given participant's datasets.
 
@@ -96,7 +81,20 @@ Community managers  willing to organize a benchmarking event for their scientifi
 
 .. image:: ../media/image1.png
    :align: center
-    
+
+.. Note::
+   Mermaid live editor: https://mermaid-js.github.io/mermaid-live-editor
+   Already build diagram: https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RlZmluZSBkYXRhc2V0c10gLS0-IENcbiAgICBCW0RlZmluZSBtZXRyaWNzXSAtLT4gQ1xuICAgIENbQnVpbGQgYmVuY2htYXJraW5nIHdvcmtmbG93XSAtLT4gRFxuICAgIERbUHVibGlzaCB0byBPcGVuRUJlbmNoIFZSRV0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ
+
+```
+.. mermaid::
+   graph TD
+      A[Define datasets] --> C
+      B[Define metrics] --> C
+      C[Build benchmarking workflow] --> D
+      D[Publish to OpenEBench VRE]
+```
+     
 Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
 
 **>>** :ref:`Organize benchmarking events`
@@ -130,7 +128,3 @@ The computational infrastructure
 =================
 Tools Observatory
 =================
-
-
-
-   

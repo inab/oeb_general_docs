@@ -14,7 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -36,6 +37,7 @@ extensions = [
     'sphinx_markdown_tables',
     'sphinx.ext.autosectionlabel',
     'sphinxcontrib.mermaid',
+    # 'recommonmark',
 ]
 
 source_suffix = {
@@ -91,3 +93,6 @@ html_static_path = ['_static']
 html_style = 'css/opeb_documentation.css'
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+def setup(app):
+    app.add_transform(AutoStructify)
