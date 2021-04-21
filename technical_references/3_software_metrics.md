@@ -76,7 +76,7 @@ Here is the brief description of the metrics:
 | 42 | open_source         | project.license.open_source             | bool   | Project has an open source license.                                |
 | 43 | osi                 | project.license.osi                     | bool   | Software has an Open Software Initiative (OSI)-recognised license. |
 
-#### Accesibility
+#### Accessibility
 
 |    | metrics                                  | json path                                    | type   | description                                                               |
 |----|------------------------------------------|----------------------------------------------|--------|---------------------------------------------------------------------------|
