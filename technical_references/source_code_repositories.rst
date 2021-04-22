@@ -12,18 +12,6 @@ OpenEBench-related code repositories are mainly stored at `GitHub <https://githu
 .. centered:: https://openebench.bsc.es/docs/
 
 
-Some texts.
-
-.. table:: test table
-   :align: center
-
-   ================================
-   Documentation Hub
-   ================================
-   https://openebench.bsc.es/docs/    
-   ================================
-
-Some texts.
 
 Add a new repository to the
 ===============================
