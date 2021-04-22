@@ -11,15 +11,16 @@ OpenEBench-related code repositories are mainly stored at `GitHub <https://githu
 .. centered:: Documentation Hub
 .. centered:: https://openebench.bsc.es/docs/
 
-Add a new repository to the Hub
+Add a new repository to the
 ===============================
 
-The only requirement is to add OpenEBench as one of the topics of your repository.
+The addition of new GitHub repositories to the Hub is automated. The requirement is to add "OpenEBench" as one of the topics of your repository. Shortly, the new repository will be displayed at the Hub.  
 
 ```
 Topic:openebench
 ```
 
-
 Follow the official GitHub
 documentation on `how to add topics to your repository <https://docs.github.com/es/github/administering-a-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository>`__. 
+
+.. Note:: **TODO**: Is this information correct? 
