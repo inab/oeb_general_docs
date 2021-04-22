@@ -86,14 +86,14 @@ Community managers  willing to organize a benchmarking event for their scientifi
    Mermaid live editor: https://mermaid-js.github.io/mermaid-live-editor
    Already build diagram: https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RlZmluZSBkYXRhc2V0c10gLS0-IENcbiAgICBCW0RlZmluZSBtZXRyaWNzXSAtLT4gQ1xuICAgIENbQnVpbGQgYmVuY2htYXJraW5nIHdvcmtmbG93XSAtLT4gRFxuICAgIERbUHVibGlzaCB0byBPcGVuRUJlbmNoIFZSRV0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ
 
-```
 .. mermaid::
+
    graph TD
       A[Define datasets] --> C
       B[Define metrics] --> C
       C[Build benchmarking workflow] --> D
       D[Publish to OpenEBench VRE]
-```
+
      
 Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
 
