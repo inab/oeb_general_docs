@@ -1,5 +1,5 @@
 Participe to Benchmarking Events
-----------------------
+--------------------------------
 
 These guides will help you go through the different aspects rellevant when benchmarking the results of your pipeline or tool at the OpenEBench platform.
 
