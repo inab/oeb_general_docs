@@ -1,10 +1,10 @@
 # Explore benchmarking results 
 
-Website
--------
+Browsing Online
+---------------
 
-Programmatic access
--------------------
+RESTful API
+-----------
 
 Visualization and interpretation
 --------------------------------
