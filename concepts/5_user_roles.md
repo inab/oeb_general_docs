@@ -11,5 +11,6 @@ There are several roles that community members could have.
 -   **Challenge Supervisor** - the person that direct the Benchmarking Challenge.
 -   **Challenge Contributor** - Benchmarking Challenge Participants that contribute to the Chellenge
                                 by either executing benchmarking workflow or by the benchmarking data upload.
--   **Challenge Participant** - 
+-   **Challenge Participant** - Participant of a Benchmarking Challenge that executes the benchmarking workflows and 
+-                               keep the benchmarking results private.
 
