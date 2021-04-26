@@ -10,7 +10,6 @@ These guides will help you go through the different aspects rellevant when bench
 .. toctree::
    :maxdepth: 4
    
-   participate/role_upgrade
    participate/evaluate_tool
    participate/register_tool
    participate/publish_oeb
