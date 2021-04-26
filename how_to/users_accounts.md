@@ -78,11 +78,11 @@ Currently, we are in the process of developing a complete web interface for mana
 **How to?**
 
 Send an email to **openebench-support @ bsc.es** from the your email account registered in OpenEBench. The message should contains: 
-*   The privileged operation your are not currently allowed to perform. Check them [Authentication and Authorization](../technical_references/7_authentication_and_authorization.md) section. Examples are:
+* The privileged operation your are not currently allowed to perform. Check them [Authentication and Authorization](../technical_references/7_authentication_and_authorization.md) section. Examples are:
   *  Membership to one of the scientific communities
-  *   Publication of benchmarking datasets belonging to a certain Benchmarking Event or Challenge
-  *   Registration of Benchmarking Workflows at the Research Environment       
-*   If applicable, the scientific community framing the privileged operation.
+  *  Publication of benchmarking datasets belonging to a certain Benchmarking Event or Challenge
+  *  Registration of Benchmarking Workflows at the Research Environment       
+* If applicable, the scientific community framing the privileged operation.
 
 ## Approve and reject role upgrades
 
