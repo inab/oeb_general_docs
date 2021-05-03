@@ -35,6 +35,7 @@ Find more about the platform here!
    :caption: OpenEBench General Concepts
    :maxdepth: 3
    
+   concepts/1_scientific_benchmarking
    concepts/3_scientific_benchmarking_data
    concepts/4_software_quality_metrics
    concepts/2_platform
