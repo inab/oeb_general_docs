@@ -161,4 +161,5 @@ Communities, End-Users and Funders:
      the development of new software resources and/or improve the
      existing ones.
 
-![3](../media/image6.png)
+
+<img src="../media/image6.png" alt="OpenEBench benefits" align="center">
