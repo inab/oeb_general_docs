@@ -35,7 +35,6 @@ Find more about the platform here!
    :caption: OpenEBench General Concepts
    :maxdepth: 3
    
-   concepts/1_general_view
    concepts/3_scientific_benchmarking_data
    concepts/4_software_quality_metrics
    concepts/2_platform
@@ -63,3 +62,9 @@ Find more about the platform here!
    how_to/2_participate
    how_to/3_manage_events
    how_to/users_accounts
+   
+.. toctree::
+   :caption: Glossary
+   :maxdepth: 3
+   
+   glossary/glossary.md
