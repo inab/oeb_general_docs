@@ -113,7 +113,7 @@ this central access point and external providers (i.e. communities and
 software registries) is facilitated, allowing OpenEBench users to
 conduct continuous automated benchmarking tests online.
 
-### Objectives to OpenEBench
+### Objectives of OpenEBench
 
 In summary, the goals of OpenEBench are to:
 
@@ -136,7 +136,7 @@ In summary, the goals of OpenEBench are to:
 -   Work with the ELIXIR Interoperability Platform to keep FAIR data
      principles on the Benchmarking data warehouse.
 
-### Benefits for all stakeholders
+### Benefits to all stakeholders
 
 Thanks to these principles, OpenEBench will offer support to Developers,
 Communities, End-Users and Funders:
