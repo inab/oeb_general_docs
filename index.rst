@@ -29,7 +29,7 @@ Find more about the platform here!
    
    introduction/1_why_benchmarking
    introduction/2_perspectives
-   introduction/3_about_oeb
+   introduction/3_background
 
 .. toctree::
    :caption: OpenEBench General Concepts
