@@ -1,3 +1,5 @@
+# Background
+
 Why benchmarking in bioinformatics?
 -----------------------------------
 
@@ -109,7 +111,7 @@ this central access point and external providers (i.e. communities and
 software registries) is facilitated, allowing OpenEBench users to
 conduct continuous automated benchmarking tests online.
 
-### Objectives of OpenEBench
+### Objectives to OpenEBench
 
 In summary, the goals of OpenEBench are to:
 
