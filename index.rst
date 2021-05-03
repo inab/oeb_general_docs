@@ -27,7 +27,7 @@ Find more about the platform here!
    :caption: Introduction
    :maxdepth: 3
    
-   introduction/1_why_benchmarking
+   introduction/1_overview
    introduction/2_perspectives
    introduction/3_background
 
