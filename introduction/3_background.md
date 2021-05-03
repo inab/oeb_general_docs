@@ -162,4 +162,4 @@ Communities, End-Users and Funders:
      existing ones.
 
 
-<img src="../media/image6.png" alt="OpenEBench benefits" align="center" width="75%" height="75%">
+<img src="../media/image6.png" alt="OpenEBench benefits" align="center" width="75%">
