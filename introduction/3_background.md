@@ -1,5 +1,7 @@
 # Background
 
+Here you can find the rationale behind OpenEBench and how it fits in ELIXIR.
+
 Why benchmarking in bioinformatics?
 -----------------------------------
 
@@ -90,7 +92,7 @@ containers, and use workflow managers promoted by ELIXIR. Next figure
 illustrates the interconnection of OpenEBench to other ELIXIR tools
 platforms systems and platforms and beyond.
 
-![2](../media/image3.png)
+<img src="../media/image3.png" alt="ELIXIR Tools Platform schematic" align="center">
 
 Hence, OpenEBench is a platform designed to establish a continuous
 automated benchmarking system for bioinformatics methods, tools and web
@@ -159,4 +161,4 @@ Communities, End-Users and Funders:
      the development of new software resources and/or improve the
      existing ones.
 
-![3](../media/image6.png)
+<img src="../media/image6.png" alt="OpenEBench benefits" align="center" width="75%" height="75%">
