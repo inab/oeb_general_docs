@@ -31,8 +31,9 @@ As the process to publish includes to associate the data to a registered OpenEBe
 Why should I publish data to OpenEBench?
 ========================================
 As metion before, OpenEBench is the benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. Publishing data from the  benchmarking workflows implies:
+
 - Data will become publicly available on the OpenEBench data portal.
-- Data will receive a unique OpenEBench identifier. This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE.(+ info - "Publish your data to EUDAT")
+- Data will receive a unique OpenEBench identifier. This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE. More info: `Register your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/publish_eudat.html>`_.
 - Data will be stored on the internal OpenEBecnh datastore (not persistent)
 
 Who is allowed to do?
