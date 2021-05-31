@@ -48,7 +48,7 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 .. Note::
     More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/dev/concepts/2_platform.html#virtual-research-environment>`_.
 
-.. image:: 
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/VRE_publishOEB.png
 
 It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
 
