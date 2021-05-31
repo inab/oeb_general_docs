@@ -21,12 +21,12 @@ To publish data to OpenEBench portal, two types of datasets are allowed:
 - **Consolidated dataset**: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
 
 .. Note::
-    For more details, see the `Scientific <https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
+    For more details, see the `Scientific datasets <https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
 
 
-In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. (+ info - "evaluate your tool", how to know that).
-As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
-(+ info - "Register your tool to OpenEBench")
+In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. More info: `Evaluate your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/evaluate_tool.html>`_.
+
+As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. More info: `Register your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/register_tool.html>`_.
 
 Why should I publish data to OpenEBench?
 ========================================
@@ -39,7 +39,7 @@ Who is allowed to do?
 =====================
 Any user with a minimum role contributor can request to publish their files in OpenEBench. 
 
-To request an upgrade role, please see the section: :ref:`request to upgrade your role`
+To request an upgrade role, please see the section: `Request a role upgrade <https://openebench.readthedocs.io/en/dev/how_to/users_accounts.html#request-a-role-upgrade>`_.
 
 How do I publish data to OpenEBench?
 ====================================
@@ -48,7 +48,7 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 .. Note::
     More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/dev/concepts/2_platform.html#virtual-research-environment>`_.
 
-[image_VRE]
+.. image:: 
 
 It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
 
