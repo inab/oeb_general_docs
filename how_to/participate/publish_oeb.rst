@@ -1,17 +1,22 @@
-# Publish your data to OpenEBench
+###############################
+Publish your data to OpenEBench
+###############################
 
 OpenEBench community managers and participants can upload the results of their benchmarking events to find them publicly available at the OpenEBench portal. The publication process is available online through the Virtual Research Environment, upon the organizator's event approval. Community managers can also push the data in a programmatic way using the corresponding REST API. Find more details below.
 
-## Using the Research Environment
+Using the Research Environment
+##############################
 
 As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
 Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
 
-![image](https://user-images.githubusercontent.com/63742994/114692939-650c9a00-9d19-11eb-99be-f89379708322.png)
+.. image:: https://user-images.githubusercontent.com/63742994/114692939-650c9a00-9d19-11eb-99be-f89379708322.png
 
 
-### What benchmkarking data can be published?
+What benchmkarking data can be published?
+=========================================
 To publish data to OpenEBench portal, two types of datasets are allowed:
+
 - **Participant dataset**: Produced by participants with their tool from a specific input data.
 - **Consolidated dataset**: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
 
@@ -27,18 +32,21 @@ In order to publish in OpenEBench, these datasets must belong to an active bench
 As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. 
 (+ info - "Register your tool to OpenEBench")
 
-### Why should I publish data to OpenEBench?
+Why should I publish data to OpenEBench?
+========================================
 As metion before, OpenEBench is the benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. Publishing data from the  benchmarking workflows implies:
 - Data will become publicly available on the OpenEBench data portal.
 - Data will receive a unique OpenEBench identifier. This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE.(+ info - "Publish your data to EUDAT")
 - Data will be stored on the internal OpenEBecnh datastore (not persistent)
 
-### Who is allowed to do?
+Who is allowed to do?
+=====================
 Any user with a minimum role contributor can request to publish their files in OpenEBench. 
 
 To request an upgrade role, please see the section: :ref:`request to upgrade your role`
 
-### How do I publish data to OpenEBench?
+How do I publish data to OpenEBench?
+====================================
 Log into the [Virtual Research Environment (VRE)](https://openebench.bsc.es/vre) and go to **Publish/OEB/New Request** tab:
 
 :ref:`More Info<Research Environment>`
@@ -68,13 +76,14 @@ The request can be cancelled only when it is in pending approval status.
 
 Once approved, the data will be publicly available in the [OpenEBench](https://openebench.bsc.es).
 
-![1](../../media/image22.png)
+.. image:: ../../media/image22.png
 
 \
 \
 \
 
-## Using the REST API
+Using the REST API
+##################
 
 OpenEBench Community Managers can upload the results from their full benchmarking event to the platform by using one of the scientific APIs 
 (https://openebench.bsc.es/api/scientific/submission/) . In order to do that they have to:
@@ -95,4 +104,4 @@ OpenEBench Community Managers can upload the results from their full benchmarkin
 
 8.  Data is ready to be visualized in [OpenEBench](https://dev-openebench.bsc.es/)!!
 
-![3](../../media/image8.png)
+.. image:: ../../media/image8.png
