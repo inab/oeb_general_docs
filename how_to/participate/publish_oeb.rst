@@ -12,7 +12,7 @@ Then user can decide if they want to publish the datasets to OpenEBench. Only af
 
 .. image:: https://user-images.githubusercontent.com/63742994/114692939-650c9a00-9d19-11eb-99be-f89379708322.png
 
-
+.. _RST Data_to_be_published:
 What benchmkarking data can be published?
 =========================================
 To publish data to OpenEBench portal, two types of datasets are allowed:
@@ -20,12 +20,8 @@ To publish data to OpenEBench portal, two types of datasets are allowed:
 - **Participant dataset**: Produced by participants with their tool from a specific input data.
 - **Consolidated dataset**: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
 
-For more details, see the [Scientific Datasets](https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references) reference.
-
-:ref: `technical_references/2_scientific_datasets.`
-
 .. Note::
-    :ref: `technical_references/2_scientific_datasets.`
+    For more details, see the `Scientific <https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
 
 
 In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. (+ info - "evaluate your tool", how to know that).
@@ -49,7 +45,8 @@ How do I publish data to OpenEBench?
 ====================================
 Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`_ and go to **Publish/OEB/New Request** tab:
 
-:ref:`More Info<Research Environment>`
+.. Note::
+    More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/dev/concepts/2_platform.html#virtual-research-environment>`_.
 
 [image_VRE]
 
@@ -60,7 +57,7 @@ It appears the list of files (participant and consolidated datasets) from user w
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
 
-:ref:`More Info<What benchmkarking data can be published>`
+:ref:`Data_to_be_published`
 
 
 [image_VRE]
