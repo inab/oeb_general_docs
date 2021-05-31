@@ -2,7 +2,7 @@
 
 ## Register to OpenEBench
 
-**Why?**
+### Why I should be registered on OpenEBench?
 
 There is no need to be registered at OpenEBench for accessing a good part of the platform services, like browsing [tools' monitoring data](https://openebench.bsc.es/tool) at OpenEBench portal, or exploring software metrics at the [Tools Observatory](https://observatory.openebench.bsc.es/), or checking the results of a [scientific benchmarking challenge](https://openebench.bsc.es/scientific) once published by the community. However, processes actively contributing to generate benchmarking data or programmatically accessing to some OpenEBecnh interfaces requires an active OpenEBench user account.
 
@@ -11,7 +11,7 @@ There is no need to be registered at OpenEBench for accessing a good part of the
 -   A valid email account
 -   Accepting OpenEBench [Terms of Use](https://openebench.bsc.es/terms-of-use)
 
-**How?**
+### How I can register?
 
 OpenEBench portal, the Research Environment, or any other OpenEBench platform supporting authenticated users, has a user's dedicated section at the website top-right corner. From there, the registration web form of the centralized autentication system is accessible.
 
@@ -25,13 +25,13 @@ Once logged in, the details of your user account are accessible from the user's 
 
 At the [OpenEBench Virtual Research Environment](https://openebench.bsc.es/vre/), the section shows a short summary of user's personal data, together with the information of any associated account (*i.e.* EUDAT,...).
 
-**User Access Token**
+### User Access Token
 
 More technical details of the user account are displayed at the *API Keys* tab of the same page. OpenID Connect access tokens used to programatically authenticate the user against any OpenEBench RESTful API (see more at [REST APIs](../technical_references/6_rest_api) ) are displayed here.
 
 **TODO: [SNAPSHOT VRE API KEYS TAB]**
 
-**User Role and Community**
+### User Role and Community
 
 The *API Keys* tab also displays in clear the information contained in the OpenID Connect ID Token. It includes some standard OIDC claims (*i.e.* sub, name, email...), as well as other OpenEBench specific claims, for instance, the OpenEbench role or the membership to a scientific community.
 
@@ -75,9 +75,9 @@ Certain services or operations at the OpenEbench platform require being granted 
 
 Currently, we are in the process of developing a complete web interface for managing this kind of petitions in a friendly manner. Meanwhile, we are centraling role upgrade petitions to our support email. We receive them and we redirect those that need to be approved by users not belonging to the OpenEBench Support Team (*i.e.* scientific community owners, benchmarking challenge managers, etc.). 
 
-**How to?**
+### How can I request a role upgrade?
 
-Send an email to **openebench-support @ bsc.es** from the your email account registered in OpenEBench. The message should contains: 
+Send an email to **openebench-support@bsc.es** from the your email account registered in OpenEBench. The message should contains: 
 * The privileged operation your are not currently allowed to perform. Check them [Authentication and Authorization](../technical_references/7_authentication_and_authorization.md) section. Examples are:
   *  Membership to one of the scientific communities
   *  Publication of benchmarking datasets belonging to a certain Benchmarking Event or Challenge
