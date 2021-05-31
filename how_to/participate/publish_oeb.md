@@ -4,8 +4,6 @@ OpenEBench community managers and participants can upload the results of their b
 
 ## Using the Research Environment
 
-[ VRE --> Peticio --> Manager Approves --> Data pushed to data.OEB  and published ]
-
 As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
 Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
 
