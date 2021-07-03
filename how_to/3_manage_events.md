@@ -26,3 +26,5 @@ Register challenges and events
 
 Approve or deny a role upgrade
 ------------------------------
+
+![1](../media/image4.png)
