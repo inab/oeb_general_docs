@@ -23,14 +23,14 @@ OpenEBench VRE accomplishes different purposes to different users:
 
 Blocks
 -------
-
-   ../media/image_1.png
+    
+   ![1](../media/image_1.png)
    
    1.   **Create new**
         
         A form is opened to create a new block. In each section [validation, metrics and consolidation] there is a form corresponding to the type.
-
-        ../media/image_2.png
+        
+        ![2](../media/image_2.png)
 
         -   **Git URL**: It is necesary to have all the required information to create the block in [GitHub](https://github.com/) or GitLab ([GitLab bsc](https://gitlab.bsc.es/) or [not](https://about.gitlab.com/)). 
 
@@ -128,7 +128,7 @@ Also, the Git repository (or the folder in case of have it) has to have a specif
 ```
 The .gitlab-ci.yml has to be:
 
-../media/image_3.png
+![3](../media/image_3.png)
 
 ```{note}
 Tags "oeb_dockerhub" is because of the gitlab runner can recognize the file. Also, the commit have to contain the word "release" to execute by himself.
