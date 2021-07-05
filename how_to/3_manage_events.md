@@ -1,12 +1,10 @@
 # Organize benchmarking events
 
-============================
 Become a new OEB community 
 ============================
 
 TODO
 
-============================
 How to organize new events
 ============================
 
@@ -105,7 +103,6 @@ Workflows
 
 TO DO
 
-============================
 Build metrics and blocks
 ============================
 
@@ -157,13 +154,11 @@ TO DO:
 
 Also, it is highly recommended to fill in the `VRE Help <https://openebench.bsc.es/vre/help/tools.php>`__ section of the Tool/Workflow to inform users about how to test their methods (e.g. formats, parameters...).
 
-==================
 Register workflows
 ==================
 
 TODO
 
-==============================
 Approve or deny a role upgrade
 ==============================
 
