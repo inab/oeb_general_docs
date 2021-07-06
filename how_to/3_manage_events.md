@@ -1,12 +1,10 @@
 # Organize benchmarking events
 
-Become a new OEB community 
----------------------------
+## Become a new OEB community 
 
 TODO
 
-How to organize new events
----------------------------
+## How to organize new events
 
 The events of OpenEBench are composed of two big steps:
 
@@ -20,8 +18,7 @@ OpenEBench VRE accomplishes different purposes to different users:
    1.   **Administrators**, who have access to all the platform.
    2.   **Tool developers**, who have the ability to create new events so that participants (common users) can participate in them.
 
-Blocks
--------
+### Blocks
     
    ![1](../media/image_1.png)
    
@@ -95,13 +92,11 @@ Blocks
 
         -   **Creation date**: Dates that were created the blocks.
 
-Workflows
----------
+### Workflows
 
 TO DO
 
-Build metrics and blocks
----------------------------
+## Build metrics and blocks
 
 Explain Git structure
 
@@ -150,12 +145,10 @@ TO DO:
 
 Also, it is highly recommended to fill in the `VRE Help <https://openebench.bsc.es/vre/help/tools.php>`__ section of the Tool/Workflow to inform users about how to test their methods (e.g. formats, parameters...).
 
-Register workflows
--------------------
+## Register workflows
 
 TODO
 
-Approve or deny a role upgrade
--------------------------------
+## Approve or deny a role upgrade
 
 TODO
