@@ -134,11 +134,11 @@ Tags "oeb_dockerhub" is because of the gitlab runner can recognize the file. Als
 ```
 
 It is necessary to configure some variables in Gitlab BSC to be capable of execute de gitlab-ci.yml:
-    -   **$CI_REGISTRY_USER**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
-    -   **$CI_REGISTRY_PASSWORD**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
-    -   **$REGISTRY_DESTINATION**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
-    -   **$CONTAINER_NAME**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
-    -   **$OEB_DOCKER_REGISTRY**: INB/ELIXIR/OpenEBench/workflows -> Settings -> CI/CD -> Variables
+   1.   **$CI_REGISTRY_USER**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
+   2.   **$CI_REGISTRY_PASSWORD**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
+   3.   **$REGISTRY_DESTINATION**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
+   4.   **$CONTAINER_NAME**: INB/ELIXIR/OpenEBench/workflows/repository -> Settings -> CI/CD -> Variables
+   5.   **$OEB_DOCKER_REGISTRY**: INB/ELIXIR/OpenEBench/workflows -> Settings -> CI/CD -> Variables
 
 TO DO:
 
