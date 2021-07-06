@@ -17,8 +17,8 @@ The events of OpenEBench are composed of two big steps:
 **Who can create this events?** 
 
 OpenEBench VRE accomplishes different purposes to different users:
-    -   **Administrators**, who have access to all the platform.
-    -   **Tool developers**, who have the ability to create new events so that participants (common users) can participate in them.
+   1.   **Administrators**, who have access to all the platform.
+   2.   **Tool developers**, who have the ability to create new events so that participants (common users) can participate in them.
 
 Blocks
 -------
