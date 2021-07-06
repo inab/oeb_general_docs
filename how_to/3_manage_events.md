@@ -21,7 +21,7 @@ OpenEBench VRE accomplishes different purposes to different users:
    2.   **Tool developers**, who have the ability to create new events so that participants (common users) can participate in them.
 
 Blocks
-======
+-------
     
    ![1](../media/image_1.png)
    
@@ -96,7 +96,7 @@ Blocks
         -   **Creation date**: Dates that were created the blocks.
 
 Workflows
-==========
+---------
 
 TO DO
 
