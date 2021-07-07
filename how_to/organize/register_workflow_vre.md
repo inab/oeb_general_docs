@@ -14,13 +14,13 @@ OpenEBench VRE accomplishes different purposes to different users:
 
 ### Blocks
     
-   ![1](../media/image_1.png)
+   ![1](../../media/image_1.png)
    
    1.   **Create new**
         
         A form is opened to create a new block. In each section [validation, metrics and consolidation] there is a form corresponding to the type.
         
-        ![2](../media/image_2.png)
+        ![2](../../media/image_2.png)
 
         -   **Git URL**: It is necesary to have all the required information to create the block in [GitHub](https://github.com/) or GitLab ([GitLab bsc](https://gitlab.bsc.es/) or [not](https://about.gitlab.com/)). 
 
