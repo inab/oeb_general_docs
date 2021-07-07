@@ -28,7 +28,7 @@ Also, the Git repository (or the folder in case of have it) has to have a specif
 ```
 The .gitlab-ci.yml has to be:
 
-![3](../media/image_3.png)
+![3](../../media/image_3.png)
 
 ```{note}
 Tags "oeb_dockerhub" is because of the gitlab runner can recognize the file. Also, the commit have to contain the word "release" to execute by himself.
