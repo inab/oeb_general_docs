@@ -11,6 +11,5 @@ These guides will help you go through the different aspects rellevant when bench
    :maxdepth: 4
    
    participate/evaluate_tool
-   participate/register_tool
    participate/publish_oeb
    participate/publish_eudat
