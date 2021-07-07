@@ -1,12 +1,3 @@
-# Organize benchmarking events
-
-Table of contents (TODO):
-
-Step 1. Register a new benchmarking event for your community
-Step 2. Develop benchmarking workflow blocks 
-Step 3. Register benchmarking workflow at the research environment
-
-
 Organize benchmarking events
 --------------------------------
 
