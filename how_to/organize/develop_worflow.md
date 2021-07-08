@@ -2,6 +2,8 @@
 
 The process consists on implementing a set of containers that compute the benchmarking metrics willing to be comparatively evaluated on the new benchmaking event. Indeed, it means to develop an OpenEBench benchmarking workflow. Learn more on the structure of the workflow [here](../../technical_references/4_benchmarking_workflows.md).
 
+These benchmarking workflows are decomposite into different entities called «blocks» so that the role of the community manager can combine and edit them individually. Those workflow pieces, blocks, needs to recollect data on the following elements: main nextflow file, nextflow configuration file and the necessary VRE metada for the inputs and outputs files. 
+
 A ... [...]
 
 ### Git structure
