@@ -1,4 +1,4 @@
-# Register a new benchmarking event for your community 
+# Register a new event
 
 ###  Who?
 
