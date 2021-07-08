@@ -1,4 +1,4 @@
-# Develop benchmarking workflow blocks
+# Develop workflow blocks
 
 The process consists on implementing a set of containers that compute the benchmarking metrics willing to be comparatively evaluated on the new benchmaking event. Indeed, it means to develop an OpenEBench benchmarking workflow. Learn more on the structure of the workflow [here]().
 
