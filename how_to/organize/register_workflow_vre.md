@@ -1,4 +1,4 @@
-# Register a new benchmarking workflow at the research environment
+# Register a new workflow
 
 The events of OpenEBench are composed of two big steps:
 
