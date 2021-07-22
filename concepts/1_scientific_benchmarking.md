@@ -6,7 +6,7 @@ TODO
 
 ## Data flow and data sets
 
-TODO
+<img src="../media/OpenEBench squema.jpg" alt="OEB architecture levels" align="center" width="75%">
 
 ### Implementation in OpenEBench: architecture levels
 
