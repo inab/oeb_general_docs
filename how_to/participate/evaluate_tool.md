@@ -9,4 +9,4 @@ If you want to evalute your tool using one of the open benchmarking events in Op
 5.	Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
 6.	If results are satisfactory, a member of the OpenEBench team will be able to **publish your results** in the web server where they are going to be visualized.
 
-.. image:: ../media/image12.png
+<img src="../media/image12.png" alt="OEB data flow" align="center" width="75%">
