@@ -18,7 +18,7 @@ Once the predictions are avaiable, it is possible to run the benchmarking workfl
 
 The final of the bechmarking process is to make the results fo the performance of the tools avilable in the [OpenEBench webpage](https://openebench.bsc.es/dashboard). It is important that researchers can access these results at any time, and have the tools to assist them in understanding them. This is what we call **level 1** and it is used for the long-term storage of benchmarking events and challenges aiming at reproducibility and provenance.
 
-<img src="../media/OpenEBench_squema.jpg" alt="OEB data flow" align="center" width="75%">
+<img src="../media/OpenEBench_squema.png" alt="OEB data flow" align="center" width="75%">
 
 ### User roles
 
