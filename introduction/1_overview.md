@@ -1,6 +1,6 @@
 # Overview
 
-OpenEBench is an infrastructure designed to establish a benchmarking system for bioinformatics methods, tools and web services. OpenEBench is part of the ELIXIR Tools platform and its development is led by the Barcelona Supercomputing Center (BSC) in collaboration with partners within ELIXIR and beyond.
+OpenEBench is an infrastructure designed to establish a benchmarking system for bioinformatics methods, tools and web services. It is part of the ELIXIR Tools platform and its development is led by the Barcelona Supercomputing Center (BSC) in collaboration with partners within ELIXIR and beyond.
 
 ![1](../media/Diagram_with_textbox.svg)
 
