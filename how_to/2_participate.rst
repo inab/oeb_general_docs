@@ -1,10 +1,12 @@
 Participe to Benchmarking Events
 --------------------------------
 
-These guides will help you go through the different aspects rellevant when benchmarking the results of your pipeline or tool at the OpenEBench platform.
+These guides will help you go through the different aspects rellevant for benchmarking the outcome of your tool as part of an open benchmarking event. The overall process is describing in this figure:
 
-.. note::
-   alternative -- different MD for each section
+
+.. image:: _static/images/2_participate_general_flow.svg
+  :width: 400
+  :alt: Alternative text
 
 
 .. toctree::
