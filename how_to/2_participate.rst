@@ -4,7 +4,7 @@ Participe to Benchmarking Events
 These guides will help you go through the different aspects rellevant for benchmarking the outcome of your tool as part of an open benchmarking event. The overall process is describing in this figure:
 
 
-.. image:: _static/images/2_participate_general_flow.svg
+.. image:: ../_static/images/2_participate_general_flow.svg
   :width: 400
   :alt: Alternative text
 
