@@ -5,8 +5,9 @@ These guides will help you go through the different aspects rellevant for benchm
 
 
 .. image:: ../_static/images/2_participate_general_flow.svg
-  :width: 400
-  :alt: Alternative text
+  :width: 800
+  :align: center
+  :alt: General Flow
 
 
 .. toctree::
