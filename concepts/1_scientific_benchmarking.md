@@ -12,7 +12,7 @@ Communities can focus on specific problems, e.g. [Quest for Orthologs (QfO)](htt
 
 ## Data flow and architecture levels
 
-The benchmarking process starts in the execution of the tools or workflows with some input datasets in order to get the predictions that are going to be used for the benchmarking. This is what we call **level 3** and it is still not avaiable in OpenEBench and should be run by the members of the community previously. This can be done, for example, using Galaxy, nexflow or Common Workflow Language.
+The benchmarking process starts in the execution of the tools or workflows with some input datasets in order to get the predictions that are going to be used for the benchmarking. This is what we call **level 3** and it is not avaiable yet in OpenEBench and should be run by the members of the community previously. This can be done, for example, using Galaxy, Nextflow or Common Workflow Language.
 
 Once the predictions are avaiable, it is possible to run the benchmarking workflow which includes three steps: validation, metrics computation and results consolidation. During the validation, the input file format is checked and the content of the file is validated. Then, during the metrics computation, the predictions are compared with the reference datasets in order to evalaute the performance of each tool by different metrics. Finally, during the consolidation, the results of a particular tool are merged into the community's data. This step is performed in the [Virutal Research Environment (VRE)](https://openebench.bsc.es/vre//workspace/). This is what we call **level 2** and it allows the community to use benchmarking workflows to assess participants' performance.
 
