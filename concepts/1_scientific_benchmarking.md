@@ -20,6 +20,3 @@ The final of the bechmarking process is to make the results fo the performance o
 
 ![1](../media/OpenEBench_squema.png)
 
-### User roles
-
-TODO
