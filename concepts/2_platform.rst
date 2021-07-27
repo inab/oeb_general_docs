@@ -41,7 +41,6 @@ OpenEBench Web Portal
 =====================
 
 .. list-table::
-   :widths: 200
    :align: center
    :header-rows: 1
 
@@ -57,7 +56,6 @@ The OpenEBench Virtual Research Environment (VRE) enables the organization of OE
 
 
 .. list-table::
-   :widths: 200
    :align: center
    :header-rows: 1
 
@@ -113,7 +111,6 @@ The overall steps to follow when preparing a new benchmarking event are very bri
 **Relevant References:**
 
 - **HOW TO:** :ref:`Organize benchmarking events`
-- **HOW TO  :** :ref:`Build metrics and workflows`
 - **CONCEPTS:** :ref:`Benchmarking Workflows`
 
 
@@ -160,6 +157,7 @@ Developement Notes
 ------------------
 
 How to generate Mermaid graphs:
+
 - Mermaid live editor: https://mermaid-js.github.io/mermaid-live-editor
 - Already build diagram: https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RlZmluZSBkYXRhc2V0c10gLS0-IENcbiAgICBCW0RlZmluZSBtZXRyaWNzXSAtLT4gQ1xuICAgIENbQnVpbGQgYmVuY2htYXJraW5nIHdvcmtmbG93XSAtLT4gRFxuICAgIERbUHVibGlzaCB0byBPcGVuRUJlbmNoIFZSRV0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ
 
