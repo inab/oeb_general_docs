@@ -51,25 +51,9 @@ Virtual Research Environment
 The OpenEBench Virtual Research Environment (VRE) enables the organization of OEB benchmarking events and the participation to them. The platform is a cloud-based computational e-infrastructure that triggers the execution of the :ref:`Benchmarking Workflows` associated to each event or challenge. The final outcome of the calculation is a set community-agreed assessment metrics that quantitatively and objectively evaluate the given participant's dataset.
 
 
-
-.. list-table:: OpenEBench Virtual Research Environment (VRE)
-   :widths: 200
-   :header-rows: 1
-
-   * - https://openebench.bsc.es/vre
-   
-
 .. list-table::
    :widths: 200
    :align: center
-   :header-rows: 1
-
-   * - OpenEBench Virtual Research Environment (VRE)
-   * - https://openebench.bsc.es/vre
-
-
-.. list-table::
-   :widths: 300
    :header-rows: 1
 
    * - OpenEBench Virtual Research Environment (VRE)
@@ -101,7 +85,8 @@ The usual flow of a participant could be summarized in the following steps:
 
 
 **Relevant References:**
-**>> HOW TO:** :ref:`Participe to Benchmarking Events`
+
+- **HOW TO:** :ref:`Participe to Benchmarking Events`
 
 
 Overall flow for Benchmarking Event Managers
@@ -121,9 +106,10 @@ The overall steps to follow when preparing a new benchmarking event are very bri
 4. Validate and publish the benchmarking workflow at the OpenEBench VRE. The process will enable the corresponding Benchmarking Event. 
 
 **Relevant References:**
-**>> HOW TO:** :ref:`Organize benchmarking events`
-**>> HOW TO  :** :ref:`Build metrics and workflows`
-**>> CONCEPTS:** :ref:`Benchmarking Workflows`
+
+- **HOW TO:** :ref:`Organize benchmarking events`
+- **HOW TO  :** :ref:`Build metrics and workflows`
+- **CONCEPTS:** :ref:`Benchmarking Workflows`
 
 
 =================
