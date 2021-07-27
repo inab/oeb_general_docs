@@ -40,9 +40,14 @@ Find below detailed information on each of these components.
 OpenEBench Web Portal
 =====================
 
-.. Note::
-    TODO
+.. list-table::
+   :widths: 200
+   :align: center
+   :header-rows: 1
 
+   * - OpenEBench Web Portal
+   * - https://openebench.bsc.es
+   
 
 ============================
 Virtual Research Environment
@@ -116,8 +121,13 @@ The overall steps to follow when preparing a new benchmarking event are very bri
 Tools Observatory
 =================
 
-.. Note::
-    TODO
+.. list-table::
+   :widths: 200
+   :align: center
+   :header-rows: 1
+
+   * - Tools Observatory
+   * - https://observatory.openebench.bsc.es
     
 ==============
 Web Components
