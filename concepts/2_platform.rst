@@ -2,17 +2,38 @@
 Platforms
 *********
 
-- **OpenEBench Web Portal**, https://openebench.bsc.es, is the main landing page centralizing all OpenEBench services and displaying online technical and scientific
-- **Virtual Resarch Environment**, https://openebench.bsc.es/vre, is an online working space for participating to scientific benchmarking events and organizing new challenges.
-- **Tools Observatory**, https://observatory.openebench.bsc.es, is another web portal that focuses on useful statistics of bioinformatics tools.
+OpenEBench ecosystem is composed by set of autonomous platforms and services well crosslinked to offer a integrated benchmaking platform. However, they well can be consumed independently, as they acomplish independent functionalities.
 
-.. Attention::
-    Should we add here 'Software Observatory'?
+.. glossary::
+       
+  OpenEBench Web Portal
+    https://openebench.bsc.es. The main landing page centralizing the access to all OpenEBench services and data. It integrates both, technical and scientific benchmarking platforms.
+
+  
+  Virtual Resarch Environment
+    https://openebench.bsc.es/vre. The online workspace for organizing and participating to scientific benchmarking events and challenges.
+
+  
+  Tools Observatory
+    https://observatory.openebench.bsc.es. The web portal that focuses on aggregated statistics of bioinformatics tools and services.
+
+  
+  Web Components
+    A catalogue of web-based widgets to easely embbed OpenEBench benchmarking data and results into external web sites.  
+
+
+Find below detailed information on each of these components.
 
 .. toctree::
      :maxdepth: 4
 
      2_platform 
+
+
+- **OpenEBench Web Portal**, https://openebench.bsc.es, is the main landing page centralizing all OpenEBench services and displaying online technical and scientific
+- **Virtual Resarch Environment**, https://openebench.bsc.es/vre, is an online working space for participating to scientific benchmarking events and organizing new challenges.
+- **Tools Observatory**, https://observatory.openebench.bsc.es, is another web portal that focuses on useful statistics of bioinformatics tools.
+
 
 
 =====================
@@ -22,6 +43,96 @@ OpenEBench Web Portal
 .. Note::
     TODO
 
+
+============================
+Virtual Research Environment
+============================
+
+The OpenEBench Virtual Research Environment (VRE) enables the organization of OEB benchmarking events and the participation to them. The platform is a cloud-based computational e-infrastructure that triggers the execution of the :ref:`Benchmarking Workflows` associated to each event or challenge. The final outcome of the calculation is a set community-agreed assessment metrics that quantitatively and objectively evaluate the given participant's dataset.
+
+
+
+.. list-table:: OpenEBench Virtual Research Environment (VRE)
+   :widths: 200
+   :header-rows: 1
+
+   * - https://openebench.bsc.es/vre
+   
+
+.. list-table::
+   :widths: 200
+   :align: center
+   :header-rows: 1
+
+   * - OpenEBench Virtual Research Environment (VRE)
+   * - https://openebench.bsc.es/vre
+
+
+.. list-table::
+   :widths: 300
+   :header-rows: 1
+
+   * - OpenEBench Virtual Research Environment (VRE)
+   * - https://openebench.bsc.es/vre
+
+
+OpenEBench VRE offers a complete web interface that brings together public and/or consolidated benchmarking datasets, private participants' data, and the necessary mechanisms to import and execute benchmarking workflows on an reproducible and authomatic manner. In this way, the platform accomplishes different purposes to different users:
+
+     -   For **scientific-community managers**, the workbench supports the composition, publication, management and monitoring of community's benchmarking workflows and challenges.
+     -   For **participants**, the workbench supports the evaluation of their bioinformatics methods or pipelines against community-defined datasets and metrics by participating to registered OpenEBench benchmarking challenges.
+
+.. tip:: 
+     **Benchmarking Workflows** are docker-based pipelines prepared by the Benchmarking Event manager/s that compute performance metrics for a given participant's data, *i.e.*, the output produced by the bioinformatics method/pipeline being evaluated. See more at section :ref:`Benchmarking Workflows`.
+     
+     
+Overall flow for Participants
+-----------------------------
+
+Software developers willing to participate to a OpenEBench Benchmarking Event are the end-users of the online workspace. They upload the results of their bioinformatic methods and commit them to registered benchmarking events to eventually obtain **evaluations on the scientific performance of their methods**.
+The usual flow of a participant could be summarized in the following steps:
+
+.. image:: ../media/image12.png
+   :align: center
+
+1. Upload to the platform the results of the method to be evaluated (*i.e.*, list of candidate genes, predicted 3D structures, modeled phylogenetic tree).
+2. Select the relevant benchmarking event and "run it". Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
+3. Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
+4. If results are satisfactory, the benchmarking results can be publicated at the OEB portal or where the community stated. If not, they can also rerun the workflow with new data, and compare the results against themselves until they are satisfied with their performance.
+
+
+**Relevant References:**
+**>> HOW TO:** :ref:`Participe to Benchmarking Events`
+
+
+Overall flow for Benchmarking Event Managers
+---------------------------------------------
+
+OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform.
+Community managers willing to organize a benchmarking event use the VRE to **publish and administrate benchmarking events**. Prior publication, managers require to define reference datasets and build the benchmarking workflow that implements the relevant metrics and challenges. Once the event is validated and publicly available, the platform helps monitoring participation, allowing participant assessment's submission and controlling the overall event life-cycle.
+
+.. image:: ../media/image1.png
+   :align: center
+
+The overall steps to follow when preparing a new benchmarking event are very briefly summarized here:
+
+1. Be granted a *community manager* role. Request it for one of the `enrolled communitites <https://openebench.bsc.es/scientific>`__ or lean how to :ref:`Become a new OEB community`.
+2. Provide descriptive information on the new Benchmarking Event: enumerate challenges, define timeline, participation mode, prepare participant's instructions, etc.
+3. Develop a full benchmarking workflow. It involves the materialization of a set of performance metrics as container-based Nextflow workflow and the definition of golden reference datasets.
+4. Validate and publish the benchmarking workflow at the OpenEBench VRE. The process will enable the corresponding Benchmarking Event. 
+
+**Relevant References:**
+**>> HOW TO:** :ref:`Organize benchmarking events`
+**>> HOW TO  :** :ref:`Build metrics and workflows`
+**>> CONCEPTS:** :ref:`Benchmarking Workflows`
+
+
+=================
+Tools Observatory
+=================
+
+.. Note::
+    TODO
+    
 ==============
 Web Components
 ==============
@@ -49,42 +160,14 @@ There are currently three available visualization modes in the platform:
 
 - Benchmarking Event Summary Table: table that summarizes the results of a multi-challenge benchmarking experiment. See source code here: https://github.com/inab/bench_event_table
 
-============================
-Virtual Research Environment
-============================
+Developement Notes
+------------------
 
-The OpenEBench Virtual Research Environment (VRE) is the computational e-infrastructure supporting the development and execution of benchmarking workflows generating community-agreed assessment metrics for given participant's datasets.
+How to generate Mermaid graphs:
+- Mermaid live editor: https://mermaid-js.github.io/mermaid-live-editor
+- Already build diagram: https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RlZmluZSBkYXRhc2V0c10gLS0-IENcbiAgICBCW0RlZmluZSBtZXRyaWNzXSAtLT4gQ1xuICAgIENbQnVpbGQgYmVuY2htYXJraW5nIHdvcmtmbG93XSAtLT4gRFxuICAgIERbUHVibGlzaCB0byBPcGVuRUJlbmNoIFZSRV0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ
 
-.. centered:: https://openebench.bsc.es/vre
-
-OpenEBench VRE offers a complete web interface that brings together public and/or consolidated benchmarking datasets, private participants' data, and the necessary mechanisms to import and execute benchmarking workflows on an reproducible and authomatic manner.
-
-**Purpose**
-
-OpenEBench VRE accomplishes different purposes to different users:
-
-     -   To **scientific community managers**, the platform supports the composition, publication, management and monitoring of the community's benchmarking workflows and challenges.
-     -   To **software developers**, the platform allows to evaluate their bioinformatics methods or pipelines against community-defined datasets and metrics by executing any of the published benchmarking workflows and challenges.
-
-The final outcome is a set of performance metrics quantitatively and objectively evaluating the given participant's dataset.
-
-.. tip:: 
-     **What are benchmarking Workflows?**
-     Are docker-based pipelines that compute community-agreed performance metrics for a given participant's data -- *i.e.* the output produced by the bioinformatics method or pipeline being evaluated.
-     See more at section :ref:`Benchmarking Workflows`.
-
-Scientific communities Flow
----------------------------
-
-OpenEBench scientific communities are represented by community managers, whose user account is granted with a set of privileges at the platform.
-Community managers  willing to organize a benchmarking event for their scientific community use the Virtual Research Environment to **publish the benchmarking workflow** associated to the benchmarking event being organized. Ultimatelly, users willing to participate to the event, will find the benchmarking workflow available at the Research Environemnt, and will run it for the participant dataset under evaluation.
-
-.. image:: ../media/image1.png
-   :align: center
-
-.. Note::
-   Mermaid live editor: https://mermaid-js.github.io/mermaid-live-editor
-   Already build diagram: https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBBW0RlZmluZSBkYXRhc2V0c10gLS0-IENcbiAgICBCW0RlZmluZSBtZXRyaWNzXSAtLT4gQ1xuICAgIENbQnVpbGQgYmVuY2htYXJraW5nIHdvcmtmbG93XSAtLT4gRFxuICAgIERbUHVibGlzaCB0byBPcGVuRUJlbmNoIFZSRV0iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ
+Example:
 
 .. mermaid::
 
@@ -93,38 +176,5 @@ Community managers  willing to organize a benchmarking event for their scientifi
       B[Define metrics] --> C
       C[Build benchmarking workflow] --> D
       D[Publish to OpenEBench VRE]
+ 
 
-     
-Organizing a benchmarking event involves the definition of assessment metrics and reference datasets. Metrics are materialized as a container-based Nextflow workflow, while golden and reference dataset need to be uploaded to the Reserch Enviroment. The full process is explained in detail under the HOW TO section:   user guides under the :ref:`Organize benchmarking events` section:
-
-**>>** :ref:`Organize benchmarking events`
-
-1. Be granted a *community manager* role for an OEB scientific community. So, either ask for the appropiate user role for one of the `enrolled communitites <https://openebench.bsc.es/scientific>`__ or lean how to  :ref:`Become a new OEB community`. 
-2. Lean how to :ref:`Build metrics and workflows` for your particular scientific community. Follow this guide to implement the *assessment metrics* and define the required *benchmarking datasets*.
-3. Register the *benchmarking workflow* created on the previous step at the Virtual Research Environment. See more are :ref:`Register challenges and events`.
-
-
-Software Developers Flow
-------------------------
-
-Software developers are the end users of the Virtual Research Enviroment. At this platform, the results of the bioinformatic methods are feed into the benchmarking workflows in order to **evalute the developer's method** according to the community-agreed assessment metrics. The usual flow of a software developer, is explained in detail at:
-
-**>>** :ref:`Participe to Benchmarking Events`
-
-1. Upload to the platform the results of the method interested in evaluating (i.e. list of candidate genes, predicted 3D structures, modeled phylogenetic tree).
-2. Select the relevant benchmarking event and "run it". Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
-3. Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
-4. If results are satisfactory, the benchmarking results can be publicated at the OEB portal or where the community stated. If not, they can also rerun the workflow with new data, and compare the results against themselves until they are satisfied with their performance.
-
-.. image:: ../media/image12.png
-   :align: center
-
-The computational infrastructure
---------------------------------
-
-.. Note::
-    TODO
-
-=================
-Tools Observatory
-=================
