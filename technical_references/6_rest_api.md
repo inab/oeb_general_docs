@@ -20,6 +20,8 @@ created). In those conditions data and tools access can be restricted as
 required. OpenEBench will not provide data access credentials. Instead,
 we will honor the agreements between data users and providers.
 
+![1](../media/APIs_and_DBs.png)
+
 Information from these APIs is obtained in JSON format (see partial example on figure  below). 
 
 ![6](../media/image21.png)
