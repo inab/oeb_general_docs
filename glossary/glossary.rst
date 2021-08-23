@@ -19,7 +19,7 @@ Glossary
   Participant
     Software application (program, server or pipeline) evaluated within a benchmarking event in at least one challenge. The same program can participate multiple times if various versions or parameter settings are benchmarked separately.
     
-  OpenEBench Virtual Resarch Environment
+  (OpenEBench) Virtual Resarch Environment (VRE)
     Cloud-based analysis platform where the assessment of the participants' datasets takes place. The platform executes in a transparent and reproducible way :term:`Benchmarking Workflows<Benchmarking Workflow>` . URL: https://openebench.bsc.es/vre/ . See :ref:`See more<Virtual Research Environment>`.
 
    
