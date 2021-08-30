@@ -15,7 +15,7 @@ The minimum necessary roles for the researchers to can create Benchmarking Event
 
 ### How
 
-Send an email to **openebench-support@bsc.es** from your email account registered in OpenEBench. What the message should contains and how is explained in [Request a role upgrade](../users_accounts.md) section.
+Send an email to **openebench-support@bsc.es** from your email account registered in OpenEBench. What the message should contains and how is explained in [Request a role upgrade](./users_accounts.md) section.
 
 
 ## How to organize new events
