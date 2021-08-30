@@ -1,8 +1,8 @@
 # Organize benchmarking events
 
-## Necessary roles
+## Get necessary roles
 
-### Who can create Benchmarking Events
+### Who
 
 The researcher needs to register to OpenEBench, [OEB](https://openebench.bsc.es/dashboard). This section is currently in OpenEBench Virtual Research Environment, [OEB-VRE](https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre) .
 
@@ -14,7 +14,7 @@ The minimum necessary roles for the researchers to can create Benchmarking Event
    
    -  **Benchmarking Event Manager**, able to administrate a particular benchmarking Event
 
-### How can get necessary roles
+### How
 
 Send an email to **openebench-support@bsc.es** from your email account registered in OpenEBench. What the message should contains and how is explained in [Request a role upgrade](../users_accounts.md) section.
 
