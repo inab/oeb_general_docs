@@ -28,25 +28,30 @@ The researcher sends an [email](mailto:openebench-support@bsc.es) to OEB with a 
    The email to send all the Data Model Objects is [openebench-support@bsc.es](mailto:openebench-support@bsc.es)
 ```
    
-All Data Model Objects are explained below.
+All that Data Model Objects need.
 
-|                    |Benchmarking Event | Reference | Community | Challenge | Contact | Dataset | Metrics | Tool |
-|:------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
-| **ID**             |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
-| **Name**           |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Title**          |                   |     X     |     X     |           |    X    |    X    |    X    |   X  |
-| **Description**    |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Automated?**     |         X         |     X     |     X     |           |    X    |    X    |    X    |   X  |
-| **Acronym**        |                   |           |           |     X     |         |         |         |      |
-| **Event ID**       |                   |           |           |     X     |         |         |         |      |
-| **Community ID**   |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Reference ID**   |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Links**          |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Dates**          |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Contact ID**     |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-|                    |                   |           |           |           |         |         |         |      |
-|                    |                   |           |           |           |         |         |         |      |
-|                    |                   |           |           |           |         |         |         |      |
+|                      |Benchmarking Event | Reference | Community | Challenge | Contact | Dataset | Metrics | Tool |
+|:--------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
+| **ID**               |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
+| **Name**             |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
+| **Title**            |                   |     X     |           |           |         |    X    |    X    |   X  |
+| **Description**      |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
+| **Automated?**       |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
+| **Acronym**          |                   |           |     X     |     X     |         |         |         |      |
+| **Event ID**         |                   |           |           |     X     |         |         |         |      |
+| **Community ID**     |         X         |     X     |           |           |    X    |    X    |    X    |   X  |
+| **Reference ID**     |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
+| **Links**            |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Dates**            |         X         |     X     |           |     X     |         |    X    |    X    |   X  |
+| **Contact ID**       |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
+| **Metrics Category** |                   |           |           |     X     |         |         |         |      |
+| **Status**           |                   |           |     X     |           |         |         |         |      |
+| **Keywords**         |                   |           |     X     |           |         |         |         |      |
+| **Reference tools**  |                   |           |     X     |           |         |         |         |      |
+| **Given Name**       |                   |           |           |           |    X    |         |         |      |
+| **Surname**          |                   |           |           |           |    X    |         |         |      |
+| **Email**            |                   |           |           |           |    X    |         |         |      |
+| **Notes**            |                   |           |           |           |    X    |         |         |      |
 
 
 ## Workflow Development
