@@ -9,7 +9,6 @@ The researcher needs to register to OpenEBench, [OEB](https://openebench.bsc.es/
 They can have several roles in [OEB](https://openebench.bsc.es/dashboard), that are described in [Authentication and Authorization](../../technical_references/7_authentication_and_authorization.md) section.
 
 The minimum necessary roles for the researchers to can create Benchmarking Events are:
-
    -  **Community Owner**, able to administrate all the events happening in the context of its community
    
    -  **Benchmarking Event Manager**, able to administrate a particular benchmarking Event
