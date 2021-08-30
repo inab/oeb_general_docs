@@ -1,6 +1,6 @@
 # Organize benchmarking events
 
-## Get necessary roles to create Benchmarking Events
+## Necessary roles
 
 ### Who can create Benchmarking Events
 
