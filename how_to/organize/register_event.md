@@ -15,7 +15,7 @@ To be able to register a new event, a minimum previous data collection is necess
 2.  **Authorization for the user**: To can create a new Benchmarking Event, the user needs the role of «event manager». This one must be requested through [email](mailto:openebench-support@bsc.es).
 
    ```{note}
-   The email to request permissions is: [openebench-support@bsc.es](mailto:openebench-support@bsc.es)
+   The email to request permissions is [openebench-support@bsc.es](mailto:openebench-support@bsc.es)
    ```
 
 3.  **Information about Benchmarking Event**: The researcher sends an [email](openebench-support@bsc.es) to OEB with a document including all the information required to register all Data Model objects:
