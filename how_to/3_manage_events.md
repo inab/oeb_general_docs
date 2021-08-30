@@ -20,9 +20,9 @@ Send an email to **openebench-support@bsc.es** from your email account registere
 
 ## How to organize new events
 
-To be able to register a new Benchmarking Event, a minimum previous data collection is necessary:
+To be able to register a new Benchmarking Event, a minimum previous data collection is necessary.
 
-The researcher sends an [email](openebench-support@bsc.es) to OEB with a document including all the information required to register all Data Model objects.
+The researcher sends an [email](mailto:openebench-support@bsc.es) to OEB with a document including all the information required to register all Data Model objects.
 
 ```{note}
    The email to send all the Data Model Objects is [openebench-support@bsc.es](mailto:openebench-support@bsc.es)
@@ -30,21 +30,23 @@ The researcher sends an [email](openebench-support@bsc.es) to OEB with a documen
    
 All Data Model Objects are explained below.
 
-### Community
-
-### Challenge
-
-### Benchmarking Event
-
-### Contact
-
-### Dataset
-
-### Metrics
-
-### Reference
-
-### Tool
+|                    |Benchmarking Event | Reference | Community | Challenge | Contact | Dataset | Metrics | Tool |
+|:------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
+| **ID**             |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
+| **Name**           |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Title**          |                   |     X     |     X     |           |    X    |    X    |    X    |   X  |
+| **Description**    |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Automated?**     |         X         |     X     |     X     |           |    X    |    X    |    X    |   X  |
+| **Acronym**        |                   |           |           |     X     |         |         |         |      |
+| **Event ID**       |                   |           |           |     X     |         |         |         |      |
+| **Community ID**   |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Reference ID**   |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Links**          |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Dates**          |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+| **Contact ID**     |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
+|                    |                   |           |           |           |         |         |         |      |
+|                    |                   |           |           |           |         |         |         |      |
+|                    |                   |           |           |           |         |         |         |      |
 
 
 ## Workflow Development
