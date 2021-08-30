@@ -30,7 +30,7 @@ To be able to register a new event, a minimum previous data collection is necess
       -   Reference
       -   Tool
 
-   Also:
+      Also:
       -   Provide as contacts a list of ORCIDs (optional)
       -   Provide the email used to register in OEB.
 
