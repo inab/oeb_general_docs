@@ -7,5 +7,5 @@ These guides will help you go through the different aspects rellevant when organ
    :maxdepth: 4
    
    organize/register_event
-   organize/develop_worflow
+   organize/develop_workflow
    organize/register_workflow_vre
