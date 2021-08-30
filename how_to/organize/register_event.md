@@ -10,9 +10,9 @@ The minimal privileges are:
 
 To be able to register a new event, a minimum previous data collection is necessary:
 
-1.  **Registration of the researcher in OpenEBench (OEB)**: The researcher needs to register to OEB. This section is currently in OpenEBench Virtual Research Environment, [OEB-VRE] (https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre).
+1.  **Registration of the researcher in OpenEBench (OEB)**: The researcher needs to register to OEB. This section is currently in OpenEBench Virtual Research Environment, [OEB-VRE](https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre) .
 
-2.  **Authorization for the user**: To can create a new Benchmarking Event, the user needs the role of «event manager». This one must be requested through [email](openebench-support@bsc.es).
+2.  **Authorization for the user**: To can create a new Benchmarking Event, the user needs the role of «event manager». This one must be requested through [email](mailto:openebench-support@bsc.es).
 
    ```{note}
    The email to request permissions is: <openebench-support@bsc.es>
