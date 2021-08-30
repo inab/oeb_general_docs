@@ -1,4 +1,4 @@
-# Register a new event
+# Become a new OEB community
 
 ###  Who?
 
