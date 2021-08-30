@@ -20,18 +20,17 @@ To be able to register a new event, a minimum previous data collection is necess
 
 3.  **Information about Benchmarking Event**: The researcher sends an [email](openebench-support@bsc.es) to OEB with a document including all the information required to register all Data Model objects:
 
-   TODO:
-      -   Community
-      -   Challenge
-      -   Benchmarking Event
-      -   Challenge
-      -   Contact
-      -   Dataset
-      -   Metrics
-      -   Reference
-      -   Tool
+   -   Community
+   -   Challenge
+   -   Benchmarking Event
+   -   Challenge
+   -   Contact
+   -   Dataset
+   -   Metrics
+   -   Reference
+   -   Tool
 
-    Also:
-      -   Provide as contacts a list of ORCIDs (optional)
-      -   Provide the email used to register in OEB.
+ Also:
+   -   Provide as contacts a list of ORCIDs (optional)
+   -   Provide the email used to register in OEB.
 
