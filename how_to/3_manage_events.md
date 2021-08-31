@@ -33,25 +33,43 @@ All that Data Model Objects need.
 |                      |Benchmarking Event | Reference | Community | Challenge | Contact | Dataset | Metrics | Tool |
 |:--------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
 | **ID**               |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
-| **Name**             |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
-| **Title**            |                   |     X     |           |           |         |    X    |    X    |   X  |
-| **Description**      |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
-| **Automated?**       |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
-| **Acronym**          |                   |           |     X     |     X     |         |         |         |      |
+| **Community ID**     |         X         |           |           |           |    X    |    X    |         |   X  |
+| **Reference ID**     |         X         |           |     X     |     X     |         |    X    |    X    |      |
+| **Contact ID**       |         X         |           |     X     |     X     |         |    X    |    X    |   X  |
 | **Event ID**         |                   |           |           |     X     |         |         |         |      |
-| **Community ID**     |         X         |     X     |           |           |    X    |    X    |    X    |   X  |
-| **Reference ID**     |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
-| **Links**            |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |
-| **Dates**            |         X         |     X     |           |     X     |         |    X    |    X    |   X  |
-| **Contact ID**       |         X         |     X     |     X     |     X     |         |    X    |    X    |   X  |
-| **Metrics Category** |                   |           |           |     X     |         |         |         |      |
-| **Status**           |                   |           |     X     |           |         |         |         |      |
-| **Keywords**         |                   |           |     X     |           |         |         |         |      |
-| **Reference tools**  |                   |           |     X     |           |         |         |         |      |
-| **Given Name**       |                   |           |           |           |    X    |         |         |      |
-| **Surname**          |                   |           |           |           |    X    |         |         |      |
+| **Bibliographic ID** |                   |     X     |           |           |         |         |         |      |
+| **Challenge ID**     |                   |           |           |           |         |    X    |         |      |
+| **Abstract**         |                   |     X     |           |           |         |         |         |      |
+| **Activation**       |                   |           |           |           |         |         |         |   X  |
+| **Acronym**          |                   |           |     X     |     X     |         |         |         |      |
+| **Authors**          |                   |     X     |           |           |         |         |         |      |
+| **Automated?**       |         X         |     X     |     X     |     X     |         |         |         |      |
+| **Datalinks**        |                   |           |           |           |         |    X    |         |      |
+| **Data schemas**     |                   |           |           |           |         |         |    X    |      |
+| **Dates**            |         X         |           |           |     X     |         |         |         |      |
+| **Deactivation**     |                   |           |           |           |         |         |         |   X  |
+| **Depends on**       |                   |           |           |           |         |    X    |         |      |
+| **Description**      |         X         |           |     X     |     X     |         |         |    X    |   X  |
 | **Email**            |                   |           |           |           |    X    |         |         |      |
+| **Execution type**   |                   |           |           |           |         |         |    X    |      |
+| **Formal definition**|                   |           |           |           |         |         |    X    |      |
+| **Given Name**       |                   |           |           |           |    X    |         |         |      |
+| **Keywords**         |                   |           |     X     |           |         |         |         |      |
+| **Links**            |         X         |           |     X     |     X     |    X    |         |    X    |      |
+| **Metrics Category** |                   |           |           |     X     |         |         |         |      |
+| **Name**             |         X         |           |     X     |     X     |         |    X    |    X    |   X  |
 | **Notes**            |                   |           |           |           |    X    |         |         |      |
+| **Reference tools**  |                   |           |     X     |           |         |         |         |      |
+| **Repr. hints**      |                   |           |           |           |         |         |    X    |      |
+| **Status**           |                   |           |     X     |           |         |         |         |   X  |
+| **Surname**          |                   |           |           |           |    X    |         |         |      |
+| **Title**            |                   |     X     |           |           |         |    X    |         |      |
+| **Tool access**      |                   |           |           |           |         |         |         |   X  |
+| **Type**             |                   |           |           |           |         |    X    |         |      |
+| **Version**          |                   |           |           |           |         |    X    |         |      |
+| **Visibility**       |                   |           |           |           |         |    X    |         |      |
+
+
 
 
 ## Workflow Development
