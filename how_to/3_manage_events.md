@@ -73,17 +73,21 @@ All that Data Model Objects need:
 
 If OpenEBench guidelines and good practices are followed, the workflow should be ready to be integrated at the platform in the frame of a certain benchmarking event for that community. In order to do that, the following steps need to be performed:
 
-1.  Workflow should be publically available in a Git repository, a URL and specific commit hash need to be provided.
+1.  The researcher clones and takes as reference the [TCGA repository](https://github.com/inab/TCGA_benchmarking_dockers).
 
-2.  Docker images have to be built in the VRE backend, which can be done by either providing OpenEBench team the required Dockerfiles, or uploading them as public containers to `Docker Hub <https://hub.docker.com/>`__.
+2.  The researcher sends an email with the following information:
+      - Workflow that should be publically available in a Git repository, a URL and specific commit hash.
+         - «main.nf» and «nextflow.config» have to be in the root.
+      - Extra data gathering with a second document (dataset location and type, metric descriptions,...).
 
-3.  Create a new entry in VRE Tools database, specifying the workflow, reference data, inputs & output parameters to be used, and their associated VRE metadata.
+3.  Docker images have to be built in the VRE backend, which can be done by either providing OpenEBench team the required Dockerfiles, or uploading them as public containers to `Docker Hub <https://hub.docker.com/>`__.
 
-4.  Make that entry available in the VRE interface as a new benchmarking workflow, so that software developers can test their methods at the workspace.
+4.  Create a new entry in VRE Tools database, specifying the workflow, reference data, inputs & output parameters to be used, and their associated VRE metadata.
+
+5.  Make that entry available in the VRE interface as a new benchmarking workflow, so that software developers can test their methods at the workspace.
 
 Also, it is highly recommended to fill in the `VRE Help <https://openebench.bsc.es/vre/help/tools.php>`__ section of the Tool/Workflow to inform users about how to test their methods (e.g. formats, parameters...).
 
-## Register challenges and events
-
-## Approve or deny a role upgrade
-
+## Register events
+To be created in the VRE and OEB machines /gpfs/VRE/public necessary folders are:
+   - **«public_ref_dir»:** /gpfs/VRE/public/public_reference
