@@ -78,7 +78,13 @@ If OpenEBench guidelines and good practices are followed, the workflow should be
 2.  The researcher sends an email with the following information:
       - Workflow that should be publically available in a Git repository, a URL and specific commit hash.
          - «main.nf» and «nextflow.config» have to be in the root.
-      - Extra data gathering with a second document (dataset location and type, metric descriptions,...).
+      - Extra data gathering with a second document:
+         - Dataset location and type
+         - Metric descriptions
+         - Keywords that define the community
+         - Format input file (participant dataset) and an example
+         - Reference datasets in the goldstandard_dir folder
+         - Logo
 
 3.  Docker images have to be built in the VRE backend, which can be done by either providing OpenEBench team the required Dockerfiles, or uploading them as public containers to `Docker Hub <https://hub.docker.com/>`__.
 
