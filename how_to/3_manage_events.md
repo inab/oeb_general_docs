@@ -30,7 +30,7 @@ The researcher sends an [email](mailto:openebench-support@bsc.es) to OEB with a 
    
 All that Data Model Objects need.
 
-|                      |Benchmarking Event | Reference | Community | Challenge | Contact | Dataset | Metrics | Tool |
+| |[Benchmarking Event](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/benchmarkingEvent.json) | [Reference](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/reference.json) | [Community](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/community.json) | [Challenge](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/challenge.json) | [Contact](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/contact.json) | [Dataset](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/dataset.json) | [Metrics](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/metrics.json) | [Tool](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/tool.json) |
 |:--------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
 | **ID**               |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
 | **Community ID**     |         X         |           |           |           |    X    |    X    |         |   X  |
