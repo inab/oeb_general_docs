@@ -6,11 +6,8 @@
 
 The researcher needs to register to OpenEBench, [OEB](https://openebench.bsc.es/dashboard). This section is currently in OpenEBench Virtual Research Environment, [OEB-VRE](https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre) .
 
-They can have several roles in [OEB](https://openebench.bsc.es/dashboard), that are described in [Authentication and Authorization](../../technical_references/7_authentication_and_authorization.md) section.
-
-The minimum necessary roles for the researchers to can create Benchmarking Events are:
+They can have several roles in [OEB](https://openebench.bsc.es/dashboard), that are described in [Authentication and Authorization](../../technical_references/7_authentication_and_authorization.md) section. The minimum necessary roles for the researchers to can create Benchmarking Events are:
    -  **Community Owner**, able to administrate all the events happening in the context of its community
-   
    -  **Benchmarking Event Manager**, able to administrate a particular benchmarking Event
 
 ### How
