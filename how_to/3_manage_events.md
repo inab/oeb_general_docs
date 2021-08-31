@@ -90,4 +90,10 @@ Also, it is highly recommended to fill in the `VRE Help <https://openebench.bsc.
 
 ## Register events
 To be created in the VRE and OEB machines /gpfs/VRE/public necessary folders are:
-   - **«public_ref_dir»:** /gpfs/VRE/public/public_reference
+   - **«public_ref_dir»:** /gpfs/VRE/public/public_reference/
+   - **«assess_dir»:** /gpfs/VRE/public/aggregation/
+   - **«goldstandard_dir»:** /gpfs/VRE/public/metrics_reference/
+
+```{note}
+   The aggregation folder is used to populate the graph in the VRE visualizer.
+```
