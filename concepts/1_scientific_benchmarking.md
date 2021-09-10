@@ -10,7 +10,7 @@ OpenEBench has engaged with different communities offering assistance to bring t
 
 Communities can focus on specific problems, e.g. [Quest for Orthologs (QfO)](https://openebench.bsc.es/scientific/OEBC002); or having a broader spectrum e.g. Spanish Network of Biomedical Research Centers on Rare Diseases [(CIBERER)](https://openebench.bsc.es/scientific/OEBC004); or covering different challenges on each of their editions, e.g. DREAM Challenges. Benchmarking efforts led by scientific communities might have a national scope e.g. CIBERER; or a global one e.g., Global Microbial Identifier Initiative (GMI).
 
-## Arquitecture levels
+## Engagement levels
 
 TBD
 
