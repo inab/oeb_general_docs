@@ -27,14 +27,7 @@ Find below detailed information on each of these components.
 .. toctree::
      :maxdepth: 4
 
-     2_platform 
-
-
-- **OpenEBench Web Portal**, https://openebench.bsc.es, is the main landing page centralizing all OpenEBench services and displaying online technical and scientific
-- **Virtual Resarch Environment**, https://openebench.bsc.es/vre, is an online working space for participating to scientific benchmarking events and organizing new challenges.
-- **Tools Observatory**, https://observatory.openebench.bsc.es, is another web portal that focuses on useful statistics of bioinformatics tools.
-
-
+     2_platform
 
 =====================
 OpenEBench Web Portal
