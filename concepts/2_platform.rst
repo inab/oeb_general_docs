@@ -22,7 +22,7 @@ OpenEBench ecosystem is composed by set of autonomous platforms and services wel
     A catalogue of web-based widgets to easely embbed OpenEBench benchmarking data and results into external web sites.  
 
 
-Find below detailed information on each of these components.
+Find below detailed information on each of these components:
 
 .. toctree::
      :maxdepth: 4
