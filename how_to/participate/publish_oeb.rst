@@ -48,12 +48,12 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 
 .. Note::
     More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/dev/concepts/2_platform.html#virtual-research-environment>`_.
-
+    
 .. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/VRE_publishOEB.png
 
 It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
 
-.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-08-39.png
+.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-08-39.png
 
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
