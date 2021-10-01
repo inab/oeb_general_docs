@@ -29,7 +29,8 @@ At the [OpenEBench Virtual Research Environment](https://openebench.bsc.es/vre/)
 
 More technical details of the user account are displayed at the *API Keys* tab of the same page. OpenID Connect access tokens used to programatically authenticate the user against any OpenEBench RESTful API (see more at [REST APIs](../technical_references/6_rest_api) ) are displayed here.
 
-**TODO: [SNAPSHOT VRE API KEYS TAB]**
+![image](https://user-images.githubusercontent.com/63742994/135642695-d057b39d-27ee-408d-b74a-010712823d52.png)
+
 
 ### User Role and Community
 
