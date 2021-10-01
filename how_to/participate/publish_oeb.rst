@@ -53,7 +53,7 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 
 It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
 
-[image_VRE]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-08-39.png
 
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
@@ -61,16 +61,16 @@ Complete the form with the information of each dataset. You will be asked for yo
 :ref:`Data_to_be_published`
 
 
-[image_VRE]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-10-01.png
 
-A summary of the form is showed. Click submit to request to publish these data. 
+A summary of the form is showed. Click submit to request to publish these data. Message with successfully request should appear. 
 
-[image_VRE]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-10-35.png
 
 Once the request is sent, you can follow and manage it in **Publish/OEB/Manage Request**. In actions column, you can cancel it.
 The request can be cancelled only when it is in pending approval status. 
 
-[image_VRE]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-11-08.png
 
 Once approved, the data will be publicly available in the `OpenEBench <http://openebench.bsc.es>`_.
 
