@@ -17,7 +17,8 @@ B2share is distributed in communities. OpenEBench has its own community there. U
 What benchmkarking data can be published?
 =========================================
 - Participant dataset
-
+- Participant Assessments dataset
+- Aggregation dataset (once benchmarking event is closed, done by event manager)
 
 Why should I publish data to B2share?
 =====================================
