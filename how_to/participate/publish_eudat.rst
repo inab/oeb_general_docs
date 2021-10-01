@@ -33,10 +33,10 @@ How do I publish data to B2share from Virtual Research Environment?
 ===================================================================
 
 Select your datasets to publish
-[image_vre]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-19-08.png
 
 Fill the metadata form and confirm the dialog.
-[image_vre]
+.. image:: https://github.com/inab/oeb_general_docs/blob/dev/media/Screenshot%20from%202021-10-01%2016-20-14.png
 
 Your data has been successfully published to EUDAT.
 
