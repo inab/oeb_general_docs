@@ -8,12 +8,12 @@ If you want to evalute your tool using one of the open benchmarking events in Op
 
 ![1](../../media/VRE_upload.PNG)
 
-5.	Then, select the relevant benchmarking event and “run it”. Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
+4.	Then, select the relevant benchmarking event and “run it”. Internally, the corresponding benchmarking workflow will compute the metrics qualifying the given data in a on-permisses cloud infrastructure.
 
 ![2](../../media/VRE_workflows.PNG)
 
-7.	Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
+5.	Eventually, a graphic visualization is offered to comparatively analyse the obtained metrics with other participating method metrics.
 
 ![3](../../media/VRE_view.PNG)
 
-9.	If results are satisfactory, a member of the OpenEBench team will be able to **publish your results** in the web server where they are going to be visualized.
+6.	If results are satisfactory, a member of the OpenEBench team will be able to **publish your results** in the web server where they are going to be visualized.
