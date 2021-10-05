@@ -2,9 +2,11 @@
 
 Browsing Online
 ---------------
+If you want to explore the results of the tool you have evaluated or others, the easiest way is to do it through the [OpenEBench webpage](https://openebench.bsc.es/scientific). Here, you can choose the community of your interested and explore the results of the corresponding benchmarking events and challanges that are already published.
 
 RESTful API
 -----------
+There is also the possiblity to explore the results using the [RESTful API](https://openebench.bsc.es/sciapi/), where you can retrieve the information you need from the OpenEBench database.
 
 Visualization and interpretation
 --------------------------------
