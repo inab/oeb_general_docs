@@ -13,6 +13,7 @@ Using the Virtual Research Environment
 OpenEBench offers a Graphical User Interface to upload benchmarking data to B2share remote repository. 
 B2share is distributed in communities. OpenEBench has its own community there. Using the Virtual Reaserach Enviroment to upload data in B2share, it will be push it in the OpenEBench community (`OpenEBench community <https://eudat-b2share-test.csc.fi/communities/OpenEBench>`_).
 
+.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Untitled%20Diagram(1).drawio(2).png
 
 What benchmkarking data can be published?
 =========================================
