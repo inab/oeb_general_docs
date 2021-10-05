@@ -33,13 +33,17 @@ Find below detailed information on each of these components:
 OpenEBench Web Portal
 =====================
 
+The OpenEBench Web Portal is a web page where the final results of the benchmarking events are published. The data from the benchmarking event can come from different sources, depending on the community level of engagement:
+
+       - The community has used the Virtual Research Environment to make the comparative evaluation and later on this data is published to OpenEBench.
+       - The community has its own way to perform the comparative evaluation and wants to make the results public in a web page like OpenEBench.
+
 .. list-table::
    :align: center
    :header-rows: 1
 
    * - OpenEBench Web Portal
    * - https://openebench.bsc.es
-   
 
 ============================
 Virtual Research Environment
@@ -110,6 +114,8 @@ The overall steps to follow when preparing a new benchmarking event are very bri
 =================
 Tools Observatory
 =================
+
+The tools observatory aims to monitor the technical quality of research software in the Life Sciences. This is achieved through a comprehensive collection of metadata from different sources, which along with additional computational means, allows the automatic generation of metrics.
 
 .. list-table::
    :widths: 200
