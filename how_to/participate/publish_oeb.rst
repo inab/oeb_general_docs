@@ -10,7 +10,7 @@ Using the Research Environment
 As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
 Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
 
-.. image:: https://user-images.githubusercontent.com/63742994/114692939-650c9a00-9d19-11eb-99be-f89379708322.png
+.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/OpenEBench%20EOSC-Synergy%20DEMO.png
 
 .. _RST Data_to_be_published:
 What benchmkarking data can be published?
@@ -51,7 +51,7 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
     
 .. image:: ../../media/VRE_publishOEB.png
 
-It appears the list of files (participant and consolidated datasets) from user workspace. Select which file/s to publish.
+It appears the list of files available to publish from user workspace. Select which file/s to publish.
 
 .. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-08-39.png
 
