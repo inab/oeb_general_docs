@@ -18,7 +18,7 @@ What benchmkarking data can be published?
 To publish data to OpenEBench portal, two types of datasets are allowed:
 
 - **Participant dataset**: Produced by participants with their tool from a specific input data.
-- **Consolidated dataset**: It includes participant data, assessment data and aggregation data. Generated once a benchmarking worflow has been successfully executed.
+- **Participant Assessments dataset**: It includes participant data and assessment data. Generated once a benchmarking worflow has been successfully executed.
 
 .. Note::
     For more details, see the `Scientific datasets <https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
