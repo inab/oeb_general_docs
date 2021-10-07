@@ -159,7 +159,7 @@ When it comes to tools, we manage three main concepts:
 
 .. image:: ../media/tools_instances_entries.png
    :align: center
-   :width: 600
+   :width: 750
 
 
 ==============
