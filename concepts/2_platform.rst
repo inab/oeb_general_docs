@@ -129,10 +129,12 @@ The tools observatory aims to monitor the technical quality of research software
 Overview
 --------
 
-There are three main kinds of sections in the Tools Observatory: -
-Metrics: review of software quality indicators from the FAIR
-perspective. - Our data: a closer look at the data we are using in the
-"Metrics" section. - Thematic: detailed analysis of different specific
+There are three main kinds of sections in the Tools Observatory: 
+-  Metrics: review of software quality indicators from the FAIR
+perspective. 
+- Our data: a closer look at the data we are using in the
+"Metrics" section. 
+- Thematic: detailed analysis of different specific
 topics of interest. "Homepages" section, that analyses tools webpages
 domains and accessibility, belongs to this kind of sections.
 
@@ -141,11 +143,11 @@ General concepts:
 
 When it comes to tools, we manage three main concepts:
 
--  Tools: abstract notion of a given research software, as a
+-  Tool: abstract notion of a given research software, as a
    computational solution that has been implemented and given an
    identity name by its author/s.
 
--  Instances: an specific materialization of a tool. Instancies of the
+-  Instance: an specific materialization of a tool. Instancies of the
    same tool might vary in the way the users interact wiht it (e.g.
    command-line applications, web applications, libraires), availability
    (e.g. desktop and/or web applications) or differences in the code
@@ -154,8 +156,8 @@ When it comes to tools, we manage three main concepts:
    extract from the various software registries and catalogues apply to
    instances and ot tools, since the latter are abstractions.
 
--  Entries: given an instance, the metadata extracted or generated from
-   each source.
+-  Entrie: given an instance, the metadata extracted or generated from
+   each data source.
 
 .. image:: ../media/tools_instances_entries.png
    :align: center
