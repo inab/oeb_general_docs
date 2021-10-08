@@ -12,7 +12,8 @@ more than 50 metrics to assess bioinformatics tools quality.
 Data-driven research is not only limited and determined by the findability, accessibility, interoperability and reusability of data. Following the success of the [FAIR Guiding Principles](https://www.nature.com/articles/sdata201618), several efforts have been made  to apply them to sofware  ([Towards FAIR principles for research software](https://content.iospress.com/articles/data-science/ds190026), [FAIR4RS WG](https://www.rd-alliance.org/groups/fair-research-software-fair4rs-wg)) and other artifacts constitutive of research, such as [workflows](https://direct.mit.edu/dint/article/2/1-2/108/10003/FAIR-Computational-Workflows). The Tools Observatory approaches software quality in line with these developments.
 
 
-*Relevant References:*
 
-- TECHNICAL REFERENCES: [Software Metrics](../3_software_metrics.html)
-- GENERAL CONCEPTS: PLATFORMS : [Tools Observatory](3_platform.html#tools-observatory)
+**Relevant References:**
+
+- **TECHNICAL REFERENCES:** [Software Metrics](../technical_references/3_software_metrics.html)
+- **GENERAL CONCEPTS > PLATFORMS:** [Tools Observatory](3_platform.html#tools-observatory)
