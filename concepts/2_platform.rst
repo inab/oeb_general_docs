@@ -131,15 +131,11 @@ Overview
 
 There are three main kinds of sections in the Tools Observatory: 
 
--  Metrics: review of software quality indicators from the FAIR
-perspective. 
+-  Metrics: review of software quality indicators from the FAIR perspective. 
 
--  Our data: a closer look at the data we are using in the
-"Metrics" section. 
+-  Our data: a closer look at the data we are using in the "Metrics" section. 
 
--  Thematic: detailed analysis of different specific
-topics of interest. "Homepages" section, that analyses tools webpages
-domains and accessibility, belongs to this kind of sections.
+-  Thematic: detailed analysis of different specific topics of interest. "Homepages" section, that analyses tools webpages domains and accessibility, belongs to this kind of sections.
 
 General concepts:
 -----------------
