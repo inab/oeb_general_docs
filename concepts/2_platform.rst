@@ -96,12 +96,13 @@ OpenEBench scientific communities are represented by community managers, whose u
 Community managers willing to organize a benchmarking event use the VRE to **publish and administrate benchmarking events**. Prior publication, managers require to define reference datasets and build the benchmarking workflow that implements the relevant metrics and challenges. Once the event is validated and publicly available, the platform helps monitoring participation, allowing participant assessment's submission and controlling the overall event life-cycle.
 
 .. mermaid::
-
+   :align: center
    graph TD
       A[Define datasets] --> C
       B[Define metrics] --> C
       C[Build benchmarking workflow] --> D
       D[Publish to OpenEBench VRE]
+
 
 The overall steps to follow when preparing a new benchmarking event are very briefly summarized here:
 
