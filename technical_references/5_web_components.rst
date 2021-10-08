@@ -9,8 +9,8 @@ As in the scientific benchmarking component, a number of HTML widgets have been 
 
 Examples of the widgets, as well as instructions on how to implement them, can be found here:
 
-     - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`__
-     - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`__
+     - `Uptime chart <https://github.com/inab/uptime-chart-OEB/blob/master/README.md>`_
+     - `Citations chart <https://github.com/inab/citations-widget-OEB/blob/master/README.md>`_
 
 Visualization plots
 -------------------
