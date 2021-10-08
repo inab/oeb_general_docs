@@ -33,10 +33,9 @@ Find more about the platform here!
    :maxdepth: 3
    
    concepts/1_scientific_benchmarking
-   concepts/3_scientific_benchmarking_data
-   concepts/4_software_quality_metrics
-   concepts/2_platform
-   concepts/5_user_roles
+   concepts/2_software_quality_metrics
+   concepts/3_platform
+   concepts/4_user_roles
     
 .. toctree::
    :caption: Technical References
