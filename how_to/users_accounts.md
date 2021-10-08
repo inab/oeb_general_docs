@@ -13,9 +13,7 @@ There is no need to be registered at OpenEBench for accessing a good part of the
 
 ### How I can register?
 
-OpenEBench portal, the Research Environment, or any other OpenEBench platform supporting authenticated users, has a user's dedicated section at the website top-right corner. From there, the registration web form of the centralized autentication system is accessible.
-
-**TODO: [KEYCLOAK REGISTRATION FORM IMAGE]**
+OpenEBench portal, the Research Environment, or any other OpenEBench platform supporting authenticated users, has a user's dedicated section at the website top-right corner. From there, the registration web form of the centralized autentication system is accessible. However, this is a direct access to the [registration form](https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre).
 
 The new account is automatically activated after email's validation with the minimal OpenEBench user's role: ``` "oeb:roles": ["member"] ``` . If a service or action is not allowed with the default setup, you need to [request a role upgrade](users_accounts.html#request-a-role-upgrade). 
 
