@@ -14,3 +14,4 @@ There are several roles that community members could have.
 -   **Challenge Participant** - Participant of a Benchmarking Challenge that executes the benchmarking workflows and 
                                 keep the benchmarking results private.
 
+For more information about OpenEBench roles please go to the [Authentication and Authorization](../technical_references/7_authentication_and_authorization.md) page.
