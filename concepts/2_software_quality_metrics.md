@@ -1,4 +1,4 @@
-# Assessment of Research Software quality
+# Assessment of Research Software Quality
 
 As any product, software components may differ in their characteristics that overall may refer as a software quality. 
 Although the number of quality characteristics or metrics may be extensively large, their weight in the overall 
