@@ -2,14 +2,11 @@
 
 Browsing Online
 ---------------
-If you want to explore the results of the tool you have evaluated or others, the easiest way is to do it through the [OpenEBench webpage](https://openebench.bsc.es/scientific). Here, you can choose the community of your interested and explore the results of the corresponding benchmarking events and challanges that are already published.
+If you want to explore the results of the tool you have evaluated or others, the easiest way is to do it through the [OpenEBench webpage](https://openebench.bsc.es/scientific). You can choose the community of your interest, browse among the list of benchmarking events and select it. A [summary table](1_explore_results.html#benchmarking-event-summary-table) is displayed. Selecting one of the challenges associated to the event, *i.e.*, each of the column's headers of the summary table, all the information related to that challenge will be displayed. A set of plots comparative classifying the assesment results of the participants to that challenge is displayed. 
 
-RESTful API
------------
-There is also the possiblity to explore the results using the [RESTful API](https://openebench.bsc.es/sciapi/), where you can retrieve the information you need from the OpenEBench database.
+![1](../media/oeb_level1_plot.png)
 
-Visualization and interpretation
---------------------------------
+## Visualization and interpretation
 
 To compare the peformance of the evaluated resource, it is important to visualize the participants resuls in an appropiate context.  OEB offers a gallery of visualization methods that should be picked by the community according to the nature of their data and prospective users. Those visualization methods allow us to interpret and classify the benchmarking results so that they are easily understandable by all kinds of users. Currently, there are three available visualization modes in the platform, thant are descrived bellow.
 
@@ -48,3 +45,9 @@ For more information, visit its [official Git Repository](https://github.com/ina
 The summary table condenses the results of a whole benchmarking event in a single table. Each of the columns corresponds to the quartiles/clusters of applying one of the classification methods described in the 2D ScatterPlot section, highlighted in green the top-performing tools. This view offers the possibility to see, at a glance, the overall results of a tool's performance across all the benchmarking challenges in a particular event.
 
 For more information, visit its [official Git Repository](https://github.com/inab/bench_event_table)
+
+![!](../media/oeb_summary_table.png)
+
+RESTful API
+-----------
+There is also the possiblity to explore the results using the [API](https://openebench.bsc.es/sciapi/), where you can retrieve the information you need from the OpenEBench database.
