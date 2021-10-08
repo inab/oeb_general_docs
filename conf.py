@@ -19,11 +19,11 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'OpenEBench'
-copyright = '2020, OpenEBench Team'
+copyright = '2021, OpenEBench Team'
 author = 'OpenEBench Team'
 
 # The full version, including alpha/beta/rc tags
-release = '2020'
+release = '2021'
 
 
 # -- General configuration ---------------------------------------------------
