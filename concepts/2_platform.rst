@@ -130,11 +130,14 @@ Overview
 --------
 
 There are three main kinds of sections in the Tools Observatory: 
+
 -  Metrics: review of software quality indicators from the FAIR
 perspective. 
-- Our data: a closer look at the data we are using in the
+
+-  Our data: a closer look at the data we are using in the
 "Metrics" section. 
-- Thematic: detailed analysis of different specific
+
+-  Thematic: detailed analysis of different specific
 topics of interest. "Homepages" section, that analyses tools webpages
 domains and accessibility, belongs to this kind of sections.
 
@@ -156,7 +159,7 @@ When it comes to tools, we manage three main concepts:
    extract from the various software registries and catalogues apply to
    instances and ot tools, since the latter are abstractions.
 
--  Entrie: given an instance, the metadata extracted or generated from
+-  Entry: given an instance, the metadata extracted or generated from
    each data source.
 
 .. image:: ../media/tools_instances_entries.png
