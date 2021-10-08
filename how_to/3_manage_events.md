@@ -1,105 +1,52 @@
 # Organize benchmarking events
 
-## Get necessary roles
+## Who
 
-### Who
+OpenEBench roles, as described at the [Authentication and Authorization](../../technical_references/7_authentication_and_authorization.md) section, grant certain privileges to the user account, and one of them is to be able to prepare a Benchmarking Event at OpenEbench for the community you belong to, and accept or deny participant's assessment willing to be part of the contest. To organize a new event, make sure your account has one of the following roles:
 
-The researcher needs to register to OpenEBench, [OEB](https://openebench.bsc.es/dashboard). This section is currently in OpenEBench Virtual Research Environment, [OEB-VRE](https://inb.bsc.es/auth/realms/openebench/protocol/openid-connect/auth?state=f5f54a64b3adc893017d9e55aa2ec4e3&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fopenebench.bsc.es%2Fvre%2F%2Fapplib%2FloginToken.php&client_id=oeb-vre) .
-
-They can have several roles in [OEB](https://openebench.bsc.es/dashboard), that are described in [Authentication and Authorization](../../technical_references/7_authentication_and_authorization.md) section. The minimum necessary roles for the researchers to can create Benchmarking Events are:
    -  **Community Owner**, able to administrate all the events happening in the context of its community
    -  **Benchmarking Event Manager**, able to administrate a particular benchmarking Event
 
-### How
+Learn what are your privileges checking your user's profile, and request for the appropiate role if necessary following the instructions at [Manage User Accounts](users_accounts.html).
 
-Send an email to **openebench-support@bsc.es** from your email account registered in OpenEBench. What the message should contains and how is explained in [Request a role upgrade](./users_accounts.md) section.
+## How to prepare a Benchmarking Event
 
+To be able to register a new Benchmarking Event, two interrelated items need to be prepared by the organizer:
 
-## How to organize new events
+   - A set of metadata defining the new Benchmarking Event
+   - A Benchmarking Workflow implementing the metrics of the Benchmarking Event
 
-To be able to register a new Benchmarking Event, a minimum previous data collection is necessary.
+The following seccions explain in detail how to prepare them. Eventually this data should be loaded to the OpenEBench platform. Currently, there is no specific user interface to do it in an automatic manner, so the communication with the OpenEBench support team is via, using the following email: **openebench-support@bsc.es**. Please, don't hesitate to contact us for any doubt or issue.
 
-The researcher sends an [email](mailto:openebench-support@bsc.es) to OEB with a document including all the information required to register all Data Model objects.
+#### Benchmarking Event Definition
 
-```{note}
-   The email to send all the Data Model Objects is [openebench-support@bsc.es](mailto:openebench-support@bsc.es)
-```
-   
-All that Data Model Objects need:
+This step consists on formaly defining the Benckmarking Event to eventually be able to integrate it at the platform. Please, send us a replica of the following form: 
 
-| |[Benchmarking Event](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/benchmarkingEvent.json) | [Reference](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/reference.json) | [Community](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/community.json) | [Challenge](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/challenge.json) | [Contact](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/contact.json) | [Dataset](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/dataset.json) | [Metrics](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/metrics.json) | [Tool](https://github.com/inab/benchmarking-data-model/blob/2.0.x/json-schemas/2.0.x/tool.json) |
-|:--------------------:|:-----------------:|:---------:|:---------:|:---------:|:-------:|:-------:|:-------:|:----:|
-| **ID**               |         X         |     X     |     X     |     X     |    X    |    X    |    X    |   X  |  
-| **Community ID**     |         X         |           |           |           |    X    |    X    |         |   X  |
-| **Reference ID**     |         X         |           |     X     |     X     |         |    X    |    X    |      |
-| **Contact ID**       |         X         |           |     X     |     X     |         |    X    |    X    |   X  |
-| **Event ID**         |                   |           |           |     X     |         |         |         |      |
-| **Bibliographic ID** |                   |     X     |           |           |         |         |         |      |
-| **Challenge ID**     |                   |           |           |           |         |    X    |         |      |
-| **Abstract**         |                   |     X     |           |           |         |         |         |      |
-| **Activation**       |                   |           |           |           |         |         |         |   X  |
-| **Acronym**          |                   |           |     X     |     X     |         |         |         |      |
-| **Authors**          |                   |     X     |           |           |         |         |         |      |
-| **Automated?**       |         X         |     X     |     X     |     X     |         |         |         |      |
-| **Datalinks**        |                   |           |           |           |         |    X    |         |      |
-| **Data schemas**     |                   |           |           |           |         |         |    X    |      |
-| **Dates**            |         X         |           |           |     X     |         |         |         |      |
-| **Deactivation**     |                   |           |           |           |         |         |         |   X  |
-| **Depends on**       |                   |           |           |           |         |    X    |         |      |
-| **Description**      |         X         |           |     X     |     X     |         |         |    X    |   X  |
-| **Email**            |                   |           |           |           |    X    |         |         |      |
-| **Execution type**   |                   |           |           |           |         |         |    X    |      |
-| **Formal definition**|                   |           |           |           |         |         |    X    |      |
-| **Given Name**       |                   |           |           |           |    X    |         |         |      |
-| **Keywords**         |                   |           |     X     |           |         |         |         |      |
-| **Links**            |         X         |           |     X     |     X     |    X    |         |    X    |      |
-| **Metrics Category** |                   |           |           |     X     |         |         |         |      |
-| **Name**             |         X         |           |     X     |     X     |         |    X    |    X    |   X  |
-| **Notes**            |                   |           |           |           |    X    |         |         |      |
-| **Reference tools**  |                   |           |     X     |           |         |         |         |      |
-| **Repr. hints**      |                   |           |           |           |         |         |    X    |      |
-| **Status**           |                   |           |     X     |           |         |         |         |   X  |
-| **Surname**          |                   |           |           |           |    X    |         |         |      |
-| **Title**            |                   |     X     |           |           |         |    X    |         |      |
-| **Tool access**      |                   |           |           |           |         |         |         |   X  |
-| **Type**             |                   |           |           |           |         |    X    |         |      |
-| **Version**          |                   |           |           |           |         |    X    |         |      |
-| **Visibility**       |                   |           |           |           |         |    X    |         |      |
+https://docs.google.com/document/d/1ZlZYD4pF0SJ9CyZvAwDyEDgmofV5pSSugRMo_GTcnRw/edit?usp=sharing
 
+#### Benchmarking Workflow Implementation
 
+This step consists on building a set of containers following OpenEBench guidelines and good practices. These containers have specific purposes as part of a 3-steps workflow that will assess a participant dataset using a set of objective and unbiased metrics. The workflow must follow a particular structure as detailed in the section [Benchmarking Workflows](../technical_references/4_benchmarking_workflows.html). Eventually, the workflow should be ready to be integrated at the platform in the context of a certain benchmarking event for that community. In order to do that, the following steps need to be performed:
 
+1.  Create the **canonical docker containers** taking as reference the following repository: [TCGA Cancer Driver Benchmarking dockers](https://github.com/inab/TCGA_benchmarking_dockers).
+      - Clone the given repository and take it as a template to prepare your own containers
+      - Define the format of the participant's dataset and build the validation container accordingly
+      - Build the metrics container that will output the report assessing the participant. For that, the developer requires:
+         - Define golden or reference dataset(s)
+         - Develop the relevant metrics and apply them to the given participant dataset
+         - Build the final report following the OEB data model. For an eventual integration, make sure the following reported terms are in agreement with the formal definition of the Benchmarking Event (previous section):
+            - Challenge's acronyms
+            - Metrics names 
+      - Make sure the given consolidation container produce the expected plots from the report generated by the metrics container. 
+      
+2.  **Compose the Benchmarking Workflow** from the canonical dockers taking as reference the following repository: [TCGA Cancer Driver Benchmarking workflow](https://github.com/inab/TCGA_benchmarking_workflow).
+      - Clone the given repository and take it as a template to prepare your own workflow. Most of the changes would correspond simple adaptations for:
+         - Input and output file paths
+         - Image container names 
+      - Run locally the workflow as instructed at the repository's documentation
 
-## Workflow Development
+3. Send us the resulting implementation via email. Make sure to indicate:
+      - The URL of the repositories and the specific tag commit
+      - The location of the golden reference data
+      - A test data including a valid participant dataset and the expected output files of the workflow execution  
 
-If OpenEBench guidelines and good practices are followed, the workflow should be ready to be integrated at the platform in the frame of a certain benchmarking event for that community. In order to do that, the following steps need to be performed:
-
-1.  The researcher clones and takes as reference the [TCGA repository](https://github.com/inab/TCGA_benchmarking_dockers).
-
-2.  The researcher sends an email with the following information:
-      - Workflow that should be publically available in a Git repository, a URL and specific commit hash.
-         - «main.nf» and «nextflow.config» have to be in the root.
-      - Extra data gathering with a second document:
-         - Dataset location and type
-         - Metric descriptions
-         - Keywords that define the community
-         - Format input file (participant dataset) and an example
-         - Reference datasets in the goldstandard_dir folder
-         - Logo
-
-3.  Docker images have to be built in the VRE backend, which can be done by either providing OpenEBench team the required Dockerfiles, or uploading them as public containers to `Docker Hub <https://hub.docker.com/>`__.
-
-4.  Create a new entry in VRE Tools database, specifying the workflow, reference data, inputs & output parameters to be used, and their associated VRE metadata.
-
-5.  Make that entry available in the VRE interface as a new benchmarking workflow, so that software developers can test their methods at the workspace.
-
-Also, it is highly recommended to fill in the `VRE Help <https://openebench.bsc.es/vre/help/tools.php>`__ section of the Tool/Workflow to inform users about how to test their methods (e.g. formats, parameters...).
-
-## Register events
-To be created in the VRE and OEB machines /gpfs/VRE/public necessary folders are:
-   - **«public_ref_dir»:** /gpfs/VRE/public/public_reference/
-   - **«assess_dir»:** /gpfs/VRE/public/aggregation/
-   - **«goldstandard_dir»:** /gpfs/VRE/public/metrics_reference/
-
-```{note}
-   The aggregation folder is used to populate the graph in the VRE visualizer.
-```
