@@ -18,6 +18,18 @@ OpenEBench, the ELIXIR platform for benchmarking, aims to address the main bench
 +-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
 
 
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | COMMUNITY-DRIVEN BENCHMARKING                 | |                    ASSESSMENT OF RESEARCH SOFTWARE                                                      |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | Support of                                    | | Systematic                                       | | Provision of a                                     |
+| | **SCIENTIFIC BENCHMARKING**                   | | ** SOFTWARE MONITORING**                         | | **SOFTWARE OBSERVATORY**                           |
+| |                                               | |                                                  | |                                                    |
+| | protocols for assessing the scientific        | | of bioinformatics tools, server and workflows for| | for assessing the technical efficiency of          |
+| | performance of bioinformatics methods         | | assessing software-quality metrics at individual | | bioinformatics tools, servers and/or workflows.    |
+| | in a qualitative and reproducible manner.     | | level.                                           | |                                                    |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+
+
 Find more about the platform here!
 
 .. toctree::
