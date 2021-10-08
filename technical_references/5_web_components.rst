@@ -1,4 +1,6 @@
-# Web components
+==============
+Web Components
+==============
 
 Technical monitoring widgets
 ----------------------------
