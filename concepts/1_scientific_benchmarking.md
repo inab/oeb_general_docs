@@ -1,4 +1,4 @@
-# Community-driven Scientific Benchmarking efforts
+# Community-driven Scientific Benchmarking
 
 ## Basic concepts
 
