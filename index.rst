@@ -9,20 +9,10 @@ Welcome to OpenEBench documentation!
 OpenEBench, the ELIXIR platform for benchmarking, aims to address the main benchmarking challenges for life-sciences tools and workflows. It is based on three pillars: 
 
 +-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
-| | Support of                                    | | Systematic                                       | | Provision of a                                     |
-| | **SCIENTIFIC BENCHMARKING**                   | | **TECHNICAL MONITORING**                         | | **SOFTWARE OBSERVATORY**                           |
-| |                                               | |                                                  | |                                                    |
-| | protocols for assessing the scientific        | | of bioinformatics tools, server and workflows for| | for assessing the technical efficiency of          |
-| | performance of bioinformatics methods         | | assessing software-quality metrics at individual | | bioinformatics tools, servers and/or workflows.    |
-| | in a qualitative and reproducible manner.     | | level.                                           | |                                                    |
-+-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
-
-
-+-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
-| | COMMUNITY-DRIVEN BENCHMARKING                 | |                    ASSESSMENT OF RESEARCH SOFTWARE                                                      |
+| | BENCHMARKING EVENTS                           | |                    ASSESSMENT OF RESEARCH SOFTWARE                                                      |
 +-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
 | | Support of                                    | | Systematic                                       | | Provision of a                                     |
-| | **SCIENTIFIC BENCHMARKING**                   | | ** SOFTWARE MONITORING**                         | | **SOFTWARE OBSERVATORY**                           |
+| | **SCIENTIFIC BENCHMARKING**                   | | **SOFTWARE MONITORING**                          | | **SOFTWARE OBSERVATORY**                           |
 | |                                               | |                                                  | |                                                    |
 | | protocols for assessing the scientific        | | of bioinformatics tools, server and workflows for| | for assessing the technical efficiency of          |
 | | performance of bioinformatics methods         | | assessing software-quality metrics at individual | | bioinformatics tools, servers and/or workflows.    |
