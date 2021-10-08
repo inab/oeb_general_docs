@@ -102,7 +102,6 @@ Community managers willing to organize a benchmarking event use the VRE to **pub
       B[Define metrics] --> C
       C[Build benchmarking workflow] --> D
       D[Publish to OpenEBench VRE]
-   :align: center
 
 The overall steps to follow when preparing a new benchmarking event are very briefly summarized here:
 
