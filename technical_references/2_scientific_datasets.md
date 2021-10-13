@@ -1,6 +1,6 @@
 # Scientific Datasets
 
-## Datasets: types and cross-references
+## Datasets: Types and cross-references
 
 OpenEBench data types are defined in the data model, within the
 'Dataset' schema. These types correspond to the different types of
