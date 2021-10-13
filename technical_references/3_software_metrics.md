@@ -3,7 +3,7 @@
 OpenEBench Software Quality Metrics are defined by the [Json Schema](https://gitlab.bsc.es/inb/elixir/tools-platform/openebench-metrics-model/-/blob/master/schemas/metrics.json) and can be accessed / updated via [Tools Monitoring API](https://openebench.bsc.es/monitor/).  
 Here is the brief description of the metrics: 
 
-#### Identity & Findability metrics
+#### Identity and findability metrics
 
 |   | metrics                        | json path                           | type    | description                                                       |
 |---|--------------------------------|-------------------------------------|---------|-------------------------------------------------------------------|
@@ -39,7 +39,7 @@ Here is the brief description of the metrics:
 | 20 | canonical:rationale           | project.summary.rationale           | bool  | Whether design rationale is available.                                                                                                                                |
 | 21 | canonical:application         | project.summary.usecases            | uri   | Whether descriptions of intended use cases are available.                                                                |
 
-#### Usability: Buildability & Installability
+#### Usability: Buildability and installability
 
 |    | metrics                            | json path                           | type  | description                                                                                         |
 |----|------------------------------------|-------------------------------------|-------|-----------------------------------------------------------------------------------------------------|
