@@ -48,6 +48,6 @@ For more information, visit its [official Git Repository](https://github.com/ina
 
 ![!](../media/oeb_summary_table.png)
 
-RESTful API
+OpenEBench API
 -----------
 There is also the possiblity to explore the results using the [API](https://openebench.bsc.es/sciapi/), where you can retrieve the information you need from the OpenEBench database.
