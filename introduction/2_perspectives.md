@@ -1,4 +1,4 @@
-# Benchmarking perspectives
+# Benchmarking Perspectives
 
 In bioinformatics, benchmarking activities can be considered from three
 perspectives; the technical, the scientific and the functional ones:
