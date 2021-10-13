@@ -6,6 +6,6 @@ These guides will help you go through the different aspects rellevant when organ
 .. toctree::
    :maxdepth: 4
    
-   organize/register_event
-   organize/develop_workflow
-   organize/register_workflow_vre
+   organize_future/register_event
+   organize_future/develop_workflow
+   organize_future/register_workflow_vre
