@@ -1,4 +1,4 @@
-# Software metrics
+# Software Metrics
 
 OpenEBench Software Quality Metrics are defined by the [Json Schema](https://gitlab.bsc.es/inb/elixir/tools-platform/openebench-metrics-model/-/blob/master/schemas/metrics.json) and can be accessed / updated via [Tools Monitoring API](https://openebench.bsc.es/monitor/).  
 Here is the brief description of the metrics: 
