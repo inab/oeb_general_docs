@@ -1,4 +1,4 @@
-# Manage user accounts and roles
+# Manage User Accounts and Roles
 
 ## Register to OpenEBench
 
