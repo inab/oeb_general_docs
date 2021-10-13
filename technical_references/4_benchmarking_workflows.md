@@ -1,4 +1,4 @@
-# Benchmarking workflows
+# Benchmarking Workflows
 
 ## Workflows structure
 
