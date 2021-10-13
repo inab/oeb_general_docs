@@ -15,5 +15,6 @@ Data-driven research is not only limited and determined by the findability, acce
 
 **Relevant References:**
 
-- **TECHNICAL REFERENCES:** [Software Metrics](technical_references/3_software_metrics.html)
+- **TECHNICAL REFERENCES:** [Software Metrics](../technical_references/3_software_metrics.md)
+- **dsad:** [Authentication and Authorization](../technical_references/7_authentication_and_authorization.md)
 - **GENERAL CONCEPTS > PLATFORMS:** [Tools Observatory](3_platform.html#tools-observatory)
