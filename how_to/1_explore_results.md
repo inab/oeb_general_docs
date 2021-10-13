@@ -1,4 +1,4 @@
-# Explore benchmarking results 
+# Explore Benchmarking Results 
 
 Browsing Online
 ---------------
