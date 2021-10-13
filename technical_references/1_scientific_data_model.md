@@ -1,4 +1,4 @@
-# Scientific Data Model
+# Scientific Benchmarking Data Model
 
 In an effort to standardize the benchmarking process per se, we have
 developed a refined data-model to reflect the process itself and allow
