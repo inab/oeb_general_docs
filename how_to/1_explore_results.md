@@ -2,7 +2,9 @@
 
 Browsing Online
 ---------------
-If you want to explore the results of the tool you have evaluated or others, the easiest way is to do it through the [OpenEBench webpage](https://openebench.bsc.es/scientific). You can choose the community of your interest, browse among the list of benchmarking events and select it. A [summary table](1_explore_results.html#benchmarking-event-summary-table) is displayed. Selecting one of the challenges associated to the event, *i.e.*, each of the column's headers of the summary table, all the information related to that challenge will be displayed. A set of plots comparative classifying the assesment results of the participants to that challenge is displayed. 
+If you want to explore the benchmarking assessments of an analysis tool or scientific pipeline, the easiest way to do so it through the [OpenEBench website](https://openebench.bsc.es/scientific). At the web, you can choose the community of your interest and browse among the list of benchmarking events it has organized. Once selecting a particular event, the corresponding [summary table](1_explore_results.html#benchmarking-event-summary-table) gives a rundown of the participants' assessments.
+
+More detailed evaluations and plots are available for each of the challenges associated to the event. To display them, click on the challenge's acronym of the column's headers of the summary table. A full description of the challenge along with the assessment's metrics used in it are going to be rendered. Learn more at the following section how to interpret the plots to better understand the challenge's results. 
 
 ![1](../media/oeb_level1_plot.png)
 
