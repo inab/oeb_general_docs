@@ -15,6 +15,5 @@ Data-driven research is not only limited and determined by the findability, acce
 
 **Relevant References:**
 
-- **TECHNICAL REFERENCES:** [Software Metrics](../technical_references/3_software_metrics.html)
-- **TECHNICAL REFERENCES:** [Software Metrics 2](../technical_references/4_benchmarking_workflows.html)
+- **TECHNICAL REFERENCES:** [Software Metrics](technical_references/3_software_metrics.html)
 - **GENERAL CONCEPTS > PLATFORMS:** [Tools Observatory](3_platform.html#tools-observatory)
