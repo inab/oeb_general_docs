@@ -1,4 +1,4 @@
-Participe to Benchmarking Events
+Participate in Benchmarking Events
 --------------------------------
 
 These guides will help you go through the different aspects rellevant for benchmarking the outcome of your tool or pipeline as part of an open OEB benchmarking event. The overall process is described in this figure.
