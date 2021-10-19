@@ -11,7 +11,7 @@ Using the Virtual Research Environment
 ######################################
 
 OpenEBench offers a Graphical User Interface to upload benchmarking data to B2share remote repository. 
-B2share is distributed in communities. OpenEBench has its own community there. Using the Virtual Reaserach Enviroment to upload data in B2share, it will be push it in the OpenEBench community (`OpenEBench community <https://eudat-b2share-test.csc.fi/communities/OpenEBench>`_).
+B2share is distributed in communities. OpenEBench has its own community there. Using the Virtual Reaserach Enviroment to upload data in B2share, it will be push it in the OpenEBench community (`OpenEBench community <https://b2share.eudat.eu/communities/OpenEBench#>`_).
 
 .. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Untitled%20Diagram(1).drawio(2).png
 
@@ -20,6 +20,16 @@ What benchmkarking data can be published?
 - Participant dataset
 - Participant Assessments dataset
 - Aggregation dataset (once benchmarking event is closed, done by event manager)
+
+Prerequisites
+=============
+In order to publish your data in EUDAT OpenEBench community, it is necessary to link your Eudat account in Virtual Research Enviroment:  
+
+First you need to register in EUDAT and generate an access token. (`Generate Eudat token <https://eudat.eu/services/userdoc/b2share-http-rest-api#Creating_an_access_token>`_). Afterwards, you can easily link your Eudat account in VRE.
+
+.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-19%2016-17-53.png
+
+Introduce your access token and your email used to register in Eudat. Your account will be successfully linked. 
 
 Why should I publish data to B2share?
 =====================================
@@ -30,6 +40,10 @@ You can find more features on B2share web page:  `What_is_B2SHARE <https://eudat
 
 Who is allowed to do?
 =====================
+- Benchmarking event contributors
+- Managers events
+
+.. note:: Check your asigned role: `Account details <https://openebench.readthedocs.io/en/dev/how_to/users_accounts.html#user-role-and-community>`_.
 
 How do I publish data to B2share from Virtual Research Environment?
 ===================================================================
