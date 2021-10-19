@@ -18,11 +18,11 @@ To be able to register a new Benchmarking Event, two interrelated items need to 
 
 The following seccions explain in detail how to prepare both items. Eventually, this data will be loaded to the OpenEBench platform by the user. However, currently there is no specific user interface to do it automatically and should be done by a member of the OpenBench support team. The communication with the team is via the following email: **openebench-support@bsc.es**. Please, don't hesitate to contact us for any doubt or issue.
 
-#### Benchmarking Event definition
+#### Step 1: Benchmarking Event definition
 
 This step consists on formaly defining the Benckmarking Event to integrate it at the platform. Please, send us a copy of [this form](https://docs.google.com/document/d/1ZlZYD4pF0SJ9CyZvAwDyEDgmofV5pSSugRMo_GTcnRw/edit?usp=sharing) with the information of the Benchmarking Event you want to create. 
 
-#### Benchmarking workflow implementation
+#### Step 2: Benchmarking workflow implementation
 
 This step consists on building a set of software containers following OpenEBench guidelines and good practices. These containers have specific purposes as part of a 3-steps workflow that will assess a participant dataset using a set of objective and unbiased metrics. The workflow must follow a particular structure as detailed in the section [Benchmarking Workflows](../technical_references/4_benchmarking_workflows.html). Eventually, the workflow should be ready to be integrated in the OpenEBench platform in the context of a specific Benchmarking Event for a community. In order to do that, these steps need to be followed:
 
