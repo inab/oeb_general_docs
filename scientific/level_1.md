@@ -100,6 +100,14 @@ action type:
 
 -   **AggregationEvent** defines the transition from one or more assessment dataset into a single aggregation dataset. In the benchmarking cycle, it corresponds to the consolidation of the benchmark, when - usually the community manager - brings together the results from all the participants and prepares them for visualization.
 
+### OpenEBench identifiers
+
+Identifiers in the OpenEBench are either 'external' (i.e. DOI, ORCID) or 'OEB' ones (starts with the 'OEB' prefix and follow OpenEBench identifier pattern).
+For the data submission users may use their own 'original' identifiers (i.e. 'QFO:12345'). These identifiers are converted into the temporal ones with a pattern 'OEB....t......' 
+and replaced with final ones when migrated to the 'staged' database. Final OpenEBench identifiers may be versioned (i.e. 'OEBC0020000000.1'). Unversioned identifier refers to the latest version of the entity.
+
+![3](../media/oeb-identifiers.png)
+
 ### Datasets: Accessibility
 
 Despite the nature of each data set, it is crucial that all data sets

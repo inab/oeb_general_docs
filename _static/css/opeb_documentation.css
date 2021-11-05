@@ -17,3 +17,6 @@ a[href*='openebench.bsc.es']::after {
  content: url(../images/OpenEBench-decorator.svg) ""
 }
 
+.wy-nav-content {
+    max-width: 1200px !important;
+}

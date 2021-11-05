@@ -14,7 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
@@ -32,9 +33,32 @@ release = '2021'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',
-    'sphinx_markdown_tables'
+    'myst_parser',
+    'sphinx_markdown_tables',
+    'sphinx.ext.autosectionlabel',
+    'sphinxcontrib.mermaid',
+    # 'recommonmark',
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+#    "amsmath",
+#    "colon_fence",
+#    "deflist",
+#    "dollarmath",
+#    "html_admonition",
+    "html_image",
+#    "linkify",
+#    "replacements",
+#    "smartquotes",
+#    "substitution"
+]
+
+mermaid_output_format = 'raw'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -67,3 +91,8 @@ html_theme_options = {
 html_static_path = ['_static']
 
 html_style = 'css/opeb_documentation.css'
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+def setup(app):
+    app.add_transform(AutoStructify)

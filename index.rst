@@ -3,38 +3,67 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OpenEBench's documentation!
+Welcome to OpenEBench documentation!
 ======================================
 
-OpenEBench, the ELIXIR platform for benchmarking, aims to address the main challenges in the most important levels of benchmarking: 
+OpenEBench, the ELIXIR platform for benchmarking, aims to address the main benchmarking challenges for life-sciences tools and workflows. It is based on three pillars: 
 
-* Scientific benchmarking related to the scientific quality of bioinformatics tools and workflows.
-* Technical monitoring related to software quality.
-* Performance benchmarking regarding the usability and efficiency of the technical deployment of bioinformatics tools, servers and/or workflows.
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | BENCHMARKING EVENTS                           | |                    ASSESSMENT OF RESEARCH SOFTWARE                                                      |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+| | Support of                                    | | Systematic                                       | | Provision of a                                     |
+| | **SCIENTIFIC BENCHMARKING**                   | | **SOFTWARE MONITORING**                          | | **SOFTWARE OBSERVATORY**                           |
+| |                                               | |                                                  | |                                                    |
+| | protocols for assessing the scientific        | | of bioinformatics tools, server and workflows for| | for assessing the technical efficiency of          |
+| | performance of bioinformatics methods         | | assessing software-quality metrics at individual | | bioinformatics tools, servers and/or workflows.    |
+| | in a qualitative and reproducible manner.     | | level.                                           | |                                                    |
++-------------------------------------------------+----------------------------------------------------+------------------------------------------------------+
+
 
 Find more about the platform here!
 
+.. toctree::
+   :caption: Introduction
+   :maxdepth: 3
+   
+   introduction/1_overview
+   introduction/2_perspectives
+   introduction/3_background
 
 .. toctree::
-   :caption: INTRODUCTION
-   :maxdepth: 4
-
-   intro/introduction
-
+   :caption: OpenEBench General Concepts
+   :maxdepth: 3
+   
+   concepts/1_scientific_benchmarking
+   concepts/2_software_quality_metrics
+   concepts/3_platform
+   concepts/4_user_roles
+    
+.. toctree::
+   :caption: Technical References
+   :maxdepth: 3
+   
+   technical_references/1_scientific_data_model
+   technical_references/2_scientific_datasets
+   technical_references/3_software_metrics
+   technical_references/4_benchmarking_workflows
+   technical_references/5_web_components
+   technical_references/6_rest_api
+   technical_references/7_authentication_and_authorization
+   technical_references/8_source_code_repositories
 
 .. toctree::
-   :caption: SCIENTIFIC BENCHMARKING   
-   :maxdepth: 4
-
-   scientific/scientific
-   scientific/level_1
-   scientific/level_2
-
-
+   :caption: How to
+   :maxdepth: 3
+   
+   how_to/1_explore_results
+   how_to/2_explore_monitoring_data
+   how_to/3_participate
+   how_to/4_manage_events
+   how_to/5_users_accounts
+   
 .. toctree::
-   :caption: TEHCNICAL MONITORING
-   :maxdepth: 4
-
-   technical/technical
-   technical/security
-   technical/fair
+   :caption: Glossary
+   :maxdepth: 3
+   
+   glossary/glossary.md
