@@ -50,17 +50,17 @@ Find more about the platform here!
    technical_references/5_web_components
    technical_references/6_rest_api
    technical_references/7_authentication_and_authorization
-   technical_references/source_code_repositories
+   technical_references/8_source_code_repositories
 
 .. toctree::
    :caption: How to
    :maxdepth: 3
    
    how_to/1_explore_results
-   how_to/explore_monitoring_data
-   how_to/2_participate
-   how_to/3_manage_events
-   how_to/users_accounts
+   how_to/2_explore_monitoring_data
+   how_to/3_participate
+   how_to/4_manage_events
+   how_to/5_users_accounts
    
 .. toctree::
    :caption: Glossary
