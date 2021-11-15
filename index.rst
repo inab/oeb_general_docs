@@ -48,7 +48,7 @@ Find more about the platform here!
    technical_references/3_software_metrics
    technical_references/4_benchmarking_workflows
    technical_references/5_web_components
-   technical_references/6_rest_api
+   technical_references/6_oeb_apis
    technical_references/7_authentication_and_authorization
    technical_references/8_source_code_repositories
 
