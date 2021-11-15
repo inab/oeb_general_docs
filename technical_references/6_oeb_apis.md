@@ -6,11 +6,11 @@ community. To this end, a set of microservices are publicly offered as
 REST APIs to retrieve data from the major OpenEBench repositories.
 
 
-| Data Retrieval APIs           |                     URL                                | Source code | 
-|-------------------------------|--------------------------------------------------------|-------------|
-| OpenEBench Tools Monitoring   | [endpoint](https://openebench.bsc.es/monitor/)         | [https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas](https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas)        | 
-| OpenEBench Scientific REST API | [endpoint](https://openebench.bsc.es/api/scientific/) | [https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api)     | 
-| OpenEBench Scientific Retrieve|  [endpoint](https://openebench.bsc.es/sciapi/ )        | Inab repo        | 
+| Data Retrieval APIs                        |                     URL                                | Source code | 
+|--------------------------------------------|--------------------------------------------------------|-------------|
+| OpenEBench Tools Monitoring                | [endpoint](https://openebench.bsc.es/monitor/)         | [https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas](https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas)        | 
+| OpenEBench Scientific API (REST + GraphQL) | [endpoint](https://openebench.bsc.es/api/scientific/) | [https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api](https://gitlab.bsc.es/inb/elixir/openebench/openebench-rest-api)     | 
+
 
 
 Those API's access OpenEBench MongoDBs instances (v4.2.5) and allow
