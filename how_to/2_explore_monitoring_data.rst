@@ -58,16 +58,8 @@ Additionally, a complete set of statistics about the contents of the data wareho
 RESTful API
 ===========
 
-Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. 
+Although OpenEBench website gives access to all information stored in the data warehouse in a friendly manner, the platform is designed to provide information in a way that can be integrated  other infrastructures. To this end a series of RESTful API’s have been developed. Go to OpenEBench APIs section in Technical References for more information.
 
 +-----------------------------+-------------------------------------+-----------------------------------------------------------------------------------------------------------+
 | OpenEBench Tools Monitoring | https://openebench.bsc.es/monitor/  | `Source Code and Usage <https://gitlab.bsc.es/inb/elixir/tools-platform/elixibilitas/elixibilitas-rest>`__|
 +-----------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------+
-
-
-Data from this API is obtained in JSON format (see partial example on figure below):
-
-.. image:: ../media/image21.png
-    :align: center
-
-It is relevant to note that information can be obtained for specific versions or specific deployments of the tool. This opens the possibility of performing historical analysis comparing the performance and/or availability of different resources versions. 
