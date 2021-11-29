@@ -22,7 +22,7 @@ with our system. Those blocks are:
     -   **Inputs**: assessment_results, validation_result, assess_dir
     -   **Outputs**: outdir, data_model_export_dir
 
-![1](../media/workflow_squema.JPG)
+![1](../media/workflow_schema.JPG)
 
 For reproducibility and interoperability purposes, OpenEBench encourages
 communities managers to submit their pipelines wrapped with a workflow
