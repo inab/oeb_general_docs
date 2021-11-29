@@ -25,11 +25,7 @@ with our system. Those blocks are:
 
 -   Outputs: outdir, data_model_export_dir
 
-As seen in the Figure's green box, all three steps produce a series of
-Datasets which are compatible with the Elixir Benchmarking Data
-Model ([see section](./level_1.md)).
-
-![1](../media/image7.jpg)
+![1](../media/workflow_squema.JPG)
 
 For reproducibility and interoperability purposes, OpenEBench encourages
 communities managers to submit their pipelines wrapped with a workflow
