@@ -12,10 +12,12 @@ with our system. Those blocks are:
     -   **Inputs**: input, community_id, challenges_ids, participant_id, public_ref_dir
     -   **Outputs**: validation_result (and an exit status which indicates whether the validation was successful or not).
 
+
 2.  **Metrics Generation**: the predictions are compared with the \'Gold Standards\' provided by the community, which results in one or more performance metrics (e.g. Precision & Recall). These are the parameters involved in this step (for more information about parameters visit the 'workflow parameters' structure):
 
     -   **Inputs**: input (depending on whether the validation step was successful), community_id, challenges_ids, participant_id, goldstandard_dir.
     -   **Outputs**: assessment_results.
+
 
 3.  **Consolidation**: the benchmark itself is performed by merging the tool metrics with the rest of the community' reference data. The results are provided in JSON format and SVG format (scatter plot). These are the parameters involved in this step (for more information about parameters visit the 'workflow parameters' structure):
 
@@ -55,6 +57,7 @@ Description of the parameters used in OEB benchmarking workflows:
     -   **challenges_ids**: list of challenges (performance evaluation methods) which are performed in the benchmark - if you have only one evaluation method, just define a name for it.
     -   **assess_dir**: directory where the performance metrics for other participants to be compared with the submitted one are found. If there is no other benchmark data yet, an empty aggregation dataset should be defined.
     -   **community_id**: name or OEB permanent ID for the benchmarking community.
+
 
 -   **<u>OUTPUTS</u>**
 
