@@ -12,7 +12,7 @@ Using the Research Environment
 As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
 Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
 
-.. image:: ../../media/OpenEBench20EOSC-Synergy20DEMO.png
+.. image:: ../../media/OpenEBenchEOSC-SynergyDEMO.png
 
 .. _RST Data_to_be_published:
 What benchmkarking data can be published?
@@ -55,24 +55,24 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 
 It appears the list of files available to publish from user workspace. Select which file/s to publish.
 
-.. image:: ../../media/Screenshot20from202021-10-012016-08-39.png
-
+.. image:: ../../media/Screenshotfrom2021-10-0116-08-39.png
+                
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
 
 :ref:`Data_to_be_published`
 
 
-.. image:: ../../media/Screenshot20from202021-10-012016-10-01.png
+.. image:: ../../media/Screenshotfrom2021-10-0116-10-01.png
 
 A summary of the form is showed. Click submit to request to publish these data. Message with successfully request should appear. 
 
-.. image:: ../../media/Screenshot20from202021-10-012016-10-35.png
+.. image:: ../../media/Screenshotfrom2021-10-0116-10-35.png
 
 Once the request is sent, you can follow and manage it in **Publish/OEB/Manage Request**. In actions column, you can cancel it.
 The request can be cancelled only when it is in pending approval status. 
 
-.. image:: ../../media/Screenshot20from202021-10-012016-11-08.png
+.. image:: ../../media/Screenshotfrom2021-10-0116-11-08.png
 
 Once approved, the data will be publicly available in the `OpenEBench <http://openebench.bsc.es>`_.
 
