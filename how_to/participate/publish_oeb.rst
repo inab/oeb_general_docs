@@ -4,7 +4,7 @@ Publish your data to OpenEBench
 
 OpenEBench community managers and participants can upload the results of their benchmarking events to find them publicly available at the OpenEBench portal. The publication process is available online through the Virtual Research Environment, upon the organizator's event approval. Community managers can also push the data in a programmatic way using the corresponding REST API. Find more details below.
 
-.. image:: ../../media/Untitled%20Diagram(1).drawio.png
+.. image:: ../../media/UntitledDiagram1.drawio.png
 
 Using the Research Environment
 ##############################
@@ -78,6 +78,13 @@ Once approved, the data will be publicly available in the `OpenEBench <http://op
 
 .. image:: ../../media/image22.png
 
+Administration: How to manage user publication requests?
+========================================================
+Benchmarking event managers receive users petitions to publish their data results to benchmarking events. 
+Notifications and emails are sent to alert manager that new requests are pending to be approved. 
+To approve/deny these requests, managers should go to "Manage requests" on their Virtual Research Enviroment and a second table with all requests received is displayed. They can download participants datasets, see their results and manage the request from there.
+
+.. image:: ../../media/adminRequests.png
 \
 \
 \
