@@ -42,14 +42,14 @@ Who is allowed to do?
 =====================
 Any user with a minimum role contributor can request to publish their files in OpenEBench. 
 
-To request an upgrade role, please see the section: `Request a role upgrade <https://openebench.readthedocs.io/en/latest/how_to/users_accounts.html#request-a-role-upgrade>`_.
+To request an upgrade role, please see the section: `Request a role upgrade <https://openebench.readthedocs.io/en/latest/how_to/5_users_accounts.html#request-a-role-upgrade>`_.
 
 How do I publish data to OpenEBench?
 ====================================
 Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`_ and go to **Publish/OEB/New Request** tab:
 
 .. Note::
-    More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/latest/concepts/2_platform.html#virtual-research-environment>`_.
+    More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/latest/concepts/3_platform.html>`_.
     
 .. image:: ../../media/VRE_publishOEB.png
 
@@ -60,7 +60,6 @@ It appears the list of files available to publish from user workspace. Select wh
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
 
-:ref:`RST Data_to_be_published`
 
 
 .. image:: ../../media/Screenshotfrom2021-10-0116-10-01.png
@@ -95,10 +94,10 @@ Using the REST API
 OpenEBench Community Managers can upload the results from their full benchmarking event to the platform by using one of the scientific APIs 
 (https://openebench.bsc.es/api/scientific/submission/) . In order to do that they have to:
 
-1.  Covert their full experiment to the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html#scientific-data-model>`_ - datasets, tools, challenges... Please contact the OpenEBench team if you need any help in adapting your benchmarking process to the data model concepts.
+1.  Covert their full experiment to the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html>`_ - datasets, tools, challenges... Please contact the OpenEBench team if you need any help in adapting your benchmarking process to the data model concepts.
 
 
-2.  Validate the full set of generated JSON objects against the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html#scientific-data-model>`_  using this `JSON Schema validator <https://github.com/inab/extended-json-schema-validators>`_.
+2.  Validate the full set of generated JSON objects against the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html>`_  using this `JSON Schema validator <https://github.com/inab/extended-json-schema-validators>`_.
 
 3.  Register the community and manager contact (if not already done) - now this is done by OEB managers with the community and main contact objects. New managers will be assigned an username and password.
 
