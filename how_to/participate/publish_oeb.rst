@@ -4,7 +4,7 @@ Publish your data to OpenEBench
 
 OpenEBench community managers and participants can upload the results of their benchmarking events to find them publicly available at the OpenEBench portal. The publication process is available online through the Virtual Research Environment, upon the organizator's event approval. Community managers can also push the data in a programmatic way using the corresponding REST API. Find more details below.
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Untitled%20Diagram(1).drawio.png
+.. image:: ../../media/Untitled%20Diagram(1).drawio.png
 
 Using the Research Environment
 ##############################
@@ -12,7 +12,7 @@ Using the Research Environment
 As seen in the Figure below, user execute the benchmarking workflow in the Virtual Research Enviroment. All user files, input and outputs datasets of the workflow are private for user. 
 Then user can decide if they want to publish the datasets to OpenEBench. Only afterwards, the possiblity to publish the datasets to remote repository EUDAT will be allowed.
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/OpenEBench%20EOSC-Synergy%20DEMO.png
+.. image:: ../../media/OpenEBench%20EOSC-Synergy%20DEMO.png
 
 .. _RST Data_to_be_published:
 What benchmkarking data can be published?
@@ -55,7 +55,7 @@ Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`
 
 It appears the list of files available to publish from user workspace. Select which file/s to publish.
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-08-39.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-08-39.png
 
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
@@ -63,16 +63,16 @@ Complete the form with the information of each dataset. You will be asked for yo
 :ref:`Data_to_be_published`
 
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-10-01.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-10-01.png
 
 A summary of the form is showed. Click submit to request to publish these data. Message with successfully request should appear. 
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-10-35.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-10-35.png
 
 Once the request is sent, you can follow and manage it in **Publish/OEB/Manage Request**. In actions column, you can cancel it.
 The request can be cancelled only when it is in pending approval status. 
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-11-08.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-11-08.png
 
 Once approved, the data will be publicly available in the `OpenEBench <http://openebench.bsc.es>`_.
 
