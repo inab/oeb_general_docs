@@ -60,7 +60,7 @@ It appears the list of files available to publish from user workspace. Select wh
 
 Complete the form with the information of each dataset. You will be asked for your tool used to compute the participant data. It has to be registered in OpenEBench. Also any contact to introduce have to be in OpenEBench.
 
-:ref:`Data_to_be_published`
+:ref:`RST Data_to_be_published`
 
 
 .. image:: ../../media/Screenshotfrom2021-10-0116-10-01.png
