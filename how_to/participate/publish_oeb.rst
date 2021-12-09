@@ -23,33 +23,33 @@ To publish data to OpenEBench portal, two types of datasets are allowed:
 - **Participant Assessments dataset**: It includes participant data and assessment data. Generated once a benchmarking worflow has been successfully executed.
 
 .. Note::
-    For more details, see the `Scientific datasets <https://openebench.readthedocs.io/en/dev/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
+    For more details, see the `Scientific datasets <https://openebench.readthedocs.io/en/latest/technical_references/2_scientific_datasets.html#datasets-types-and-cross-references>`_ reference.
 
 
-In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. More info: `Evaluate your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/evaluate_tool.html>`_.
+In order to publish in OpenEBench, these datasets must belong to an active benchmaking event, it means that a benchmarking workflow in VRE must have been executed. More info: `Evaluate your tool <https://openebench.readthedocs.io/en/latest/how_to/participate/evaluate_tool.html>`_.
 
-As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. More info: `Register your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/register_tool.html>`_.
+As the process to publish includes to associate the data to a registered OpenEBench tool, participant tool must be registered in OpenEBench first in order to asign an OpenEBench id for the participant tool. More info: `Register your tool <https://openebench.readthedocs.io/en/latest/how_to/participate/register_tool.html>`_.
 
 Why should I publish data to OpenEBench?
 ========================================
 As metion before, OpenEBench is the benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. Publishing data from the  benchmarking workflows implies:
 
 - Data will become publicly available on the OpenEBench data portal.
-- Data will receive a unique OpenEBench identifier. This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE. More info: `Register your tool <https://openebench.readthedocs.io/en/dev/how_to/participate/publish_eudat.html>`_.
+- Data will receive a unique OpenEBench identifier. This allow user to afterwards refrencee that data in publications or publish it to a remote repository, B2SHARE. More info: `Register your tool <https://openebench.readthedocs.io/en/latest/how_to/participate/publish_eudat.html>`_.
 - Data will be stored on the internal OpenEBecnh datastore (not persistent)
 
 Who is allowed to do?
 =====================
 Any user with a minimum role contributor can request to publish their files in OpenEBench. 
 
-To request an upgrade role, please see the section: `Request a role upgrade <https://openebench.readthedocs.io/en/dev/how_to/users_accounts.html#request-a-role-upgrade>`_.
+To request an upgrade role, please see the section: `Request a role upgrade <https://openebench.readthedocs.io/en/latest/how_to/users_accounts.html#request-a-role-upgrade>`_.
 
 How do I publish data to OpenEBench?
 ====================================
 Log into the `Virtual Research Environment (VRE) <http://openebench.bsc.es/vre>`_ and go to **Publish/OEB/New Request** tab:
 
 .. Note::
-    More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/dev/concepts/2_platform.html#virtual-research-environment>`_.
+    More info: `Virtual Research Enviroment <https://openebench.readthedocs.io/en/latest/concepts/2_platform.html#virtual-research-environment>`_.
     
 .. image:: ../../media/VRE_publishOEB.png
 
@@ -95,10 +95,10 @@ Using the REST API
 OpenEBench Community Managers can upload the results from their full benchmarking event to the platform by using one of the scientific APIs 
 (https://openebench.bsc.es/api/scientific/submission/) . In order to do that they have to:
 
-1.  Covert their full experiment to the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/dev/technical_references/1_scientific_data_model.html#scientific-data-model>`_ - datasets, tools, challenges... Please contact the OpenEBench team if you need any help in adapting your benchmarking process to the data model concepts.
+1.  Covert their full experiment to the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html#scientific-data-model>`_ - datasets, tools, challenges... Please contact the OpenEBench team if you need any help in adapting your benchmarking process to the data model concepts.
 
 
-2.  Validate the full set of generated JSON objects against the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/dev/technical_references/1_scientific_data_model.html#scientific-data-model>`_  using this `JSON Schema validator <https://github.com/inab/extended-json-schema-validators>`_.
+2.  Validate the full set of generated JSON objects against the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html#scientific-data-model>`_  using this `JSON Schema validator <https://github.com/inab/extended-json-schema-validators>`_.
 
 3.  Register the community and manager contact (if not already done) - now this is done by OEB managers with the community and main contact objects. New managers will be assigned an username and password.
 
