@@ -13,7 +13,7 @@ Using the Virtual Research Environment
 OpenEBench offers a Graphical User Interface to upload benchmarking data to B2SHARE remote repository. 
 B2SHARE is distributed in communities. OpenEBench has its own community there. Using the Virtual Reaserach Enviroment to upload data in B2SHARE, it will be push it in the OpenEBench community (`OpenEBench community <https://b2share.eudat.eu/communities/OpenEBench#>`_).
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Untitled%20Diagram(1).drawio(2).png
+.. image:: ../../media/Untitled%20Diagram(1).drawio(2).png
 
 What benchmkarking data can be published?
 =========================================
@@ -27,7 +27,7 @@ In order to publish your data in EUDAT OpenEBench community, it is necessary to 
 
 First you need to register in EUDAT and generate an access token. (`Generate Eudat token <https://eudat.eu/services/userdoc/b2share-http-rest-api#Creating_an_access_token>`_). Afterwards, you can easily link your Eudat account in VRE, going to your profile / keys tab.
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-19%2016-42-33.png
+.. image:: ../../media/Screenshot%20from%202021-10-19%2016-42-33.png
 
 Introduce your access token and your email used to register in Eudat. Your account will be successfully linked. 
 
@@ -50,11 +50,11 @@ How do I publish data to B2SHARE from Virtual Research Environment?
 
 Select your datasets to publish
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-19-08.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-19-08.png
 
 Fill the metadata form and confirm the dialog.
 
-.. image:: https://raw.githubusercontent.com/inab/oeb_general_docs/dev/media/Screenshot%20from%202021-10-01%2016-20-14.png
+.. image:: ../../media/Screenshot%20from%202021-10-01%2016-20-14.png
 
 Your data has been successfully published to EUDAT.
 
