@@ -92,7 +92,7 @@ Using the REST API
 ##################
 
 OpenEBench Community Managers can upload the results from their full benchmarking event to the platform by using one of the scientific APIs 
-(https://openebench.bsc.es/api/scientific/submission/) . In order to do that they have to:
+(https://openebench.bsc.es/api/scientific/) . In order to do that they have to:
 
 1.  Covert their full experiment to the official `Benchmarking Data Model <https://openebench.readthedocs.io/en/latest/technical_references/1_scientific_data_model.html>`_ - datasets, tools, challenges... Please contact the OpenEBench team if you need any help in adapting your benchmarking process to the data model concepts.
 
@@ -103,13 +103,11 @@ OpenEBench Community Managers can upload the results from their full benchmarkin
 
 4.  Merge the set of JSON objects into a single array. In Linux systems, executing the following command in the root directory that contains all files does the trick : `jq -s . $(find . -type f -name "*.json") > your_file_name.json` (jq library needs to be installed).
 
-5.  Upload the array of JSON objects to the temporary database (using the assigned username and password) with the following command : `curl -v -X POST -u <user>:<passwd> -H "Content-Type: application/json" https://dev-openebench.bsc.es/api/scientific/submission/?community_id=OEBC002 -d @your_file_name.json`
+5.  Upload the array of JSON objects to the temporary database (using the assigned username and password) with the following command : `curl -v -X POST -u <user>:<passwd> -H "Content-Type: application/json" https://openebench.bsc.es/api/scientific/sandbox/?community_id=OEBC002 -d @your_file_name.json`
 
-6.  Send an email to openebench-support@bsc.es containing the name of the JSON objects uploaded to the temporary database.
+6.  https://openebench.bsc.es/api/scientific/execute/migrate?dryrun=false.
 
-7.  Wait until the OpenEBench team moves the data to production OpenEBench Mongo DB.
-
-8.  Data is ready to be visualized in `OpenEBench <https://openebench.bsc.es/>`_.
+7.  Data is ready to be visualized in `OpenEBench <https://openebench.bsc.es/>`_.
 
 
 .. image:: ../../media/image8.png
