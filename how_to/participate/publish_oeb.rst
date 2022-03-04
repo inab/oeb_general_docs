@@ -103,9 +103,9 @@ OpenEBench Community Managers can upload the results from their full benchmarkin
 
 4.  Merge the set of JSON objects into a single array. In Linux systems, executing the following command in the root directory that contains all files does the trick : `jq -s . $(find . -type f -name "*.json") > your_file_name.json` (jq library needs to be installed).
 
-5.  Upload the array of JSON objects to the temporary database (using the assigned username and password) with the following command : `curl -v -X POST -u <user>:<passwd> -H "Content-Type: application/json" https://openebench.bsc.es/api/scientific/sandbox/?community_id=OEBC002 -d @your_file_name.json`
+5.  Upload the array of JSON objects to the temporary database (using the assigned username and password) with the following command : `curl -X POST -u <user>:<passwd> -H "Content-Type: application/json" https://openebench.bsc.es/api/scientific/sandbox/?community_id=OEBC002 -d @your_file_name.json`
 
-6.  https://openebench.bsc.es/api/scientific/execute/migrate?dryrun=false.
+6.  `curl -X POST -u <user>:<passwd> https://openebench.bsc.es/api/scientific/execute/migrate?dryrun=false`
 
 7.  Data is ready to be visualized in `OpenEBench <https://openebench.bsc.es/>`_.
 
