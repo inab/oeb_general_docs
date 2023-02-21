@@ -52,7 +52,7 @@ Description of the parameters used in OEB benchmarking workflows:
 
     -   **input**: predictions file submitted by the participants
     -   **public_ref_dir**: directory which contains one or more reference files used to validate input data.
-    -   **participant_id**: name of the tool used for the predictions.
+    -   **participant_id**: name of the tool used to generate the predictions. The final benchmarking plots are going to display this name. 
     -   **goldstandard_dir**: directory where the 'gold standard' or 'reference data' to compute the metrics are found.
     -   **challenges_ids**: list of challenges (performance evaluation methods) which are performed in the benchmark - if you have only one evaluation method, just define a name for it.
     -   **assess_dir**: directory where the performance metrics for other participants to be compared with the submitted one are found. If there is no other benchmark data yet, an empty aggregation dataset should be defined.
