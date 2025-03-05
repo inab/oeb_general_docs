@@ -67,3 +67,10 @@ Find more about the platform here!
    :maxdepth: 3
    
    glossary/glossary.md
+
+.. toctree::
+   :caption: Legal Framework
+   :maxdepth: 3
+   
+   legal/considerations.md
+   legal/tou.md
