@@ -13,7 +13,7 @@ It is important to clarify data ownership and licensing terms. Depending on the 
 The Terms of Use should clearly define permissible data usage and the handling of shared datasets within the benchmarking event. Additionally, the OpenEBench platform’s Terms of Use should be considered. To promote transparency and accessibility, datasets should align with the FAIR (Findable, Accessible, Interoperable, Reusable) principles.  
 
 ## 4. Ethical Considerations & Bias Mitigation  
-The challenge must adhere to established ethical guidelines for bioinformatics research, such as those outlined by NIH and EMBL-EBI. Furthermore, bias detection and mitigation strategies should be explicitly implemented in datasets and AI models to ensure fairness and reliability. For more details, refer to section 9.1.  
+The challenge must adhere to established ethical guidelines for bioinformatics research, such as those outlined by NIH and EMBL-EBI. Furthermore, bias detection and mitigation strategies should be explicitly implemented in datasets and AI models to ensure fairness and reliability.   
 
 ## 5. Competition Rules & Governance  
 Clear participation criteria should be established, ensuring that all participants provide informed consent. The evaluation process must be well-defined, including assessment methodologies for scientific benchmarking, technical performance, and sustainability metrics. Additionally, potential disqualification reasons, such as misconduct or data manipulation, should be outlined to maintain the integrity of the competition.  
