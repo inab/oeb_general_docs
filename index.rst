@@ -73,4 +73,5 @@ Find more about the platform here!
    :maxdepth: 3
    
    legal/considerations.md
+   legal/notice.md
    legal/tou.md
