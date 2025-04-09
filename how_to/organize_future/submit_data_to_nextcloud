@@ -1,0 +1,227 @@
+# Submit Benchmarking Datasets to OpenEBench
+
+This section provides detailed instructions to submit your benchmarking datasets (e.g. evaluation datasets, gold standard datasets, etc.) to the OpenEBench data platform, based on a in-premisses [Nextcloud](https://nextcloud.com/) instance.
+
+---
+
+## Table of Contents
+- [Who?](#who)
+- [Where?](#where)
+- [Login](#login)
+- [Navigating Shared Folders](#navigating-shared-folders)
+- [Uploading Your Dataset via the Web Interface](#uploading-your-dataset-via-the-web-interface)
+- [Uploading Your Dataset via WebDAV (Command-Line)](#uploading-your-dataset-via-webdav-command-line)
+  - [Authenticate](#authenticate)
+  - [WebDAV URL Format](#webdav-url-format)
+  - [Uploading a Single File with `curl`](#uploading-a-single-file-with-curl)
+  - [Uploading an Entire Folder with `rclone`](#uploading-an-entire-folder-with-rclone)
+  - [Resuming Broken Uploads with `curl`](#resuming-broken-uploads-with-curl)
+- [User Role Assignment Process](#user-role-assignment-process)
+- [Data Privacy & Access Policy](#data-privacy-access-policy)
+- [Troubleshooting and Support](#troubleshooting-and-support)
+
+---
+
+###  Who?
+
+The minimal privileges are:
+   1.   **Community Owner**, able to administrate all the events happening in the context of its community 
+   2.   **Benchmarking Event Manager**, able to administrate a particular benchmarking Event
+
+### Where?
+
+Access OpenEBench management data platform at:  
+  **[https://dev-openebench.bsc.es/nextcloud/](https://dev-openebench.bsc.es/nextcloud/)**
+
+### Login
+
+1. **Click "Login with OpenEBench":**  
+   Navigate [https://dev-openebench.bsc.es/nextcloud/](https://dev-openebench.bsc.es/nextcloud/) and click the **"Login with OpenEBench"** button. This will redirect you to authenticate using your OpenEBench credentials.
+
+2. **Registration (if needed):**  
+   If you do not have an OpenEBench user account, register at the main portal:
+   - Visit **[openebench.bsc.es](https://openebench.bsc.es)**.
+   - Click the **"Login"** button and select the registration option.
+
+3. **Request required privileges (if needed):**  
+  If your OpenEBench user account has not the minimal privileges to upload data (see section [Who?](#who) ) follow the instructions detaile-......................
+
+### Navigating Shared Folders
+
+After a successful login, you will be taken to your dashboard where you can access the **"Shared folders"** area.
+
+- **Community Owners:**  
+  If you hold the **"Community Owner"** role, look for a shared folder named with your **Community Identifier** (for example, **"OEBC012"**).  
+  *Tip: Folder names are tagged with human-readable titles displayed next to the identifier-based folder name.*
+
+- **Benchmarking Event Contributors:**  
+  If your role is **"Benchmarking Event Contributor"**, look for a folder named with the **Event Identifier** (for example, **"OEBE01200000"**).  
+  *Tip: Folder names are tagged with human-readable titles displayed next to the identifier-based folder name.*
+
+- **Missing Folders:**  
+  If you are unable to locate any folder or do not see the expected shared folder, this may indicate that your account is missing the proper role, group, or permission. In this case, please contact support by emailing **openebench-support@bsc.es**.
+
+
+### Uploading Your Dataset via the Web Interface
+
+1. **Locate the Relevant Shared Folder:**  
+   - Click on the **"Shared folders"** icon (or select from the side navigation menu if available).
+   - Open the appropriate folder according to your role (either by Community Identifier or Event Identifier).
+
+2. **Navigate to the Datasets Directory:**  
+   Inside your designated folder, locate the `datasets` directory. Within this directory, there will be subdirectories based on the type of dataset:
+   - **Training Datasets:**  
+     `/<Event Identifier>/datasets/training_datasets/`
+   - **Evaluation Datasets:**  
+     `/<Event Identifier>/datasets/evaluation_datasets/`
+   - **Gold Standard Datasets:**  
+     `/<Event Identifier>/datasets/gold_standard_datasets/`
+   - **Integration Test Datasets:**  
+     `/<Event Identifier>/datasets/integration_test_datasets/`
+
+3. **Upload Files:**  
+   - Click on the subfolder where you want to upload your files.
+   - Use the **"Upload"** button (upward arrow icon) or drag and drop files directly into the folder view.
+
+
+### Uploading Your Dataset via WebDAV (Command-Line)
+
+For large datasets or automated workflows, you can use the WebDAV protocol from the command line to upload your data. All supported clients, examples, options and hints are explained in detail at the official Nextcloud documentation page:
+
+| **Accessing Nextcloud files using WebDAV Nextcloud** | [Official Nextcloud Documentation](https://docs.nextcloud.com/server/latest/user_manual/en/files/access_webdav.html) |
+|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+
+Following, a summary of the whole process is described using `curl` and `rclone` as WebDAV clients.
+
+##### Authenticate
+
+When using a third-party WebDAV client (including your operating system’s built-in client), you should use an **application password** for login rather than your regular password.
+
+**Steps:**
+
+1. Login to [https://dev-openebench.bsc.es/nextcloud/](https://dev-openebench.bsc.es/nextcloud/)
+
+2. Create your app password at  **"App passwords / tokens"** ([go](https://dev-openebench.bsc.es/nextcloud/settings/user/security#generate-app-token-section) ), clicking on your User icon (in the top right) → Personal Settings → Security → scroll down to "App passwords / tokens". App Toknes can be revoked in the future without changing your main user password.
+
+3. Enter a label (e.g. `cmd upload`) and click **"Create new app password"**
+
+4. Note the **username** (e.g., `oeb-1b1ea2db-cf10-4b`) and **app password** provided and securely store it. The application won't show them again. Use these credentials for all command-line tools.
+
+##### WebDAV URL Format
+
+The URL corresponding to your personal workspace looks like:
+```
+https://dev-openebench.bsc.es/nextcloud/remote.php/dav/files/<username>/
+```
+Where `<username>` corresponds to your OIDC app password username (e.g., `oeb-1b1ea2db-cf10-4b`).
+
+Append the folder path where you want to upload your data for building the exact URL of your destination path (e.g., `/OEBC012/OEBE0120000/datasets/training_datasets/`).
+
+
+##### Uploading a File (with `curl`)
+
+Open your terminal and run the following command (replace the placeholders accordingly):
+
+```bash
+curl -T /path/to/local_file.txt -u your_username:your_app_password \
+    https://dev-openebench.bsc.es/nextcloud/remote.php/dav/files/your_username/OEBC012/OEBE0120000/datasets/training_datasets/
+```
+
+   - `/path/to/local_file.txt`: Path to the local file you want to upload.
+   - `your_username:your_app_password`: Your credentials as setup in the previous step.
+   - `OEBC012/OEBE0120000/datasets/training_datasets/`: Adjust this path based on your role and dataset type.
+
+Example:
+
+```bash
+curl -u "oeb-1b1ea2db-cf10-4b:app-password-here" -T my_dataset.zip \
+  "https://dev-openebench.bsc.es/nextcloud/remote.php/dav/files/oeb-1b1ea2db-cf10-4b/OEBC012/OEBE01200000/datasets/training_datasets/"
+```
+
+##### Uploading an Entire Folder (with `rclone`)
+
+For uploading entire directories, consider using a dedicated WebDAV clients like `wput` or `rclone`, which handle recursion, folder creation, retries, etc. Alternatively, you can also mount the WebDAV remote folder as a local folder. Following steps explain how to copy a folder using `rclone`:
+
+**Steps**:
+
+1. Install rclone: https://rclone.org/downloads/
+
+2. Configure your remote workspace in rclone by running the following command, that will prompt a set of parameters to be tunned in:
+
+```bash
+rclone config
+```
+
+Choose:
+- Create a new remote: `n`
+- Name remote storage: `openebench`
+- Storage type: `WebDAV`  
+- WebDAV type: `Nextcloud`
+- URL: `https://dev-openebench.bsc.es/nextcloud/remote.php/dav/files/oidc.abc123xyz/`
+- Use your app-password credentials when prompted
+
+Here, configure `rclone` for WebDAV by following the official documentation:
+
+| **Configure RClone** | [WebDAV documentation](https://rclone.org/webdav/)|
+|----------------------|---------------------------------------------------|
+
+
+3. Upload a folder:
+
+```bash
+rclone copy  \ 
+    /path/to/your/folder \
+    openebench:OEBE01200000/datasets/training_datasets/  \
+    --progress --ignore-existing
+```
+
+##### Resuming Broken Uploads (with `curl`)
+
+```bash
+curl --continue-at - -T /path/to/large_file.zip -u oidc.abc123xyz:app-password \
+  "https://dev-openebench.bsc.es/nextcloud/remote.php/dav/files/oidc.abc123xyz/OEBE01200000/datasets/evaluation_datasets/large_file.zip"
+```
+
+### 🔒 Data Privacy & Access Policy
+
+All datasets submitted to OpenEBench via the Nextcloud instance are stored **in-premises at the Barcelona Supercomputing Center (BSC)**. The storage infrastructure is managed by BSC and complies with institutional policies on data protection and security.
+
+Access to uploaded datasets is strictly controlled:
+
+- Only **OpenEBench Administrators** and members of the corresponding **Community or Benchmarking Event** (based on roles and permissions) can access the data.
+- Each folder is isolated to ensure visibility only for authorized contributors.
+- Unauthorized users will not see or be able to access folders or files outside of their permissions.
+- Submitted datasets are not public and will remain private within the platform unless explicitly shared or published through project agreements.
+
+For any privacy or access concerns, check [OpenEBench Terms of Use](https://openebench.readthedocs.io/en/latest/legal/tou.html).
+
+### User Role Assignment Process
+
+Access to shared folders in OpenEBench is role-based. User roles are managed as follows:
+
+- Roles such as "Community Owner" or "Benchmarking Event Contributor" are **approved by the respective Community Managers**.
+- Once approved, the roles are **assigned by the OpenEBench administrative team** to your user account.
+- Only after the correct role is assigned will you see the corresponding shared folders in Nextcloud.
+
+**To request a role upgrade or new role assignment**, follow the instructions provided here: [How can I request a role upgrade?](https://openebench.readthedocs.io/en/latest/how_to/5_users_accounts.html#how-can-i-request-a-role-upgrade)
+
+When contacting support or filling out a role upgrade request, please include:
+- Your OpenEBench username
+- The Community or Event Identifier (e.g., `OEBC012` or `OEBE01200000`)
+- The role you are requesting (e.g., Contributor, Community Owner, etc.)
+
+### Troubleshooting and Support
+
+- **Folder Not Found?**  
+  Verify your role or permissions are correctly assigned. Contact: **openebench-support@bsc.es**
+
+- **WebDAV Authentication Fails?**  
+  Make sure you’re using an **App Password**, not your regular OpenEBench credentials.
+
+- **Upload Interruptions?**  
+  Use `curl --continue-at -` or `rclone` which handles retries and partial uploads automatically.
+
+- **Still stuck?**  
+  Email: **openebench-support@bsc.es**
+
+
